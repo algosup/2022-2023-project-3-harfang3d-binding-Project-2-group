@@ -12,9 +12,10 @@ We use Trello to track our research tasks.
 
 # Documents Links
 
-### [Functionnal Specification](Link-to-the-document)
-### [Technical Specification](Link-to-the-document)
-### [Test Plan](Link-to-the-document)
+### [Functionnal Specification](Link-to-the-document) 
+### [Technical Specification](Link-to-the-document) 
+### [Test Plan](Link-to-the-document) 
+### [Test Cases](Link-to-the-document)  
 
 # Contributors:
 ![profil-pic](https://avatars.githubusercontent.com/u/91249694?v=4)
