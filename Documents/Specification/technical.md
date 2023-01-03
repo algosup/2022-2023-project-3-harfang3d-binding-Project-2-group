@@ -2,6 +2,23 @@
 
 # Technical Specification
 
+<details> 
+<summary style="text-decoration: underline; font-size:150%">Table of contents:</summary>
+
+
+- [1. Glossary](#1-glossary)
+- [2. Project Overview](#2-project-overview)
+- [3. Solution](#3-solution)
+  - [3.1. Goal of the project:](#41-goal-of-the-project)
+  - [3.2. Current Solution:](#42-current-solution)
+  - [3.3. Proposed Solution:](#43-proposed-solution)
+- [4. Cost analysis](#4-Cost-analysis)
+- [5. Risks](#5-risks)
+- [6. Success Evaluation](#6-success-evaluation)
+  
+
+</details>
+
 ### Author
 
 <img src="https://avatars.githubusercontent.com/u/71769655?v=4" width="150">
