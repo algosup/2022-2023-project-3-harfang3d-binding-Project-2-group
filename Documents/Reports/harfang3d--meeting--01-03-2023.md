@@ -47,7 +47,69 @@ Conclusion:
 
 
 # Notes by Pierre
-<!-- Write here -->
+Work domains
+Automotive Cluster
+Automotive HUD
+Human Factor study for SNCF
+Data visualization
+Flight Simulation
+
+control and monitor the robot remotely
+
+Wht another 3D engine?
+
+build a 3D engine from scratch
+
+because there's a need for 3D engine in the civil, defence and industry
+
+visualize and manipulate complex data
+
+are games engines suitable for industry ?
+3D engine for the industry because of the strong technical requirement
+
+safety certification
+embeddapbilty and custom hardware
+power consumption
+
+very specific to the automovtive is misra 
+what is misra?
+misra is a set of rules for embedded software development in the automotive industry to ensure safety and reliability of the software in the car and to ensure that the software is portable across different hardware platforms.
+
+Industy = Sovereignity & confidientiality
+
+game engines with private and insecure license in the long term
+Must run on premise 100% offline
+The VG industry needs metrics, very hungry for user data
+The VG industry is a data mining industry and a surveillance industry (see the recent scandal with the Chinese company that was collecting data from the users of the VG)
+
+Industry = Long term
+a video game has commercial life of 1 to 3 years
+an industrial project must be maintained between 5 to 30 years
+Maintainability, Upgradability; interoperability
+
+Harfang SDK is a tool for developpers, written in c++ He wants other developpers to use it in f#, 
+
+why C++? mainly for performance 
+
+Valeo Augmented Hazard
+https://www.valeo.com/fr/affichage-tete-haute/
+
+
+from 2millions of code lines to 3 thousands of code lines
+
+Why Python ?
+Rapid developpement, by non-computer scientists experts
+Strong data science
+
+Cluster 3d Valeo
+
+François Gutherz
+francois.gutherz@harfang3d.com
+
+Emmanuel Julien
+emmanuel.julien@harfang3d.com
+
+not expected to make harfang in f#
 
 # Notes by Salaheddine
 <!-- Write here -->
