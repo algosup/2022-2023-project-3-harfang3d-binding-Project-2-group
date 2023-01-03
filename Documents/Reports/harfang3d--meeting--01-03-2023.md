@@ -114,4 +114,28 @@ fast —> c , c++ , javas 2 times —> “slow”
 
 python 35 times to slow
 
+- biding definition in  python
+- common part of the program
+- au dessus (python ≤ 3.2) de la version 3.2 python
+- Cpython limited  ABI so that extension modules it generates can be used by any version  of Cpython > 3.2.
+- dinamically typed
+- interpreted bytecode
+- C API to extend the language with native extension modules
+- ABI Py_LIMITED_API macro
+- C API to create values and call functions
+
+Fabgen create a minimum of Three functions :
+
+- `check`: Test if an object in the target language holds a copy or reference to a C/C++ object of a specific type.
+- `to_c`: Returns a reference to the C/C++ object held by an object in the target language.
+- `from_c`: Return an object in the target language holding a copy or reference to a C/C++ object.
+
+import and call functions from a C-style ABI. most of the time this will be the only way to call into a different language 
+
+**1. Create a mapping of elementary types**
+
+**2. Implement a C API wrapping the C/C++ objects**
+
+**3. Better integration with the target language**
+
  -->
