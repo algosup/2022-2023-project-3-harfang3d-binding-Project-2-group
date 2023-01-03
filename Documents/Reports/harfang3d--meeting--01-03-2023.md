@@ -52,11 +52,53 @@ Conclusion:
 # Notes by Salaheddine
 <!-- Write here -->
 
+lang: python, golang, c++, lua
+
+FABgen only in python 
+
+compiled lang => c, c++, golang
+
+interpreted lang => python, lua
+
+dynamically typed lang => python, lua
+
+static typed lang => c, c++, golang, f#
+
+binding:
+know c++
+know target language => python, lua...
+and it feature set
+
+f# API is also different of other lang
+
+
+ 
 # Notes by Florent
 <!-- Write here -->
+—> leurs docs git sont open sources 
+
+API and python 
+
+like lua go and f# 
+
 
 # Notes by Alexandre
 <!-- Write here -->
+—> leurs docs git sont open sources 
+
+API and python 
+
+like lua go and f# 
+
+whats append in human brain 
+
+vr headset, wristband, external loudspeaker, video monitoring 
+
+numpy
+
+fast —> c , c++ , javas 2 times —> “slow”
+
+python 35 times to slow
 
 # Notes by Audrey
 <!-- - presentation by customer
@@ -98,7 +140,7 @@ prototyping and 3D simulations,  creation of 3D sciences & 3d HMIs
 tools for 
 
 secure
-—> leurs docs git sont open sources 
+ --> leurs docs git sont open sources 
 
 API and python 
 
@@ -113,5 +155,3 @@ numpy
 fast —> c , c++ , javas 2 times —> “slow”
 
 python 35 times to slow
-
- -->
