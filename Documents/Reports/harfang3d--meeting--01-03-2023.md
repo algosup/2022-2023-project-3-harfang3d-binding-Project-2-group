@@ -59,4 +59,43 @@ Conclusion:
 <!-- Write here -->
 
 # Notes by Audrey
-<!-- Write here -->
+<!-- - presentation by customer
+    - to visualized and manipulate different data
+    - 
+
+safety certification (misra) ,  embeddability and custom hardware , power consumption 
+
+—> iso, misra, autosar
+
+maloc instruction (c or c++)
+
+tout doit etre déclarer avant dappeler la fonction 
+
+JPU on monitor (jsp 😢)
+
+- confidential :
+    
+    control every thinks  , private licence 
+    
+
+- long term :
+    
+    a video game has a commercial life of 1  to 3 years 
+    
+    an industrial project must be maintained between 5 to 30 years 
+    
+     maintainability, upgradability , interoperability 
+    
+
+goals : produce lastest generation HMIs 
+
+provide sovereignty and strategic autonomy, ensure greater responsiveness portability …
+
+tools for designers 
+
+prototyping and 3D simulations,  creation of 3D sciences & 3d HMIs
+
+tools for 
+
+secure
+ -->
