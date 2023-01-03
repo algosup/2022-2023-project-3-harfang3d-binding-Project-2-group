@@ -5,9 +5,12 @@
 Harfang 3D is a cross-platform 3D game engine written in C++ and Lua, with a focus on ease of use and rapid prototyping. It is designed to be used in a wide range of applications, from small games to large-scale applications.
 <hr>
 
-##### Trello board: https://trello.com/b/SSmTA8tX/research-tasks
-<br>
-We use Trello to track our research tasks.
+## Trello board:
+#### https://trello.com/b/SSmTA8tX/research-tasks
+<hr>
+
+## Repository from Harfang 3D:
+#### https://github.com/harfang3d/algosup-binding-project
 <hr>
 
 # Documents Links
