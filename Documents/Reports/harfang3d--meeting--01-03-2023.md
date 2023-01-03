@@ -98,4 +98,20 @@ prototyping and 3D simulations,  creation of 3D sciences & 3d HMIs
 tools for 
 
 secure
+—> leurs docs git sont open sources 
+
+API and python 
+
+like lua go and f# 
+
+whats append in human brain 
+
+vr headset, wristband, external loudspeaker, video monitoring 
+
+numpy
+
+fast —> c , c++ , javas 2 times —> “slow”
+
+python 35 times to slow
+
  -->
