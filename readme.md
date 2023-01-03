@@ -5,13 +5,18 @@
 Harfang 3D is a cross-platform 3D game engine written in C++ and Lua, with a focus on ease of use and rapid prototyping. It is designed to be used in a wide range of applications, from small games to large-scale applications.
 <hr>
 
-## Trello board:
-#### https://trello.com/b/SSmTA8tX/research-tasks
+## Trello boards:
+### [**`Research`**](https://trello.com/b/SSmTA8tX/research-tasks) 
+### [**`Specifications`**](https://trello.com/b/NfldDbhp/specifications)
+### [**`Development`**](https://trello.com/b/MmryR9Sn/dev)
+### [**`Tests`**](https://trello.com/b/zXXlaN8F/tests)
 <hr>
 
 ## Repository from Harfang 3D:
 #### https://github.com/harfang3d/algosup-binding-project
 <hr>
+<br>
+<br>
 
 # Documents Links
 
@@ -22,6 +27,8 @@ Harfang 3D is a cross-platform 3D game engine written in C++ and Lua, with a foc
 ### [Test Plan](https://github.com/algosup/2022-2023-project-3-harfang3d-binding-Project-2-group/blob/documents/Documents/Tests/test-plan.md)
 
 ### [Test Cases](https://github.com/algosup/2022-2023-project-3-harfang3d-binding-Project-2-group/blob/documents/Documents/Tests/test-cases.md)
+
+### [**`Harfang Meeting Report`**](https://github.com/algosup/2022-2023-project-3-harfang3d-binding-Project-2-group/blob/documents/Documents/Reports/harfang3d--meeting--01-03-2023.md)
 
 # Contributors:
 <img src="https://avatars.githubusercontent.com/u/91249694?v=4" width="150">
