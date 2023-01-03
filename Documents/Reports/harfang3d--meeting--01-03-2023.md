@@ -56,7 +56,50 @@ Conclusion:
 <!-- Write here -->
 
 # Notes by Alexandre
-<!-- Write here -->
+
+Mainly use for industries
+
+- Automotive Cluster
+- Automotive HUD
+- Human factor study
+- Simulation
+- Data visualization
+- Teleoperation
+
+
+Industry = Strong Technical Requirements (Satefy certifications, embeddability and custom hardware and power consumption)
+Industry = Sovereignty & Confidentiality (Game engines with private and insecure license in the long term, Must run on premise, 100% offline, the VG industry needs metrics, very hungry for user data)
+Industry = Long term (A video game has a commercial life of 1 to 3 years, an industrial project must be maintained between 5 to 30 years, maintainability, upgradability, interoperability)
+
+GOALS:
+
+- 1. Produce latest generation HMIs
+- 2. Provide sovereignty and strategic autonomy
+- 3. Ensure greater responsivness, portability and interoperability
+
+extern = packages imported
+
+bgfx = graphic abstraction layer
+
+contact: francois.gutherz@harfang3d.com --- emmanuel.julien@harfang3d.com
+
+
+FABgen written as a replacement for SWIG, an other binding generator.
+It tries to solve this issue by:
+
+- Using python to implement FABgen and the binding definitions themsleves
+- Implementing as much as possible of the features in a common part of the program (gen.py)
+
+As a newer project FABgen also tries to leverage newer APIs whenever possible.
+
+Python and Lua: Dynamically typed.
+Go: Statically typed.
+C API to extend the language with native extension module.
+Minimum of 3 functions:
+
+- check
+- to_c
+- from_c
 
 # Notes by Audrey
 <!-- - presentation by customer
