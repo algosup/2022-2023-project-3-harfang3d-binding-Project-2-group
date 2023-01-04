@@ -23,6 +23,23 @@
 
 ### 1. Glossary :
 
+Fabgen : It's a set of Python scripts to generate C++ binding code to different languages.
+
+SWIG : It's a software development tool that connects programs written in C and C++ with a variety of high-level programming languages.
+
+API : They are mechanisms that enable two software components to communicate with each other using a set of definitions and protocols.
+
+ABI : An application binary interface (ABI) is an interface between two binary program modules. Often, one of these modules is a library or operating system facility, and the other is a program that is being run by a user.
+
+Unit Test : It's a type of software testing where individual units or components of a software are tested.
+
+Statically-typed language  : It's a language (such as Java, C, or C++) where variable types are known at compile time.
+
+Dynamically typed languages : Type checking takes place at runtime or execution time. This means that variables are checked against types only when the program is executing.
+
+
+
+
 ### 2. Project Overview :
 
 Fabgen was written for the Harfang 3D project to bring the C++ engine to languages such as Python, Lua and Go. It was written as a replacement for SWIG, a very well-known binding generator supporting a lot of target languages.
@@ -41,11 +58,11 @@ As a newer project Fabgen also tries to leverage newer APIs whenever possible fo
 
 #### 3.1. Goal of the project :
 
-The goal of the project is to create a binding for F# language in order to bring the C++ engine for the Harfang 3D project 
+The goal of the project is to create a binding for F# language in order to bring the C++ engine for the Harfang 3D project.
 
 #### 3.2. Current Solution :
 
-Right now, Fabgen support languages such as Python, Lua and GO
+Right now, Fabgen support languages such as Python, Lua and GO.
 ##### 3.3. Supported languages
 ###### Python 3.2+ (CPython)
 Interpreted bytecode
@@ -64,7 +81,7 @@ Link to C library, C++ has to be wrapped with C first (https://stackoverflow.com
 
 #### Proposed Solution :
 
-We want to add a new F# binding to the existing solution
+We want to add a new F# binding to the existing solution.
 ###### F#
 JIT from IL
 Statically typed
@@ -73,7 +90,7 @@ Link to C library (C++ has to be wrapped with C first)
 
 ### 4. Development of the Solution :
 
-F# is a staticaly typed language 
+F# is a staticaly typed language.
 In order to develop the solution, We will follow the same structure that are already done for static language like GO or C#.
 
 First, We will create a mapping of elementary types. We will identify the elementary types common to both languages and create a mapping between them. C types might map to a single or more types in the target language.
@@ -108,12 +125,13 @@ While the wrapped API can technically everything we need to use the native libra
 ### 5. Risks:
 
 We need to avoid taking shortcut and think about every possibility in order to avoid core dump or memory leak on the user side at a later point. 
-You have no idea how intertwined the code will be in the user's program so they must be correct from every possible angle.
+We have no idea how intertwined the code will be in the user's program so they must be correct from every possible angle.
 
 ### 6. Success Evaluation :
-
 #### 6.1. Unit Test :
 
+In order to evaluate the success of our product, we will follow a Test plan and do Unit Test to our program.
+We will be using Python to run our Unit Test.
 #### 6.2. Test Plan :
 
 [More information](https://github.com/algosup/2022-2023-project-3-harfang3d-binding-Project-2-group/blob/documents/Documents/Tests/test-plan.md) 
