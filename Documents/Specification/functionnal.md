@@ -36,13 +36,32 @@ The goal of this project is to create a binding between our 3D engine, written i
 
 To achieve this goal, we will need to research different approaches for creating bindings, select appropriate tools and libraries, and implement the binding according to our chosen approach. We will also need to test the binding to ensure that it is functioning correctly and meets the requirements of our project.
 
+### 4. Requirement
 
+### 5. Personas and scenario
 
-#personage
 *dev F#
 dev nul 
 dev python 
 adim it harfang pour creer aussi leur propre visuel 
+
+
+### 6. Use case
+
+
+### 7. What will happen in the futur
+
+
+### 8. Risks and Assumptions
+
+### 9. Development and environement
+  - F#
+  - C++
+  - Python
+  - (Windows / MAC OS)  
+
+******************************
+#### Glosary 
 
 <!---
 ### Author
@@ -54,3 +73,25 @@ adim it harfang pour creer aussi leur propre visuel
 ****************************************************************
 FABGen : Fabgen is a set of Python scripts to generate C++ binding code to different languages.  
 It was written as a SWIG replacement for the Harfang Multimedia Framework (http://www.harfang3d.com).
+
+
+<!---
+ function specification
+    - details how work the product
+    - clear and detail description
+    - define the requirement and constraints
+    - doesn’t describe the implementation
+    - basis for testing
+    - serves as a contract between the  team and the users
+
+- Functional specification
+    - context
+    - goal/ scope
+    - functional requirements
+    - acceptance criteria
+    - design
+    - non-functional requirement
+    - out of scope
+    - security
+    - glossary
+-->
