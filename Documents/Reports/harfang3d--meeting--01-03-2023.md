@@ -115,7 +115,39 @@ not expected to make harfang in f#
 <!-- Write here -->
 
 # Notes by Florent
-<!-- Write here -->
+industry => strong technical requirement
+	  => confidientality
+	  => long term (5 to 50 year)
+need to be maintainable and upgradable
+Reserve memory staticaly
+100 % offline
+
+Unity can get your data 
+
+goal :
+
+latest HMI 
+provide confidienttiality and autonomy
+greater responsivness and portability
+
+harfang API writting in C++ => lot a function with it
+
+francois.gutherz@harfang3d.com
+emmanuel.julien@harfang3d.com
+
+go most closest language to fsharp right now (for fabgen)
+
+three function per type :
+
+check
+to_C 
+From_C
+
+strategie :
+
+create a mapping of elementary types
+implement a C API wrapping C/C++ objects
+improve the integration with the target language
 
 # Notes by Alexandre
 
