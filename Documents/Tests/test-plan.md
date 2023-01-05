@@ -10,24 +10,27 @@
 ##### *Quality Assurance (QA)*
 
 ### Table of content 
-- [Author](#author)
+- [Test Plan](#test-plan)
+    - [Author](#author)
+    - [**`Salaheddine NAMIR`**](#salaheddine-namir)
+        - [*Quality Assurance (QA)*](#quality-assurance-qa)
     - [Table of content](#table-of-content)
-         -  [Test f#](#test-f)
-            [Test cpython](#test-cpython) 
-            [Test c++](#test-c)    
+      - [Test F#](#test-f)
+      - [Test CPython](#test-cpython)
+      - [Test C++](#test-c)
 
-#### Test f# 
+#### Test F# 
 |   REFERENCE TEST        | TEST          |      RESULT EXPETED         |  RESULT |
 |:----------|:---------:|:--------------:|---------: |
 |   a1        |    TDD n°1(name of function)       |             | |
 
 
-#### Test cpython
+#### Test CPython
 |     REFERENCE TEST      |   TEST        |     RESULT EXPETED          | RESULT |
 |:----------|:---------:|:--------------:|----: |
 |   b1        |           |               | |
 
-#### Test c++
+#### Test C++
 |     REFERENCE TEST      |    TEST       |    RESULT EXPETED            | RESULT  |
 |:----------|:---------:|:--------------:|----:|
 |     c1      |           |               |   |

@@ -25,7 +25,7 @@
   - [**10.2 - Key features of Fabgen**](#102---key-features-of-fabgen)
   - [**10.3 - How to use Fabgen**](#103---how-to-use-fabgen)
   - [**10.4 - Compatibility with Python**](#104---compatibility-with-python)
-  - [11 - Overview of HARFANG® 3D](#11---overview-of-harfang-3d)
+- [11 - Overview of HARFANG® 3D](#11---overview-of-harfang-3d)
   - [**11.1 - Goal of providing 3D HMI**](#111---goal-of-providing-3d-hmi)
   - [**11.2 - Description of HARFANG® 3D engine**](#112---description-of-harfang-3d-engine)
   - [**11.3 - Description of HARFANG® Studio**](#113---description-of-harfang-studio)
@@ -34,7 +34,7 @@
 
 # Harfang3D Progress Report<br>
 ## Date: 01/03/2023
-<hr><br><br><br>
+<br><br><hr><br><br>
 
 # 1 - Introduction
 
@@ -47,7 +47,7 @@ The purpose of the meeting was to discuss the use of HARFANG® 3D in the industr
 The participants of the meeting were group 1 to 4, as well as François Gutherz and Emmanuel Julien.
 
 
-<hr><br><br><br>
+<br><br><hr><br><br>
 
 # 2 - Overview of 3D engines in industry
 
@@ -63,7 +63,7 @@ It was noted that these engines must be able to run on-premise and be 100% offli
 We also discussed whether game engines are suitable for use in the industry and concluded that 3D engines like HARFANG® are more appropriate due to their strong technical capabilities.
 
 
-<hr><br><br><br>
+<br><br><hr><br><br>
 
 # 3 - Topics related to the automotive industry
 
@@ -72,7 +72,7 @@ We emphasized the need for sovereignty and confidentiality in the industry and t
 Additionally, we noted that the video game industry is interested in collecting user data and metrics.
 
 
-<hr><br><br><br>
+<br><br><hr><br><br>
 
 # 4 - Standards related to software development in various industries
 
@@ -91,14 +91,14 @@ MISRA (Motor Industry Software Reliability Association), a consortium of compani
 AUTOSAR (AUTomotive Open System ARchitecture), a standard for the development of automotive software that provides a set of guidelines and tools for the development of software that is portable across different hardware platforms.
 
 
-<hr><br><br><br>
+<br><br><hr><br><br>
 
 # 5 - Long-term nature of the industry
 
 We discussed the long-term nature of the industry and how industrial projects must be maintained for a period of 5-30 years, compared to the shorter commercial lifespan of video games (1-3 years). We emphasized the importance of maintainability, upgradability, and interoperability in this context.
 
 
-<hr><br><br><br>
+<br><br><hr><br><br>
 
 # 6 - Role of standards in ensuring software quality and reliability
 
@@ -106,7 +106,7 @@ According to the HARFANG® representatives, one common point between these stand
 These standards play an important role in ensuring that software is developed to high standards and can be trusted to perform critical functions safely and effectively.
 
 
-<hr><br><br><br>
+<br><br><hr><br><br>
 
 # 7 - Introduction to HARFANG® SDK
 
@@ -120,7 +120,7 @@ It is compatible with Python, Lua, and Go because it is written in C++ and uses 
 It's written in C++ mainly for performance reasons, to ensure that it can be used in real-time applications. Python is popular for rapid development and strong data science capabilities, but is approximately 75 times slower than C++.
 
 
-<hr><br><br><br>
+<br><br><hr><br><br>
 
 # 8 - Presentation of projects by attendees
 
@@ -129,7 +129,7 @@ These projects demonstrate the diverse range of applications and capabilities of
 These projects showcase the potential of the tools and technologies being developed by the attendees to be used in a variety of different industries and applications.
 
 
-<hr><br><br><br>
+<br><br><hr><br><br>
 
 # 9 - Overview of features in the HARFANG® 3D engine browser
 
@@ -143,7 +143,7 @@ Additionally, the engine includes "bgfx", a graphic abstraction layer.
 This layer provides a consistent interface for accessing graphics and rendering functionality, which allows developers to use the engine more easily and efficiently.
 
 
-<hr><br><br><br>
+<br><br><hr><br><br>
 
 # 10 - Overview of Fabgen
 
@@ -168,7 +168,7 @@ Fabgen requires a minimum of three functions, "check", "to_c", and "from_c", whi
 Overall, Fabgen appears to be a useful tool for generating bindings between different programming languages and is compatible with Python versions above 3.2. It uses the Py_LIMITED_API macro to ensure that extension modules it generates can be used by any version of Cpython above 3.2.
 
 
-<hr><br><br><br>
+<br><br><hr><br><br>
 
 ## 11 - Overview of HARFANG® 3D
 
@@ -194,14 +194,14 @@ It is capable of managing the entire 3D graphics production workflow in a simple
 It does not compromise the integration of other development environments.
 
 
-<hr><br><br><br>
+<br><br><hr><br><br>
 
 # 12 - Conclusion
 
 Overall, both HARFANG® products are designed to enable users to easily create high-quality 3D graphics and animations.
 
 
-<hr><br><br><br>
+<br><br><hr><br><br>
 
 # 13 - Contacts
 

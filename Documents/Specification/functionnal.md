@@ -8,7 +8,7 @@
   - [Goal of the project](#goals)
 
 ###  1. Project roles :
-| PERSON |   ROLE  | DOCUMENT |
+| MEMBERS |   ROLE  | DOCUMENT |
 | :----: | :-----: | :------: |
 | Alexandre BOBIS | Software Engineer |  |
 | Audrey TELLIEZ | Program Manager | [functionnal specification]()|
