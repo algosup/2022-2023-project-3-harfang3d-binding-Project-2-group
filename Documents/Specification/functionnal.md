@@ -2,10 +2,18 @@
 
 # Functionnal Specification
 ## Table of content 
-- functionnal Specification
-  - [Project roles](#1-project-roles)
-  - [overview of the company](#overview-of-the-company)
-  - [Goal of the project](#goals)
+- [Functionnal Specification
+  - [Table of content](#table-of-content)
+    - [1. Project roles :](#1-project-roles-)
+    - [2. Overview of the company](#2-overview-of-the-company)
+    - [3. Goals](#3-goals)
+    - [4. Requirement](#4-requirement)
+    - [5. Personas and scenario](#5-personas-and-scenario)
+    - [6. Use case](#6-use-case)
+    - [7. What will happen in the futur](#7-what-will-happen-in-the-futur)
+    - [8. Risks and Assumptions](#8-risks-and-assumptions)
+    - [9. Development and environement](#9-development-and-environement)
+  - [Glosary](#glosary)
 
 ###  1. Project roles :
 | MEMBERS |   ROLE  | DOCUMENT |
@@ -37,17 +45,22 @@ The goal of this project is to create a binding between our 3D engine, written i
 To achieve this goal, we will need to research different approaches for creating bindings, select appropriate tools and libraries, and implement the binding according to our chosen approach. We will also need to test the binding to ensure that it is functioning correctly and meets the requirements of our project.
 
 ### 4. Requirement
+F0 = mandatory F1 = important F2 = secondary
+
+|Function	| Criteria	|Level	|Tolerance	|Flexibility|
+|:----:|:----:|:----:|:----:|:----:|:----:|
 
 ### 5. Personas and scenario
-
+<!--
+idées :
 *dev F#
 dev nul 
 dev python 
 adim it harfang pour creer aussi leur propre visuel 
-
+-->
 
 ### 6. Use case
-
+<!--voir plus tard -->
 
 ### 7. What will happen in the futur
 
@@ -61,7 +74,7 @@ adim it harfang pour creer aussi leur propre visuel
   - (Windows / MAC OS)  
 
 ******************************
-#### Glosary 
+## Glosary 
 
 <!---
 ### Author
