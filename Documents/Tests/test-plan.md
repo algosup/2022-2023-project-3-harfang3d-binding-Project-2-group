@@ -28,7 +28,9 @@
 #### Test CPython
 |     REFERENCE TEST      |   TEST        |     RESULT EXPETED          | RESULT |
 |:----------|:---------:|:--------------:|----: |
-|   b1        |           |               | |
+|   b1        |   check: if the object target is on C/C++        |         true      | |
+| b2| to_c: return to an object with the target language C/C++   | C/C++ object | | |
+|b3| from_c:|||
 
 #### Test C++
 |     REFERENCE TEST      |    TEST       |    RESULT EXPETED            | RESULT  |
