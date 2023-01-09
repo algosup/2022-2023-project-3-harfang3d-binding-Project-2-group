@@ -34,6 +34,8 @@
 |b4|idendify: identify elementary type common of both language and create mapping between them |type||
 |b5| map: mapping a single or more elementary type  of target language|type||
 |b6|obj_memb: access object members of elementary type|object||
+|b7|warp:||||
+|b8|destruct:|||
 
 #### Test C++
 |     REFERENCE TEST      |    TEST       |    RESULT EXPETED            | RESULT  |
