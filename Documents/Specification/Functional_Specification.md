@@ -14,6 +14,8 @@
     - [5. Personas and Scenarios](#5-personas-and-scenarios)
     - [6. Use case](#6-use-case)
     - [7. What will happen in the futur](#7-what-will-happen-in-the-futur)
+      - [Today :](#today-)
+      - [In the futur :](#in-the-futur-)
     - [8. Risks and Assumptions](#8-risks-and-assumptions)
     - [9. Development and Environement](#9-development-and-environement)
   - [Glossary](#glossary)
@@ -59,11 +61,16 @@ F0 = mandatory; F1 = important; F2 = secondary
 |Function	| Criteria	|Level	| Flexibility|
 |:----:|:----:|:----:|:----:|:----:|:----:|
 | F# functions     | entry of code     |  put code     |  F0  |
-|translator F# C++| 
-
+|convert to F# in C or C++ | use C API for convert  | code F# / code C/C++ | F1|
+| part with C/C++ code | 
 
 
 ### 5. Personas and Scenarios
+
+Aurélia, HARFANG®3D developer since 2018, living near Orléans.
+she write her code and have the idea of what she could would a thing but she code this in F#. But Harfang 3D can't take F#. 
+she write an email to put F#  in the code list.
+And permit to her and customers to do in F#. 
 <!--
 idées :
 *dev F#
@@ -73,9 +80,12 @@ adim it harfang pour creer aussi leur propre visuel
 -->
 
 ### 6. Use case
-<!--voir plus tard -->
+<!--voir plus tard ----- > discord -->
 
 ### 7. What will happen in the futur
+#### Today :
+
+#### In the futur : 
 
 ### 8. Risks and Assumptions
 
