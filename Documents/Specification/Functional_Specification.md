@@ -15,13 +15,12 @@
         - [Aurélia:](#aurélia)
         - [Jean-Marc:](#jean-marc)
         - [Baptiste:](#baptiste)
-      - [:](#)
+      - [Nathalie:](#nathalie)
     - [6. Use case](#6-use-case)
     - [7. What will happen in the futur](#7-what-will-happen-in-the-futur)
       - [Today :](#today-)
       - [In the futur :](#in-the-futur-)
-    - [8. Risks and Assumptions](#8-risks-and-assumptions)
-    - [9. Development and Environement](#9-development-and-environement)
+    - [8. Development and Environement](#8-development-and-environement)
   - [Glossary](#glossary)
 
 </details>
@@ -77,8 +76,11 @@ F0 = mandatory; F1 = important; F2 = secondary
   Jean-Marc, developer in an IT services company and Python dev. He would like to make a wallpaper for a project. So he made a code in python in the HARFANG® Framework application. And then he put the code given by HARFANG® Framework into HARFANG® Studio.
 
 ##### Baptiste:
-  Baptiste is a student in IT. and he would make an app game by his hands. So he learn C++ to just put in HARFANG® Studio.
-#### :
+  Baptiste is a computer science student. He wanted to create a game application with his own hands. So he learned C++ to make a code and put it in HARFANG® Studio.
+
+#### Nathalie:
+  Nathalie is dev python. And she wanted to create a game application in python. So she put in HARFANG® Framework  a code in python. And she has take the code give by HARFANG® Framework. And also put it in HARFANG® Studio.
+  
 <!--
 idées :
 *dev F# company 
@@ -95,9 +97,7 @@ adim it harfang pour creer aussi leur propre visuel
 
 #### In the futur : 
 
-### 8. Risks and Assumptions
-
-### 9. Development and Environement
+### 8. Development and Environement
 
   - F#
   - C++
@@ -107,6 +107,10 @@ adim it harfang pour creer aussi leur propre visuel
 ******************************
 ## Glossary 
 
+FABGen : Fabgen is a set of Python scripts to generate C++ binding code to different languages.  
+It was written as a SWIG replacement for the Harfang Multimedia Framework (http://www.harfang3d.com).
+
+
 <!---
 ### Author
 <img src="https://avatars.githubusercontent.com/u/114394252?v=4" width="150">
@@ -114,8 +118,7 @@ adim it harfang pour creer aussi leur propre visuel
 ##### *Program Manager*
 -->
 
-FABGen : Fabgen is a set of Python scripts to generate C++ binding code to different languages.  
-It was written as a SWIG replacement for the Harfang Multimedia Framework (http://www.harfang3d.com).
+
 
 
 <!---
