@@ -12,6 +12,10 @@
     - [3. Goals](#3-goals)
     - [4. Requirements](#4-requirements)
     - [5. Personas and Scenarios](#5-personas-and-scenarios)
+        - [Aurélia:](#aurélia)
+        - [Jean-Marc:](#jean-marc)
+        - [Baptiste:](#baptiste)
+      - [:](#)
     - [6. Use case](#6-use-case)
     - [7. What will happen in the futur](#7-what-will-happen-in-the-futur)
       - [Today :](#today-)
@@ -66,15 +70,18 @@ F0 = mandatory; F1 = important; F2 = secondary
 
 
 ### 5. Personas and Scenarios
+##### Aurélia:
+  Aurélia, HARFANG®3D developer since 2018, living near Orléans. She write her code and have the idea of what she could would a thing but she code this in F#. But HARFANG®3D 3D can't take F#. She write an email to put F#  in the code list. And permit to her and customers to do in F#. If they can't she will have to find a language that is in HARFANG®3D and that can do the same thing
 
-Aurélia, HARFANG®3D developer since 2018, living near Orléans.
-she write her code and have the idea of what she could would a thing but she code this in F#. But HARFANG®3D 3D can't take F#. 
-she write an email to put F#  in the code list.
-And permit to her and customers to do in F#. 
-If they can't she will have to find a language that is in HARFANG®3D and that can do the same thing
+##### Jean-Marc:
+  Jean-Marc, developer in an IT services company and Python dev. He would like to make a wallpaper for a project. So he made a code in python in the HARFANG® Framework application. And then he put the code given by HARFANG® Framework into HARFANG® Studio.
+
+##### Baptiste:
+  Baptiste is a student in IT. and he would make an app game by his hands. So he learn C++ to just put in HARFANG® Studio.
+#### :
 <!--
 idées :
-*dev F#
+*dev F# company 
 dev nul 
 dev python 
 adim it harfang pour creer aussi leur propre visuel 
