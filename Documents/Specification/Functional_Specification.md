@@ -68,9 +68,10 @@ F0 = mandatory; F1 = important; F2 = secondary
 ### 5. Personas and Scenarios
 
 Aurélia, HARFANG®3D developer since 2018, living near Orléans.
-she write her code and have the idea of what she could would a thing but she code this in F#. But Harfang 3D can't take F#. 
+she write her code and have the idea of what she could would a thing but she code this in F#. But HARFANG®3D 3D can't take F#. 
 she write an email to put F#  in the code list.
 And permit to her and customers to do in F#. 
+If they can't she will have to find a language that is in HARFANG®3D and that can do the same thing
 <!--
 idées :
 *dev F#
