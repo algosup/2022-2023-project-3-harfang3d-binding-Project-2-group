@@ -18,8 +18,8 @@
         - [5.4 Nathalie:](#54-nathalie)
     - [6. Use case](#6-use-case)
     - [7. What will happen in the futur](#7-what-will-happen-in-the-futur)
-      - [Today](#today)
-      - [In the futur](#in-the-futur)
+        - [Today:](#today)
+        - [In the futur:](#in-the-futur)
     - [8. Development and Environement](#8-development-and-environement)
   - [Glossary](#glossary)
 >>>>>>> 723e4d3d6ff445095a9e76f3d7642ac29a45d57d
@@ -67,7 +67,7 @@ F2 = Secondary;
 |:----:|:----:|:----:|:----:|:----:|:----:|
 | F# functions     | entry of code     |  put code     |  F0  |
 |convert to F# in C or C++ | use C API for convert  | code F# / code C/C++ | F1|
-| part with C/C++ code | 
+
 
 ### 5. Personas and Scenarios
 
@@ -96,12 +96,13 @@ adim it harfang pour creer aussi leur propre visuel
 
 ### 6. Use case
 <!--voir plus tard ----- > discord -->
+<img src="/Documents/Specification/image.png" width="500">
 
 ### 7. What will happen in the futur
 
-#### Today
+##### Today:
 
-#### In the futur
+##### In the futur:
 
 ### 8. Development and Environement
 
@@ -128,7 +129,23 @@ It was written as a SWIG replacement for the Harfang Multimedia Framework (http:
 
 
 <!---
- Function specification
+faire de temps en temps :
+Product Requirement Document
+
+High level overview of a problem to solve and the plan to address it 
+Usually owned by the Product team
+
+Articulate a problem and a proposition to address it (new capabilities or entirely new product)
+Key decisions are listed but the implementation remain to be defined
+Ideally a one-pager
+Public, different audience
+Meant to serve as a compass for the product and engineering teams
+
+
+
+
+
+- Function specification
     - details how work the product
     - clear and detail description
     - define the requirement and constraints
