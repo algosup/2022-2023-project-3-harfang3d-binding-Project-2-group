@@ -1,4 +1,4 @@
-# Project Calendar
+# HARFANG® 3D F# Binding - Project Calendar
 
 Created the 2023-01-09<br>
 Author: Pierre GORIN<br><br>
