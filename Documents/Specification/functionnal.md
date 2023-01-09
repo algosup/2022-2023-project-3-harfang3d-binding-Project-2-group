@@ -15,11 +15,11 @@
     - [9. Development and environement](#9-development-and-environement)
   - [Glosary](#glosary)
 
-###  1. Project roles :
+###  1. Project roles 
 | MEMBERS |   ROLE  | DOCUMENT |
 | :----: | :-----: | :------: |
 | Alexandre BOBIS | Software Engineer |  |
-| Audrey TELLIEZ | Program Manager | [functionnal specification]()|
+| Audrey TELLIEZ | Program Manager | [Functionnal specification]()|
 |Florent HUREAUX | Tech Lead | [Technical specification ]()  |
 |Salaheddine NAMIR | Quality Assurance (QA)| [test plan]()|
 | Pierre GORIN | Project Manager | |
@@ -49,6 +49,8 @@ F0 = mandatory F1 = important F2 = secondary
 
 |Function	| Criteria	|Level	|Tolerance	|Flexibility|
 |:----:|:----:|:----:|:----:|:----:|:----:|
+|      |      |      |      |      |      |
+
 
 ### 5. Personas and scenario
 <!--
@@ -74,7 +76,7 @@ adim it harfang pour creer aussi leur propre visuel
   - (Windows / MAC OS)  
 
 ******************************
-## Glosary 
+## Glossary 
 
 <!---
 ### Author
@@ -83,7 +85,6 @@ adim it harfang pour creer aussi leur propre visuel
 ##### *Program Manager*
 -->
 
-****************************************************************
 FABGen : Fabgen is a set of Python scripts to generate C++ binding code to different languages.  
 It was written as a SWIG replacement for the Harfang Multimedia Framework (http://www.harfang3d.com).
 
