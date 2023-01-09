@@ -12,15 +12,17 @@
     - [3. Goals](#3-goals)
     - [4. Requirements](#4-requirements)
     - [5. Personas and Scenarios](#5-personas-and-scenarios)
-        - [Aurélia:](#aurélia)
-        - [Jean-Marc:](#jean-marc)
-        - [Baptiste:](#baptiste)
-      - [Nathalie:](#nathalie)
+        - [5.1 Aurélia](#51-aurélia)
+        - [5.2 Jean-Marc](#52-jean-marc)
+        - [5.3 Baptiste](#53-baptiste)
+      - [](#)
     - [6. Use case](#6-use-case)
     - [7. What will happen in the futur](#7-what-will-happen-in-the-futur)
-      - [Today :](#today-)
-      - [In the futur :](#in-the-futur-)
+      - [Today](#today)
+      - [In the futur](#in-the-futur)
     - [8. Development and Environement](#8-development-and-environement)
+  - [Glossary](#glossary)
+>>>>>>> 723e4d3d6ff445095a9e76f3d7642ac29a45d57d
   - [Glossary](#glossary)
 
 </details>
@@ -43,12 +45,10 @@
 
 They meet two different types of demands :
 
-- HARFANG® Studio is the ideal 3D editor for creating real-time scenes and animations that match your design vision.
-  <!-- 2 espaces à la fin de la ligne -->
-  It can handle the entire 3D graphics workflow in a simple and optimised way, without compromising integration with other development environments.
-    <!-- 2 espaces à la fin de la ligne -->  
-  Everything that works in HARFANG® Studio is compatible with their HARFANG®Framework and its supported coding languages.
+- HARFANG® Studio is the ideal 3D editor for creating real-time scenes and animations that match your design vision. It can handle the entire 3D graphics workflow in a simple and optimised way, without compromising integration with other development environments.Everything that works in HARFANG® Studio is compatible with their HARFANG®Framework and its supported coding languages.
+
 <br>
+
 - HARFANG® Framework is an easy-to-adapt, cross-platform, multi-language, powerful and optimized 3D visualization engine written in C++ and accessible via an open API in C++, or high-level programming languages such as Python, Golang, and Lua.
 
 ### 3. Goals
@@ -59,7 +59,9 @@ To achieve this goal, we will need to research different approaches for creating
 
 ### 4. Requirements
 
-F0 = mandatory; F1 = important; F2 = secondary
+F0 = Mandatory;
+F1 = Important;
+F2 = Secondary;
 
 |Function	| Criteria	|Level	| Flexibility|
 |:----:|:----:|:----:|:----:|:----:|:----:|
@@ -67,20 +69,22 @@ F0 = mandatory; F1 = important; F2 = secondary
 |convert to F# in C or C++ | use C API for convert  | code F# / code C/C++ | F1|
 | part with C/C++ code | 
 
-
 ### 5. Personas and Scenarios
-##### Aurélia:
+
+##### 5.1 Aurélia
+
   Aurélia, HARFANG®3D developer since 2018, living near Orléans. She write her code and have the idea of what she could would a thing but she code this in F#. But HARFANG®3D 3D can't take F#. She write an email to put F#  in the code list. And permit to her and customers to do in F#. If they can't she will have to find a language that is in HARFANG®3D and that can do the same thing
 
-##### Jean-Marc:
+##### 5.2 Jean-Marc
+
   Jean-Marc, developer in an IT services company and Python dev. He would like to make a wallpaper for a project. So he made a code in python in the HARFANG® Framework application. And then he put the code given by HARFANG® Framework into HARFANG® Studio.
 
-##### Baptiste:
-  Baptiste is a computer science student. He wanted to create a game application with his own hands. So he learned C++ to make a code and put it in HARFANG® Studio.
+##### 5.3 Baptiste
 
-#### Nathalie:
-  Nathalie is dev python. And she wanted to create a game application in python. So she put in HARFANG® Framework  a code in python. And she has take the code give by HARFANG® Framework. And also put it in HARFANG® Studio.
-  
+  Baptiste is a student in IT. and he would make an app game by his hands. So he learn C++ to just put in HARFANG® Studio.
+
+####
+
 <!--
 idées :
 *dev F# company 
@@ -93,9 +97,10 @@ adim it harfang pour creer aussi leur propre visuel
 <!--voir plus tard ----- > discord -->
 
 ### 7. What will happen in the futur
-#### Today :
 
-#### In the futur : 
+#### Today
+
+#### In the futur
 
 ### 8. Development and Environement
 
@@ -105,7 +110,8 @@ adim it harfang pour creer aussi leur propre visuel
   - (Windows / MAC OS)  
 
 ******************************
-## Glossary 
+
+## Glossary
 
 FABGen : Fabgen is a set of Python scripts to generate C++ binding code to different languages.  
 It was written as a SWIG replacement for the Harfang Multimedia Framework (http://www.harfang3d.com).
@@ -117,7 +123,6 @@ It was written as a SWIG replacement for the Harfang Multimedia Framework (http:
 ### [**`Audrey Telliez`**](https://github.com/audreytllz)
 ##### *Program Manager*
 -->
-
 
 
 

@@ -31,6 +31,9 @@
 |   b1        |   check: if the object in target language hold a copy or reference to a C/C++ object of specific type       |         C/C++ object     | |
 | b2| to_c: return to an object with the target language C/C++ held by an object in the target language   | C/C++ object | | |
 |b3| from_c: return an object in target language or reference to  C/C++ object|C/C++ object||
+|b4|idendify: identify elementary type common of both language and create mapping between them |type||
+|b5| map: mapping a single or more elementary type  of target language|type||
+|b6|obj_memb: access object members of elementary type|object||
 
 #### Test C++
 |     REFERENCE TEST      |    TEST       |    RESULT EXPETED            | RESULT  |
