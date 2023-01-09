@@ -56,9 +56,11 @@ To achieve this goal, we will need to research different approaches for creating
 
 F0 = mandatory; F1 = important; F2 = secondary
 
-|Function	| Criteria	|Level	|Tolerance	|Flexibility|
+|Function	| Criteria	|Level	| Flexibility|
 |:----:|:----:|:----:|:----:|:----:|:----:|
-|      |      |      |      |      |      |
+| F# functions     | entry of code     |  put code     |  F0  |
+|translator F# C++| 
+
 
 
 ### 5. Personas and Scenarios
