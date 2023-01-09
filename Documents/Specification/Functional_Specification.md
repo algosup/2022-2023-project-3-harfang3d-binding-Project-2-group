@@ -1,30 +1,38 @@
-<!--#### -> Click [here](https://github.com/algosup/2022-2023-project-3-harfang3d-binding-Project-2-group/blob/main/readme.md) to go to the Read Me.-->
+<!--#### -> Click [here](https://github.com/algosup/2022-2023-project-3-harfang3d-binding-Project-2-group/blob/main/readme.md) to go to the README.md-->
 
 # Functionnal Specification
-## Table of content 
-- [Functionnal Specification
-  - [Table of content](#table-of-content)
-    - [1. Project roles :](#1-project-roles-)
-    - [2. Overview of the company](#2-overview-of-the-company)
+
+<details>
+
+<summary>Table of content</summary>
+
+- [Functionnal Specification](#functionnal-specification)
+    - [1. Stakeolders](#1-stakeolders)
+    - [2. Company Overview](#2-company-overview)
     - [3. Goals](#3-goals)
-    - [4. Requirement](#4-requirement)
-    - [5. Personas and scenario](#5-personas-and-scenario)
+    - [4. Requirements](#4-requirements)
+    - [5. Personas and Scenarios](#5-personas-and-scenarios)
     - [6. Use case](#6-use-case)
     - [7. What will happen in the futur](#7-what-will-happen-in-the-futur)
     - [8. Risks and Assumptions](#8-risks-and-assumptions)
-    - [9. Development and environement](#9-development-and-environement)
-  - [Glosary](#glosary)
+    - [9. Development and Environement](#9-development-and-environement)
+  - [Glossary](#glossary)
 
-###  1. Project roles 
-| MEMBERS |   ROLE  | DOCUMENT |
+</details>
+
+###  1. Stakeolders
+
+| Person/Organisation |   ROLE  | DOCUMENT |
 | :----: | :-----: | :------: |
-| Alexandre BOBIS | Software Engineer |  |
-| Audrey TELLIEZ | Program Manager | [Functionnal specification]()|
-|Florent HUREAUX | Tech Lead | [Technical specification ]()  |
-|Salaheddine NAMIR | Quality Assurance (QA)| [test plan]()|
-| Pierre GORIN | Project Manager | |
+| HARFANG3D         | Project Owner         | |
+| Robert PICKERING  | Tech Consultant       | |
+| Pierre GORIN      | Project Manager       | |
+| Audrey TELLIEZ    | Program Manager       | [Functionnal Specification]() |
+| Florent HUREAUX   | Tech Lead             | [Technical Specification]() |
+| Alexandre BOBIS   | Software Engineer     |  |
+| Salaheddine NAMIR | Quality Assurance (QA)| [Test plan]() |
 
-### 2. Overview of the company 
+### 2. Company Overview
 
 [HARFANG®3D](https://www.harfang3d.com/en_US/) builds real-time 3D tools for industry professionals. They enable the implementation and deployment of 3D solutions (HMI, VR/AR, simulation, interactive 3D), regardless of development language or platform constraints.
 
@@ -44,15 +52,16 @@ The goal of this project is to create a binding between our 3D engine, written i
 
 To achieve this goal, we will need to research different approaches for creating bindings, select appropriate tools and libraries, and implement the binding according to our chosen approach. We will also need to test the binding to ensure that it is functioning correctly and meets the requirements of our project.
 
-### 4. Requirement
-F0 = mandatory F1 = important F2 = secondary
+### 4. Requirements
+
+F0 = mandatory; F1 = important; F2 = secondary
 
 |Function	| Criteria	|Level	|Tolerance	|Flexibility|
 |:----:|:----:|:----:|:----:|:----:|:----:|
 |      |      |      |      |      |      |
 
 
-### 5. Personas and scenario
+### 5. Personas and Scenarios
 <!--
 idées :
 *dev F#
@@ -66,10 +75,10 @@ adim it harfang pour creer aussi leur propre visuel
 
 ### 7. What will happen in the futur
 
-
 ### 8. Risks and Assumptions
 
-### 9. Development and environement
+### 9. Development and Environement
+
   - F#
   - C++
   - Python
@@ -90,7 +99,7 @@ It was written as a SWIG replacement for the Harfang Multimedia Framework (http:
 
 
 <!---
- function specification
+ Function specification
     - details how work the product
     - clear and detail description
     - define the requirement and constraints
