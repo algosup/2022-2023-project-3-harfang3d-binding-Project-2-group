@@ -93,7 +93,7 @@ adim it harfang pour creer aussi leur propre visuel
 
 ### 6. Use case
 <!--voir plus tard ----- > discord -->
-<img src="/Documents/Specification/image.png" width="500">
+<img src="/Documents/Specification/image1.png" width="500">
 
 ### 7. What will happen in the futur
 
@@ -118,24 +118,24 @@ Add new languages.
 
 ### 9. Glossary
 
-[^1] F# is a functional, imperative, object-oriented programming language for the . NET PLATFORM. F# is developed by Microsoft Research.
+[^1]: F# is a functional, imperative, object-oriented programming language for the . NET PLATFORM. F# is developed by Microsoft Research.
 
-[^2] C++ is a programming language: it is used to write computer programs, for example to create mobile applications or video games. C++ was created from the C language, whose functionalities it extends: C++ makes it possible to do object-oriented programming.
+[^2]: C++ is a programming language: it is used to write computer programs, for example to create mobile applications or video games. C++ was created from the C language, whose functionalities it extends: C++ makes it possible to do object-oriented programming.
 
-[^3] Python is the most widely used open source programming language for computer scientists. It has become the leading language for infrastructure management, data analysis and software development.
+[^3]: Python is the most widely used open source programming language for computer scientists. It has become the leading language for infrastructure management, data analysis and software development.
 
-[^4] Lua is a free, reflexive, imperative scripting language. It is designed to be embedded in other applications to extend them.
+[^4]: Lua is a free, reflexive, imperative scripting language. It is designed to be embedded in other applications to extend them.
 
-[^5] Go is an open-source, statically typed programming language. This programming language includes tools for safe memory usage, object management, rubbish collection and static typing along with concurrency.
+[^5]: Go is an open-source, statically typed programming language. This programming language includes tools for safe memory usage, object management, rubbish collection and static typing along with concurrency.
 
-[^6] Fabgen is a set of Python scripts to generate C++ binding code to different languages.  
+[^6]: Fabgen is a set of Python scripts to generate C++ binding code to different languages.  
 It was written as a SWIG[^7] replacement for the Harfang Multimedia [Framework](http://www.harfang3d.com).
 
-[^7] SWIG (Simplified Wrapper and Interface Generator) is an open source software tool for connecting software or software libraries written in C/C++ with scripting languages such as: Tcl, Perl, Python, Ruby, PHP, Lua or other programming languages such as Java, C#, Scheme and OCaml.
+[^7]: SWIG (Simplified Wrapper and Interface Generator) is an open source software tool for connecting software or software libraries written in C/C++ with scripting languages such as: Tcl, Perl, Python, Ruby, PHP, Lua or other programming languages such as Java, C#, Scheme and OCaml.
 
-[^9] A Human Machine Interface (HMI) is the point of contact between users and machines. These interfaces allow users to control machines, monitor processes and, in some cases, intervene.
+[^8]: A Human Machine Interface (HMI) is the point of contact between users and machines. These interfaces allow users to control machines, monitor processes and, in some cases, intervene.
 
-[^10] API (Application Programming Interface) is a software interface which makes it possible to "connect" a software or a service to another software or service in order to exchange data and functionalities.
+[^9:] API (Application Programming Interface) is a software interface which makes it possible to "connect" a software or a service to another software or service in order to exchange data and functionalities.
 
 
 
