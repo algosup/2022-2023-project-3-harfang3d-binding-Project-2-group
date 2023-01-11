@@ -78,7 +78,7 @@ F2 = Secondary;
 
 ##### 5.3 Baptiste
 
-  Baptiste is an IT student. and he would make an app game by his hands. So he learn C++ to just put in HARFANG® Studio.
+  Baptiste is an IT student and learns F# at school. and he would make an app game by his hands. So he learn C++ to just put in HARFANG® Studio.
 
 ##### 5.4 Nathalie
   Nathalie is dev python. And she wanted to create a game application in python. So she put in HARFANG® Framework  a code in python. And she has take the code give by HARFANG® Framework. And also put it in HARFANG® Studio.
