@@ -70,11 +70,11 @@ F2 = Secondary;
 
 ##### 5.1 Aurélia
 
-  Aurélia, HARFANG®3D developer since 2018, living near Orléans. She write her code and have the idea of what she could would a thing but she code this in F#. But HARFANG®3D 3D can't take F#. She write an email to put F#  in the code list. And permit to her and customers to do in F#. If they can't she will have to find a language that is in HARFANG®3D and that can do the same thing
+  Aurélia is an F# developer. She writes her code in F#. But HARFANG®3D doesn't support F#. So she do the same thing in different peogram language.
 
 ##### 5.2 Jean-Marc
 
-  Jean-Marc, developer in an IT services company and Python dev. He would like to make a wallpaper for a project. So he made a code in python in the HARFANG® Framework application. And then he put the code given by HARFANG® Framework into HARFANG® Studio.
+  Jean-Marc is developer in an IT services company and Python dev. He would like to make a wallpaper for a project. So he made a code in python in the HARFANG® Framework application. And then he put the code given by HARFANG® Framework into HARFANG® Studio.
 
 ##### 5.3 Baptiste
 
