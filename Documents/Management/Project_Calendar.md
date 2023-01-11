@@ -40,97 +40,100 @@ _Last update by: Pierre GORIN_<br>
 | :---------: | :----: | :-------------------------------: | :---------------------------------: | :--------------------------------: | :------------------------------: | :----------: | :----------: |
 |    Date     |   2    | [3](#tuesday-3rd-of-january-2023) | [4](#wednesday-4th-of-january-2023) | [5](#thursday-5th-of-january-2023) | [6](#friday-6th-of-january-2023) |      7       |      8       |
 |    <br>     |        |                                   |                                     |                                    |                                  |              |              |
-|   Pierre    |        |                                   |                                     |                                    |                                  | ~~Week-end~~ | ~~Week-end~~ |
-|  Alexandre  |        |                                   |                                     |                                    |                                  | ~~Week-end~~ | ~~Week-end~~ |
-|   Audrey    |        |                                   |                                     |                                    |                                  | ~~Week-end~~ | ~~Week-end~~ |
-|   Florent   |        |                                   |                                     |                                    |                                  | ~~Week-end~~ | ~~Week-end~~ |
-| Salaheddine |        |                                   |                                     |                                    |                                  | ~~Week-end~~ | ~~Week-end~~ |
-
+|   Pierre    |        |              1 Task               |               1 Task                |              No Task               |             No Task              | ~~Week-end~~ | ~~Week-end~~ |
+|  Alexandre  |        |              2 Tasks              |               1 Task                |              No Task               |             No Task              | ~~Week-end~~ | ~~Week-end~~ |
+|   Audrey    |        |              2 Tasks              |               1 Task                |              No Task               |             No Task              | ~~Week-end~~ | ~~Week-end~~ |
+|   Florent   |        |              2 Tasks              |               1 Task                |              No Task               |             No Task              | ~~Week-end~~ | ~~Week-end~~ |
+| Salaheddine |        |              2 Tasks              |               1 Task                |              No Task               |             No Task              | ~~Week-end~~ | ~~Week-end~~ |
 
 ### Tuesday 3rd of January 2023:
-Pierre: 
-- &check; Task
-<br>
+
+Pierre:
+
+- &check; Document: Take notes of the Harfang 3D meeting
+  <br>
 
 Alexandre:
-- &cross; Task
-<br>
+
+- &check; Research: Functionalities and APIs of Harfang 3D
+- &check; Document: Take notes of the Harfang 3D meeting
+  <br>
 
 Audrey:
-- &check; Task
-<br>
+
+- &check; Research: F# & Harfang 3D
+- &check; Document: Take notes of the Harfang 3D meeting
+  <br>
 
 Florent:
-- &check; Task
-<br>
+
+- &cross; Research: Libraries and Tools
+- &check; Document: Take notes of the Harfang 3D meeting
+  <br>
 
 Salaheddine:
-- &check; Task
+
+- &cross; Research: How to test a binding
+- &cross; Document: Take notes of the Harfang 3D meeting
 
 <br><br>
+
 ### Wednesday 4th of January 2023:
-Pierre: 
-- &check; Task
-<br>
+
+Pierre:
+
+- &check; Document: Write a report of the Harfang 3D meeting
+  <br>
 
 Alexandre:
-- &cross; Task
-<br>
+
+- &check; Development: Learn about Fabgen
+  <br>
 
 Audrey:
-- &check; Task
-<br>
+
+- &check; Document: Start writing the functionnal specification (40%)
+  <br>
 
 Florent:
-- &check; Task
-<br>
+
+- &check; Document: Start writing the technical specification (60%)
+  <br>
 
 Salaheddine:
-- &check; Task
+
+- &cross; Document: Start writing the test plan outline (10%)
 
 <br><br>
+
 ### Thursday 5th of January 2023:
-Pierre: 
-- &check; Task
-<br>
 
+Pierre:
+  <br>
 Alexandre:
-- &cross; Task
-<br>
-
+  <br>
 Audrey:
-- &check; Task
-<br>
-
+  <br>
 Florent:
-- &check; Task
-<br>
-
+  <br>
 Salaheddine:
-- &check; Task
 
 <br><br>
+
 ### Friday 6th of January 2023:
-Pierre: 
-- &check; Task
-<br>
 
+Pierre:
+  <br>
 Alexandre:
-- &cross; Task
-<br>
-
+  <br>
 Audrey:
-- &check; Task
-<br>
-
+  <br>
 Florent:
-- &check; Task
-<br>
-
+  <br>
 Salaheddine:
-- &check; Task
 
 <br><br>
+
 <hr>
 
 ## Week 2
@@ -141,117 +144,132 @@ Salaheddine:
 | :---------: | :------------------------------: | :---------------------------------: | :-----------------------------------: | :----------------------------------: | :--------------------------------: | :----------: | :----------: |
 |    Date     | [9](#monday-9th-of-january-2023) | [10](#tuesday-10th-of-january-2023) | [11](#wednesday-11th-of-january-2023) | [12](#thursday-12th-of-january-2023) | [13](#friday-13th-of-january-2023) |      14      |      15      |
 |    <br>     |                                  |                                     |                                       |                                      |                                    |              |              |
-|   Pierre    |                                  |                                     |                                       |                                      |                                    | ~~Week-end~~ | ~~Week-end~~ |
-|  Alexandre  |                                  |                                     |                                       |                                      |                                    | ~~Week-end~~ | ~~Week-end~~ |
-|   Audrey    |                                  |                                     |                                       |                                      |                                    | ~~Week-end~~ | ~~Week-end~~ |
-|   Florent   |                                  |                                     |                                       |                                      |                                    | ~~Week-end~~ | ~~Week-end~~ |
-| Salaheddine |                                  |                                     |                                       |                                      |                                    | ~~Week-end~~ | ~~Week-end~~ |
+|   Pierre    |             3 Tasks              |               1 Task                |                4 Tasks                |                                      |                                    | ~~Week-end~~ | ~~Week-end~~ |
+|  Alexandre  |              1 Task              |               1 Task                |                1 Task                 |                                      |                                    | ~~Week-end~~ | ~~Week-end~~ |
+|   Audrey    |              1 Task              |               1 Task                |                2 Tasks                |                                      |                                    | ~~Week-end~~ | ~~Week-end~~ |
+|   Florent   |              1 Task              |               1 Task                |                2 Tasks                |                                      |                                    | ~~Week-end~~ | ~~Week-end~~ |
+| Salaheddine |             2 Tasks              |               1 Task                |                2 Tasks                |                                      |                                    | ~~Week-end~~ | ~~Week-end~~ |
 
 ### Monday 9th of January 2023:
-Pierre: 
-- &check; Task
-<br>
+
+Pierre:
+
+- &check; Document: Write project calendar outline (90%)
+- &check; Document: Write the project communication plan (90%)
+- &check; Document: Start Writing a report of the firsts two weeks (10%)
+  <br>
 
 Alexandre:
-- &cross; Task
-<br>
+
+- &cross; Development: Identify what FABGen does
+  <br>
 
 Audrey:
-- &check; Task
-<br>
+
+- &check; Document: Partially complete the functionnal specification (70%)
+  <br>
 
 Florent:
-- &check; Task
-<br>
+
+- &check; Document: Partially complete the technical specification (90%)
+  <br>
 
 Salaheddine:
-- &check; Task
+
+- &cross; Document: Partially complete the test plan outline (20%)
+- &cross; Document: Begin the test cases (0%)
 
 <br><br>
+
 ### Tuesday 10th of January 2023:
-Pierre: 
-- &check; Task
-<br>
+
+Pierre:
+
+- &check; Development: Do the F# exercises (in class)
+  <br>
 
 Alexandre:
-- &cross; Task
-<br>
+
+- &check; Development: Do the F# exercises (in class)
+  <br>
 
 Audrey:
-- &check; Task
-<br>
+
+- &check; Development: Do the F# exercises (in class)
+  <br>
 
 Florent:
-- &check; Task
-<br>
+
+- &check; Development: Do the F# exercises (in class)
+  <br>
 
 Salaheddine:
-- &check; Task
 
-<br><br>
+- &check; Development: Do the F# exercises (in class)
+  <br><br>
+
 ### Wednesday 11th of January 2023:
-Pierre: 
-- &check; Task
-<br>
+
+Pierre:
+
+- &check; Document: Transfer the data from the agenda and the trello into the project calendar
+- &cross; Document: Complete the project communication plan
+- &cross; Document: Complete the report of the firsts two weeks
+- &cross; Document: Send full functionnal specification to the customers
+  <br>
 
 Alexandre:
-- &cross; Task
-<br>
+
+- &cross; Development: Have a clearer idea of how we can make the wrapper
+  <br>
 
 Audrey:
-- &check; Task
-<br>
+
+- &check; Document: Complete the functionnal specification (100%)
+- &cross; Document: Send full functionnal specification to the customers
+  <br>
 
 Florent:
-- &check; Task
-<br>
+
+- &check; Document: Complete the technical specification (100%)
+- &cross; Development: Have a clearer idea of how we can make the wrapper
+  <br>
 
 Salaheddine:
-- &check; Task
+
+- &cross; Document: Complete the test plan outline (100%)
+- &cross; Testing: Control the quality of the documents
 
 <br><br>
+
 ### Thursday 12th of January 2023:
-Pierre: 
-- &check; Task
-<br>
 
+Pierre:
+  <br>
 Alexandre:
-- &cross; Task
-<br>
-
+  <br>
 Audrey:
-- &check; Task
-<br>
-
+  <br>
 Florent:
-- &check; Task
-<br>
-
+  <br>
 Salaheddine:
-- &check; Task
 
 <br><br>
+
 ### Friday 13th of January 2023:
-Pierre: 
-- &check; Task
-<br>
 
+Pierre:
+  <br>
 Alexandre:
-- &cross; Task
-<br>
-
+  <br>
 Audrey:
-- &check; Task
-<br>
-
+  <br>
 Florent:
-- &check; Task
-<br>
-
+  <br>
 Salaheddine:
-- &check; Task
 
 <br><br>
+
 <hr>
 
 ## Week 3
@@ -269,110 +287,75 @@ Salaheddine:
 | Salaheddine |                                    |                                     |                                       |                                      |                                    | ~~Week-end~~ | ~~Week-end~~ |
 
 ### Monday 16th of January 2023:
-Pierre: 
-- &check; Task
-<br>
 
+Pierre:
+  <br>
 Alexandre:
-- &cross; Task
-<br>
-
+  <br>
 Audrey:
-- &check; Task
-<br>
-
+  <br>
 Florent:
-- &check; Task
-<br>
-
+  <br>
 Salaheddine:
-- &check; Task
 
 <br><br>
+
 ### Tuesday 17th of January 2023:
-Pierre: 
-- &check; Task
-<br>
 
+Pierre:
+  <br>
 Alexandre:
-- &cross; Task
-<br>
-
+  <br>
 Audrey:
-- &check; Task
-<br>
-
+  <br>
 Florent:
-- &check; Task
-<br>
-
+  <br>
 Salaheddine:
-- &check; Task
 
 <br><br>
+
 ### Wednesday 18th of January 2023:
-Pierre: 
-- &check; Task
-<br>
 
+Pierre:
+  <br>
 Alexandre:
-- &cross; Task
-<br>
-
+  <br>
 Audrey:
-- &check; Task
-<br>
-
+  <br>
 Florent:
-- &check; Task
-<br>
-
+  <br>
 Salaheddine:
-- &check; Task
 
 <br><br>
+
 ### Thursday 19th of January 2023:
-Pierre: 
-- &check; Task
-<br>
 
+Pierre:
+  <br>
 Alexandre:
-- &cross; Task
-<br>
-
+  <br>
 Audrey:
-- &check; Task
-<br>
-
+  <br>
 Florent:
-- &check; Task
-<br>
-
+  <br>
 Salaheddine:
-- &check; Task
 
 <br><br>
+
 ### Friday 20th of January 2023:
-Pierre: 
-- &check; Task
-<br>
 
+Pierre:
+  <br>
 Alexandre:
-- &cross; Task
-<br>
-
+  <br>
 Audrey:
-- &check; Task
-<br>
-
+  <br>
 Florent:
-- &check; Task
-<br>
-
+  <br>
 Salaheddine:
-- &check; Task
 
 <br><br>
+
 <hr>
 
 ## Week 4
@@ -390,110 +373,75 @@ Salaheddine:
 | Salaheddine |                                    |                                     |                                       |                                      |                                    | ~~Week-end~~ | ~~Week-end~~ |
 
 ### Monday 23rd of January 2023:
-Pierre: 
-- &check; Task
-<br>
 
+Pierre:
+  <br>
 Alexandre:
-- &cross; Task
-<br>
-
+  <br>
 Audrey:
-- &check; Task
-<br>
-
+  <br>
 Florent:
-- &check; Task
-<br>
-
+  <br>
 Salaheddine:
-- &check; Task
 
 <br><br>
+
 ### Tuesday 24th of January 2023:
-Pierre: 
-- &check; Task
-<br>
 
+Pierre:
+  <br>
 Alexandre:
-- &cross; Task
-<br>
-
+  <br>
 Audrey:
-- &check; Task
-<br>
-
+  <br>
 Florent:
-- &check; Task
-<br>
-
+  <br>
 Salaheddine:
-- &check; Task
 
 <br><br>
+
 ### Wednesday 25th of January 2023:
-Pierre: 
-- &check; Task
-<br>
 
+Pierre:
+  <br>
 Alexandre:
-- &cross; Task
-<br>
-
+  <br>
 Audrey:
-- &check; Task
-<br>
-
+  <br>
 Florent:
-- &check; Task
-<br>
-
+  <br>
 Salaheddine:
-- &check; Task
 
 <br><br>
+
 ### Thursday 26th of January 2023:
-Pierre: 
-- &check; Task
-<br>
 
+Pierre:
+  <br>
 Alexandre:
-- &cross; Task
-<br>
-
+  <br>
 Audrey:
-- &check; Task
-<br>
-
+  <br>
 Florent:
-- &check; Task
-<br>
-
+  <br>
 Salaheddine:
-- &check; Task
 
 <br><br>
+
 ### Friday 26th of January 2023:
-Pierre: 
-- &check; Task
-<br>
 
+Pierre:
+  <br>
 Alexandre:
-- &cross; Task
-<br>
-
+  <br>
 Audrey:
-- &check; Task
-<br>
-
+  <br>
 Florent:
-- &check; Task
-<br>
-
+  <br>
 Salaheddine:
-- &check; Task
 
 <br><br>
+
 <hr>
 
 ## Week 5
@@ -511,110 +459,75 @@ Salaheddine:
 | Salaheddine |                                    |                                     |                                      |                                     |                                   | ~~Week-end~~ | ~~Week-end~~ |
 
 ### Monday 30th of January 2023:
-Pierre: 
-- &check; Task
-<br>
 
+Pierre:
+  <br>
 Alexandre:
-- &cross; Task
-<br>
-
+  <br>
 Audrey:
-- &check; Task
-<br>
-
+  <br>
 Florent:
-- &check; Task
-<br>
-
+  <br>
 Salaheddine:
-- &check; Task
 
 <br><br>
+
 ### Tuesday 31st of January 2023:
-Pierre: 
-- &check; Task
-<br>
 
+Pierre:
+  <br>
 Alexandre:
-- &cross; Task
-<br>
-
+  <br>
 Audrey:
-- &check; Task
-<br>
-
+  <br>
 Florent:
-- &check; Task
-<br>
-
+  <br>
 Salaheddine:
-- &check; Task
 
 <br><br>
+
 ### Wednesday 1st of February 2023:
-Pierre: 
-- &check; Task
-<br>
 
+Pierre:
+  <br>
 Alexandre:
-- &cross; Task
-<br>
-
+  <br>
 Audrey:
-- &check; Task
-<br>
-
+  <br>
 Florent:
-- &check; Task
-<br>
-
+  <br>
 Salaheddine:
-- &check; Task
 
 <br><br>
+
 ### Thursday 2nd of February 2023:
-Pierre: 
-- &check; Task
-<br>
 
+Pierre:
+  <br>
 Alexandre:
-- &cross; Task
-<br>
-
+  <br>
 Audrey:
-- &check; Task
-<br>
-
+  <br>
 Florent:
-- &check; Task
-<br>
-
+  <br>
 Salaheddine:
-- &check; Task
 
 <br><br>
+
 ### Friday 3rd of February 2023:
-Pierre: 
-- &check; Task
-<br>
 
+Pierre:
+  <br>
 Alexandre:
-- &cross; Task
-<br>
-
+  <br>
 Audrey:
-- &check; Task
-<br>
-
+  <br>
 Florent:
-- &check; Task
-<br>
-
+  <br>
 Salaheddine:
-- &check; Task
 
 <br><br>
+
 <hr>
 
 ## Week 6
@@ -632,110 +545,75 @@ Salaheddine:
 | Salaheddine |                                   |                                    |                                      |                                     |                                     | ~~Week-end~~ | ~~Week-end~~ |
 
 ### Monday 6th of February 2023:
-Pierre: 
-- &check; Task
-<br>
 
+Pierre:
+  <br>
 Alexandre:
-- &cross; Task
-<br>
-
+  <br>
 Audrey:
-- &check; Task
-<br>
-
+  <br>
 Florent:
-- &check; Task
-<br>
-
+  <br>
 Salaheddine:
-- &check; Task
 
 <br><br>
+
 ### Tuesday 7th of February 2023:
-Pierre: 
-- &check; Task
-<br>
 
+Pierre:
+  <br>
 Alexandre:
-- &cross; Task
-<br>
-
+  <br>
 Audrey:
-- &check; Task
-<br>
-
+  <br>
 Florent:
-- &check; Task
-<br>
-
+  <br>
 Salaheddine:
-- &check; Task
 
 <br><br>
+
 ### Wednesday 8th of February 2023:
-Pierre: 
-- &check; Task
-<br>
 
+Pierre:
+  <br>
 Alexandre:
-- &cross; Task
-<br>
-
+  <br>
 Audrey:
-- &check; Task
-<br>
-
+  <br>
 Florent:
-- &check; Task
-<br>
-
+  <br>
 Salaheddine:
-- &check; Task
 
 <br><br>
+
 ### Thursday 9th of February 2023:
-Pierre: 
-- &check; Task
-<br>
 
+Pierre:
+  <br>
 Alexandre:
-- &cross; Task
-<br>
-
+  <br>
 Audrey:
-- &check; Task
-<br>
-
+  <br>
 Florent:
-- &check; Task
-<br>
-
+  <br>
 Salaheddine:
-- &check; Task
 
 <br><br>
+
 ### Friday 10th of February 2023:
-Pierre: 
-- &check; Task
-<br>
 
+Pierre:
+  <br>
 Alexandre:
-- &cross; Task
-<br>
-
+  <br>
 Audrey:
-- &check; Task
-<br>
-
+  <br>
 Florent:
-- &check; Task
-<br>
-
+  <br>
 Salaheddine:
-- &check; Task
 
 <br><br>
+
 <hr>
 
 ## Week 7
@@ -753,105 +631,69 @@ Salaheddine:
 | Salaheddine |                                     |                                      |                                        |                                       |                                     | ~~Week-end~~ | ~~Week-end~~ |
 
 ### Monday 13th of February 2023:
-Pierre: 
-- &check; Task
-<br>
 
+Pierre:
+  <br>
 Alexandre:
-- &cross; Task
-<br>
-
+  <br>
 Audrey:
-- &check; Task
-<br>
-
+  <br>
 Florent:
-- &check; Task
-<br>
-
+  <br>
 Salaheddine:
-- &check; Task
 
 <br><br>
+
 ### Tuesday 14th of February 2023:
-Pierre: 
-- &check; Task
-<br>
 
+Pierre:
+  <br>
 Alexandre:
-- &cross; Task
-<br>
-
+  <br>
 Audrey:
-- &check; Task
-<br>
-
+  <br>
 Florent:
-- &check; Task
-<br>
-
+  <br>
 Salaheddine:
-- &check; Task
 
 <br><br>
+
 ### Wednesday 15th of February 2023:
-Pierre: 
-- &check; Task
-<br>
 
+Pierre:
+  <br>
 Alexandre:
-- &cross; Task
-<br>
-
+  <br>
 Audrey:
-- &check; Task
-<br>
-
+  <br>
 Florent:
-- &check; Task
-<br>
-
+  <br>
 Salaheddine:
-- &check; Task
 
 <br><br>
+
 ### Thursday 16th of February 2023:
-Pierre: 
-- &check; Task
-<br>
 
+Pierre:
+  <br>
 Alexandre:
-- &cross; Task
-<br>
-
+  <br>
 Audrey:
-- &check; Task
-<br>
-
+  <br>
 Florent:
-- &check; Task
-<br>
-
+  <br>
 Salaheddine:
-- &check; Task
 
 <br><br>
+
 ### Friday 17th of February 2023:
-Pierre: 
-- &check; Task
-<br>
 
+Pierre:
+  <br>
 Alexandre:
-- &cross; Task
-<br>
-
+  <br>
 Audrey:
-- &check; Task
-<br>
-
+  <br>
 Florent:
-- &check; Task
-<br>
-
+  <br>
 Salaheddine:
-- &check; Task
