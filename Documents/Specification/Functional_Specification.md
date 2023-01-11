@@ -17,7 +17,7 @@
         - [5.3 Baptiste](#53-baptiste)
         - [5.4 Nathalie](#54-nathalie)
     - [6. Use case](#6-use-case)
-    - [7. What will happen in the futur](#7-what-will-happen-in-the-futur)
+    - [7. What will happen in the future](#7-what-will-happen-in-the-future)
         - [7.1. Today](#71-today)
         - [7.2. In the future](#72-in-the-future)
     - [8. Development and Environement](#8-development-and-environement)
@@ -39,7 +39,7 @@
 
 ### 2. Company Overview
 
-[HARFANG®3D](https://www.harfang3d.com/en_US/)  builds real-time 3D tools for industry professionals. They enable the implementation and deployment of 3D solutions (HMI [[8]](#8---hmi), VR/AR, simulation, interactive 3D), regardless of development language or platform constraints.
+[HARFANG®3D](https://www.harfang3d.com/en_US/)  builds real-time 3D tools for industry professionals. They enable the implementation and deployment of 3D solutions (HMI [^8], VR/AR, simulation, interactive 3D), regardless of development language or platform constraints.
 
 They meet two different types of demands :
 
@@ -53,7 +53,7 @@ They meet two different types of demands :
 
 The goal of this project is to create a binding between our 3D engine, written in C++[^2], and the F#[^1] programming language. This binding will allow us to use our 3D engine in a F# environment and access its functionality from within a F# program.
 
-To achieve this goal, we will need to research different approaches for creating bindings, select appropriate tools and libraries, and implement the binding according to our chosen approach. We will also need to test the binding to ensure that it is functioning correctly and meets the requirements of our project.
+To achieve this goal, we will need to research different approaches for creating bindings(Fabgen[^6] in is case), select appropriate tools and libraries, and implement the binding according to our chosen approach. We will also need to test the binding to ensure that it is functioning correctly and meets the requirements of our project.
 
 ### 4. Requirements
 
@@ -95,7 +95,7 @@ adim it harfang pour creer aussi leur propre visuel
 <!--voir plus tard ----- > discord -->
 <img src="/Documents/Specification/image1.png" width="600">
 
-### 7. What will happen in the futur
+### 7. What will happen in the future
 
 ##### 7.1. Today
 
@@ -135,7 +135,7 @@ It was written as a SWIG[^7] replacement for the Harfang Multimedia [Framework](
 
 [^8]: A Human Machine Interface (HMI) is the point of contact between users and machines. These interfaces allow users to control machines, monitor processes and, in some cases, intervene.
 
-[^9:] API (Application Programming Interface) is a software interface which makes it possible to "connect" a software or a service to another software or service in order to exchange data and functionalities.
+[^9]: API (Application Programming Interface) is a software interface which makes it possible to "connect" a software or a service to another software or service in order to exchange data and functionalities.
 
 
 
