@@ -2,7 +2,7 @@
 
 Created the 2023-01-09<br>
 Author: Pierre GORIN<br><br>
-_Last update: 2023-01-09 3:37pm_<br>
+_Last update: 2023-01-11 4:56pm_<br>
 _Last update by: Pierre GORIN_<br>
 
 <hr>
@@ -109,13 +109,13 @@ Salaheddine:
 ### Thursday 5th of January 2023:
 
 Pierre:
-  <br>
+<br>
 Alexandre:
-  <br>
+<br>
 Audrey:
-  <br>
+<br>
 Florent:
-  <br>
+<br>
 Salaheddine:
 
 <br><br>
@@ -123,13 +123,13 @@ Salaheddine:
 ### Friday 6th of January 2023:
 
 Pierre:
-  <br>
+<br>
 Alexandre:
-  <br>
+<br>
 Audrey:
-  <br>
+<br>
 Florent:
-  <br>
+<br>
 Salaheddine:
 
 <br><br>
@@ -213,9 +213,9 @@ Salaheddine:
 Pierre:
 
 - &check; Document: Transfer the data from the agenda and the trello into the project calendar
-- &cross; Document: Complete the project communication plan
+- &check; Document: Complete the project communication plan
 - &cross; Document: Complete the report of the firsts two weeks
-- &cross; Document: Send full functionnal specification to the customers
+- &check; Document: Send full functionnal specification to the customers
   <br>
 
 Alexandre:
@@ -226,7 +226,7 @@ Alexandre:
 Audrey:
 
 - &check; Document: Complete the functionnal specification (100%)
-- &cross; Document: Send full functionnal specification to the customers
+- &check; Document: Send full functionnal specification to the customers
   <br>
 
 Florent:
@@ -238,20 +238,20 @@ Florent:
 Salaheddine:
 
 - &cross; Document: Complete the test plan outline (100%)
-- &cross; Testing: Control the quality of the documents
+- &check; Testing: Control the quality of the documents
 
 <br><br>
 
 ### Thursday 12th of January 2023:
 
 Pierre:
-  <br>
+<br>
 Alexandre:
-  <br>
+<br>
 Audrey:
-  <br>
+<br>
 Florent:
-  <br>
+<br>
 Salaheddine:
 
 <br><br>
@@ -259,13 +259,13 @@ Salaheddine:
 ### Friday 13th of January 2023:
 
 Pierre:
-  <br>
+<br>
 Alexandre:
-  <br>
+<br>
 Audrey:
-  <br>
+<br>
 Florent:
-  <br>
+<br>
 Salaheddine:
 
 <br><br>
@@ -289,13 +289,13 @@ Salaheddine:
 ### Monday 16th of January 2023:
 
 Pierre:
-  <br>
+<br>
 Alexandre:
-  <br>
+<br>
 Audrey:
-  <br>
+<br>
 Florent:
-  <br>
+<br>
 Salaheddine:
 
 <br><br>
@@ -303,13 +303,13 @@ Salaheddine:
 ### Tuesday 17th of January 2023:
 
 Pierre:
-  <br>
+<br>
 Alexandre:
-  <br>
+<br>
 Audrey:
-  <br>
+<br>
 Florent:
-  <br>
+<br>
 Salaheddine:
 
 <br><br>
@@ -317,13 +317,13 @@ Salaheddine:
 ### Wednesday 18th of January 2023:
 
 Pierre:
-  <br>
+<br>
 Alexandre:
-  <br>
+<br>
 Audrey:
-  <br>
+<br>
 Florent:
-  <br>
+<br>
 Salaheddine:
 
 <br><br>
@@ -331,13 +331,13 @@ Salaheddine:
 ### Thursday 19th of January 2023:
 
 Pierre:
-  <br>
+<br>
 Alexandre:
-  <br>
+<br>
 Audrey:
-  <br>
+<br>
 Florent:
-  <br>
+<br>
 Salaheddine:
 
 <br><br>
@@ -345,13 +345,13 @@ Salaheddine:
 ### Friday 20th of January 2023:
 
 Pierre:
-  <br>
+<br>
 Alexandre:
-  <br>
+<br>
 Audrey:
-  <br>
+<br>
 Florent:
-  <br>
+<br>
 Salaheddine:
 
 <br><br>
@@ -375,13 +375,13 @@ Salaheddine:
 ### Monday 23rd of January 2023:
 
 Pierre:
-  <br>
+<br>
 Alexandre:
-  <br>
+<br>
 Audrey:
-  <br>
+<br>
 Florent:
-  <br>
+<br>
 Salaheddine:
 
 <br><br>
@@ -389,13 +389,13 @@ Salaheddine:
 ### Tuesday 24th of January 2023:
 
 Pierre:
-  <br>
+<br>
 Alexandre:
-  <br>
+<br>
 Audrey:
-  <br>
+<br>
 Florent:
-  <br>
+<br>
 Salaheddine:
 
 <br><br>
@@ -403,13 +403,13 @@ Salaheddine:
 ### Wednesday 25th of January 2023:
 
 Pierre:
-  <br>
+<br>
 Alexandre:
-  <br>
+<br>
 Audrey:
-  <br>
+<br>
 Florent:
-  <br>
+<br>
 Salaheddine:
 
 <br><br>
@@ -417,13 +417,13 @@ Salaheddine:
 ### Thursday 26th of January 2023:
 
 Pierre:
-  <br>
+<br>
 Alexandre:
-  <br>
+<br>
 Audrey:
-  <br>
+<br>
 Florent:
-  <br>
+<br>
 Salaheddine:
 
 <br><br>
@@ -431,13 +431,13 @@ Salaheddine:
 ### Friday 26th of January 2023:
 
 Pierre:
-  <br>
+<br>
 Alexandre:
-  <br>
+<br>
 Audrey:
-  <br>
+<br>
 Florent:
-  <br>
+<br>
 Salaheddine:
 
 <br><br>
@@ -461,13 +461,13 @@ Salaheddine:
 ### Monday 30th of January 2023:
 
 Pierre:
-  <br>
+<br>
 Alexandre:
-  <br>
+<br>
 Audrey:
-  <br>
+<br>
 Florent:
-  <br>
+<br>
 Salaheddine:
 
 <br><br>
@@ -475,13 +475,13 @@ Salaheddine:
 ### Tuesday 31st of January 2023:
 
 Pierre:
-  <br>
+<br>
 Alexandre:
-  <br>
+<br>
 Audrey:
-  <br>
+<br>
 Florent:
-  <br>
+<br>
 Salaheddine:
 
 <br><br>
@@ -489,13 +489,13 @@ Salaheddine:
 ### Wednesday 1st of February 2023:
 
 Pierre:
-  <br>
+<br>
 Alexandre:
-  <br>
+<br>
 Audrey:
-  <br>
+<br>
 Florent:
-  <br>
+<br>
 Salaheddine:
 
 <br><br>
@@ -503,13 +503,13 @@ Salaheddine:
 ### Thursday 2nd of February 2023:
 
 Pierre:
-  <br>
+<br>
 Alexandre:
-  <br>
+<br>
 Audrey:
-  <br>
+<br>
 Florent:
-  <br>
+<br>
 Salaheddine:
 
 <br><br>
@@ -517,13 +517,13 @@ Salaheddine:
 ### Friday 3rd of February 2023:
 
 Pierre:
-  <br>
+<br>
 Alexandre:
-  <br>
+<br>
 Audrey:
-  <br>
+<br>
 Florent:
-  <br>
+<br>
 Salaheddine:
 
 <br><br>
@@ -538,7 +538,7 @@ Salaheddine:
 | :---------: | :-------------------------------: | :--------------------------------: | :----------------------------------: | :---------------------------------: | :---------------------------------: | :----------: | :----------: |
 |    Date     | [6](#monday-6th-of-february-2023) | [7](#tuesday-7th-of-february-2023) | [8](#wednesday-8th-of-february-2023) | [9](#thursday-9th-of-february-2023) | [10](#friday-10th-of-february-2023) |      11      |      12      |
 |    <br>     |                                   |                                    |                                      |                                     |                                     |              |              |
-|   Pierre    |                                   |                                    |                                      |                                     |                                     | ~~Week-end~~ | ~~Week-end~~ |
+|   Pierre    |                                   |                                    |                                      |               1 Task                |                                     | ~~Week-end~~ | ~~Week-end~~ |
 |  Alexandre  |                                   |                                    |                                      |                                     |                                     | ~~Week-end~~ | ~~Week-end~~ |
 |   Audrey    |                                   |                                    |                                      |                                     |                                     | ~~Week-end~~ | ~~Week-end~~ |
 |   Florent   |                                   |                                    |                                      |                                     |                                     | ~~Week-end~~ | ~~Week-end~~ |
@@ -547,13 +547,13 @@ Salaheddine:
 ### Monday 6th of February 2023:
 
 Pierre:
-  <br>
+<br>
 Alexandre:
-  <br>
+<br>
 Audrey:
-  <br>
+<br>
 Florent:
-  <br>
+<br>
 Salaheddine:
 
 <br><br>
@@ -561,13 +561,13 @@ Salaheddine:
 ### Tuesday 7th of February 2023:
 
 Pierre:
-  <br>
+<br>
 Alexandre:
-  <br>
+<br>
 Audrey:
-  <br>
+<br>
 Florent:
-  <br>
+<br>
 Salaheddine:
 
 <br><br>
@@ -575,13 +575,13 @@ Salaheddine:
 ### Wednesday 8th of February 2023:
 
 Pierre:
-  <br>
+<br>
 Alexandre:
-  <br>
+<br>
 Audrey:
-  <br>
+<br>
 Florent:
-  <br>
+<br>
 Salaheddine:
 
 <br><br>
@@ -589,7 +589,10 @@ Salaheddine:
 ### Thursday 9th of February 2023:
 
 Pierre:
+
+- &cross; General: Start making the slide show for the oral exam.
   <br>
+  
 Alexandre:
   <br>
 Audrey:
@@ -603,13 +606,13 @@ Salaheddine:
 ### Friday 10th of February 2023:
 
 Pierre:
-  <br>
+<br>
 Alexandre:
-  <br>
+<br>
 Audrey:
-  <br>
+<br>
 Florent:
-  <br>
+<br>
 Salaheddine:
 
 <br><br>
@@ -624,22 +627,22 @@ Salaheddine:
 | :---------: | :---------------------------------: | :----------------------------------: | :------------------------------------: | :-----------------------------------: | :---------------------------------: | :----------: | :----------: |
 |    Date     | [13](#monday-13th-of-february-2023) | [14](#tuesday-14th-of-february-2023) | [15](#wednesday-15th-of-february-2023) | [16](#thursday-16th-of-february-2023) | [17](#friday-17th-of-february-2023) |      18      |      19      |
 |    <br>     |                                     |                                      |                                        |                                       |                                     |              |              |
-|   Pierre    |                                     |                                      |                                        |                                       |                                     | ~~Week-end~~ | ~~Week-end~~ |
-|  Alexandre  |                                     |                                      |                                        |                                       |                                     | ~~Week-end~~ | ~~Week-end~~ |
-|   Audrey    |                                     |                                      |                                        |                                       |                                     | ~~Week-end~~ | ~~Week-end~~ |
-|   Florent   |                                     |                                      |                                        |                                       |                                     | ~~Week-end~~ | ~~Week-end~~ |
-| Salaheddine |                                     |                                      |                                        |                                       |                                     | ~~Week-end~~ | ~~Week-end~~ |
+|   Pierre    |                                     |                                      |                                        |                2 Tasks                |                                     | ~~Week-end~~ | ~~Week-end~~ |
+|  Alexandre  |                                     |                                      |                                        |                1 Task                 |                                     | ~~Week-end~~ | ~~Week-end~~ |
+|   Audrey    |                                     |                                      |                                        |                1 Task                 |                                     | ~~Week-end~~ | ~~Week-end~~ |
+|   Florent   |                                     |                                      |                                        |                1 Task                 |                                     | ~~Week-end~~ | ~~Week-end~~ |
+| Salaheddine |                                     |                                      |                                        |                1 Task                 |                                     | ~~Week-end~~ | ~~Week-end~~ |
 
 ### Monday 13th of February 2023:
 
 Pierre:
-  <br>
+<br>
 Alexandre:
-  <br>
+<br>
 Audrey:
-  <br>
+<br>
 Florent:
-  <br>
+<br>
 Salaheddine:
 
 <br><br>
@@ -647,13 +650,13 @@ Salaheddine:
 ### Tuesday 14th of February 2023:
 
 Pierre:
-  <br>
+<br>
 Alexandre:
-  <br>
+<br>
 Audrey:
-  <br>
+<br>
 Florent:
-  <br>
+<br>
 Salaheddine:
 
 <br><br>
@@ -661,13 +664,13 @@ Salaheddine:
 ### Wednesday 15th of February 2023:
 
 Pierre:
-  <br>
+<br>
 Alexandre:
-  <br>
+<br>
 Audrey:
-  <br>
+<br>
 Florent:
-  <br>
+<br>
 Salaheddine:
 
 <br><br>
@@ -675,25 +678,39 @@ Salaheddine:
 ### Thursday 16th of February 2023:
 
 Pierre:
+
+- &cross; General: Finish the slide show for the oral exam.
+- &cross; General: Know your part of the speech and feel comfortable presenting it.
   <br>
+
 Alexandre:
+
+- &cross; General: Know your part of the speech and feel comfortable presenting it.
   <br>
+
 Audrey:
+
+- &cross; General: Know your part of the speech and feel comfortable presenting it.
   <br>
+
 Florent:
+
+- &cross; General: Know your part of the speech and feel comfortable presenting it.
   <br>
+
 Salaheddine:
+- &cross; General: Know your part of the speech and feel comfortable presenting it.
 
 <br><br>
 
 ### Friday 17th of February 2023:
 
 Pierre:
-  <br>
+<br>
 Alexandre:
-  <br>
+<br>
 Audrey:
-  <br>
+<br>
 Florent:
-  <br>
+<br>
 Salaheddine:
