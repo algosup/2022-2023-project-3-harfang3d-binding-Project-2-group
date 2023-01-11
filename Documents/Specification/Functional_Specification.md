@@ -62,7 +62,7 @@ F1 = Important;
 F2 = Secondary;
 
 |Function| Criteria|Level|Flexibility|
-|:----:|:----:|:----:|:----:|:----:|:----:|
+|:----:|:----:|:----:|:----:|
 | F# functions     | entry of code     |  put code     |  F0  |
 |convert to F# in C or C++ | use C API for convert  | code F# / code C/C++ | F1|
 
@@ -93,7 +93,7 @@ adim it harfang pour creer aussi leur propre visuel
 
 ### 6. Use case
 <!--voir plus tard ----- > discord -->
-<img src="/Documents/Specification/image1.png" width="500">
+<img src="/Documents/Specification/image1.png" width="600">
 
 ### 7. What will happen in the futur
 
