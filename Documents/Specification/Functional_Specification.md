@@ -22,6 +22,15 @@
         - [In the futur:](#in-the-futur)
     - [8. Development and Environement](#8-development-and-environement)
   - [Glossary](#glossary)
+          - [1 - F#:](#1---f)
+          - [2 - C++:](#2---c)
+          - [3 - Python:](#3---python)
+          - [4 - Lua:](#4---lua)
+          - [5 - Go:](#5---go)
+          - [6 - FABGen:](#6---fabgen)
+          - [7 - SWIG:](#7---swig)
+          - [8 - HMI:](#8---hmi)
+          - [9 - API:](#9---api)
 >>>>>>> 723e4d3d6ff445095a9e76f3d7642ac29a45d57d
   - [Glossary](#glossary)
 
@@ -41,7 +50,7 @@
 
 ### 2. Company Overview
 
-[HARFANG®3D](https://www.harfang3d.com/en_US/) builds real-time 3D tools for industry professionals. They enable the implementation and deployment of 3D solutions (HMI, VR/AR, simulation, interactive 3D), regardless of development language or platform constraints.
+[HARFANG®3D](https://www.harfang3d.com/en_US/)  builds real-time 3D tools for industry professionals. They enable the implementation and deployment of 3D solutions (HMI [[8]](#8---hmi), VR/AR, simulation, interactive 3D), regardless of development language or platform constraints.
 
 They meet two different types of demands :
 
@@ -49,11 +58,11 @@ They meet two different types of demands :
 
 <br>
 
-- HARFANG® Framework is an easy-to-adapt, cross-platform, multi-language, powerful and optimized 3D visualization engine written in C++ and accessible via an open API in C++, or high-level programming languages such as Python, Golang, and Lua.
+- HARFANG® Framework is an easy-to-adapt, cross-platform, multi-language, powerful and optimized 3D visualization engine written in C++ and accessible via an open API [[9]](#9---api) in C++[[2]](#2---c), or high-level programming languages such as Python, Golang, and Lua.
 
 ### 3. Goals
 
-The goal of this project is to create a binding between our 3D engine, written in C++, and the F# programming language. This binding will allow us to use our 3D engine in a F# environment and access its functionality from within a F# program.
+The goal of this project is to create a binding between our 3D engine, written in C++[[2]](#2---c), and the F#[[1]](#1---f) programming language. This binding will allow us to use our 3D engine in a F# environment and access its functionality from within a F# program.
 
 To achieve this goal, we will need to research different approaches for creating bindings, select appropriate tools and libraries, and implement the binding according to our chosen approach. We will also need to test the binding to ensure that it is functioning correctly and meets the requirements of our project.
 
@@ -63,11 +72,10 @@ F0 = Mandatory;
 F1 = Important;
 F2 = Secondary;
 
-|Function	| Criteria	|Level	| Flexibility|
+|Function| Criteria|Level|Flexibility|
 |:----:|:----:|:----:|:----:|:----:|:----:|
 | F# functions     | entry of code     |  put code     |  F0  |
 |convert to F# in C or C++ | use C API for convert  | code F# / code C/C++ | F1|
-
 
 ### 5. Personas and Scenarios
 
@@ -84,7 +92,7 @@ F2 = Secondary;
   Baptiste is a student in IT. and he would make an app game by his hands. So he learn C++ to just put in HARFANG® Studio.
 
 ##### 5.4 Nathalie:
-  Nathalie is dev python. And she wanted to create a game application in python. So she put in HARFANG® Framework  a code in python. And she has take the code give by HARFANG® Framework. And also put it in HARFANG® St
+  Nathalie is dev python. And she wanted to create a game application in python. So she put in HARFANG® Framework  a code in python. And she has take the code give by HARFANG® Framework. And also put it in HARFANG® Studio.
 
 <!--
 idées :
@@ -101,22 +109,48 @@ adim it harfang pour creer aussi leur propre visuel
 ### 7. What will happen in the futur
 
 ##### Today:
+Add F# language in HARFANG®3D.
 
-##### In the futur:
+##### In the futur: 
+Add new languages.
+<!--ajouter d enouveaux languages  -->
 
 ### 8. Development and Environement
 
-  - F#
-  - C++
-  - Python
+  - F#[ [1]](#1---f-)
+  - C++ [[2]](#2---c)
+  - Python [[3]](#3---python)
+  - (Lua [[4]](#4---lua) and Go [[5]](#5---go)) 
   - (Windows / MAC OS)  
 
 ******************************
 
 ## Glossary
 
-FABGen : Fabgen is a set of Python scripts to generate C++ binding code to different languages.  
-It was written as a SWIG replacement for the Harfang Multimedia Framework (http://www.harfang3d.com).
+###### 1 - F#:
+F# is a functional, imperative, object-oriented programming language for the . NET PLATFORM. F# is developed by Microsoft Research.
+###### 2 - C++:
+C++ is a programming language: it is used to write computer programs, for example to create mobile applications or video games. C++ was created from the C language, whose functionalities it extends: C++ makes it possible to do object-oriented programming.
+###### 3 - Python:
+Python is the most widely used open source programming language for computer scientists. It has become the leading language for infrastructure management, data analysis and software development.
+###### 4 - Lua:
+Lua is a free, reflexive, imperative scripting language. It is designed to be embedded in other applications to extend them.
+###### 5 - Go:
+It is an open-source, statically typed programming language. This programming language includes tools for safe memory usage, object management, rubbish collection and static typing along with concurrency.
+
+###### 6 - FABGen:
+Fabgen is a set of Python scripts to generate C++ binding code to different languages.  
+It was written as a SWIG [[8](#8---swig)] replacement for the Harfang Multimedia [Framework](http://www.harfang3d.com).
+
+###### 7 - SWIG:
+SWIG (Simplified Wrapper and Interface Generator) is an open source software tool for connecting software or software libraries written in C/C++ with scripting languages such as: Tcl, Perl, Python, Ruby, PHP, Lua or other programming languages such as Java, C#, Scheme and OCaml.
+
+###### 8 - HMI:
+A Human Machine Interface (HMI) is the point of contact between users and machines. These interfaces allow users to control machines, monitor processes and, in some cases, intervene.
+
+###### 9 - API:
+API (Application Programming Interface) is a software interface which makes it possible to "connect" a software or a service to another software or service in order to exchange data and functionalities.
+
 
 
 <!---
