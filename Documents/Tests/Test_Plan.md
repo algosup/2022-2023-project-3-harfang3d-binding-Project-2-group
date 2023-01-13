@@ -15,21 +15,26 @@
     - [**`Salaheddine NAMIR`**](#salaheddine-namir)
         - [*Quality Assurance (QA)*](#quality-assurance-qa)
     - [Table of content](#table-of-content)
+        - [Introduction](#introduction)
+        - [Objectif and Tasks](#objectif-and-tasks)
+             - [Objectif](#objectif)
+             - [Tasks](#tasks)
       - [Test F#](#test-f)
       - [Test CPython](#test-cpython)
       - [Test C++](#test-c)
 
 ### Introduction
-This test plan is for Harfang® 3D company, asked for an binding F#  for it 3D engine with Fabgen, an binder developpe by the group. This binder is used instead of SWING. FabGen has already implemented CPython 3.2+, Lua 5.3+ and Go 1.11+.
+This test plan is for HARFANG® 3D company, asked for an binding F#  for it 3D engine with Fabgen, an binder developpe by the group. This binder is used instead of SWING. FabGen has already implemented CPython 3.2+, Lua 5.3+ and Go 1.11+.
 
 ### Objectif and Tasks
 #### Objectif
 The main tasks is create a binding generator for F# source code, assure the  is alway works with the target language F#, and used binding library on Harfang studio.
 
 #### Tasks
-- Link a F# API on FabGen
-- Build a binding F# interface 
-- Binding method, type of F#.  
+- Link a F# API on FabGen.
+- Build a binding F# interface. 
+- Binding method, type of F#.
+  
 
 #### Test F# 
 |   REFERENCE TEST        | TEST          |      RESULT EXPETED         |  RESULT |
@@ -38,6 +43,7 @@ The main tasks is create a binding generator for F# source code, assure the  is 
 
 
 #### Test CPython
+At this case, we test the FABgen function works to bind with F#.
 |     REFERENCE TEST      |   TEST        |     RESULT EXPETED          | RESULT |
 |:----------|:---------:|:--------------:|----: |
 |   b1        |   check: if the object in target language hold a copy or reference to a C/C++ object of specific type       |         C/C++ object     | |
