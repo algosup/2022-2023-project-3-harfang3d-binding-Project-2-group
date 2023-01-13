@@ -59,14 +59,16 @@ To achieve this goal, we will need to research different approaches for creating
 
 ### 4. Requirements
 
-F0 = Mandatory;
-F1 = Important;
-F2 = Secondary;
+F0 = Mandatory;      F1 = Important;     F2 = Secondary;
 
 |Function| Criteria|Level|Flexibility|
 |:----:|:----:|:----:|:----:|
-| F# functions     | entry of code     |  put code     |  F0  |
+|run FABgen to generate biding in CPython, Lua and Go| use FABgen | | F0 |
+|examine how th GO,Lua and python binding work | use FABgen| |  F0  |
+| create F# functions     | inspire by the unit test | |  F1  |
+| create test function |base on ("basic_type_exchange.py", "function_call.py") | | F1|
 |convert to F# in C or C++ | use C API for convert  | code F# / code C/C++ | F1|
+|build Harfang as a F# library  | |  |F2|
 
 ### 5. Personas and Scenarios
 
@@ -106,8 +108,9 @@ adim it harfang pour creer aussi leur propre visuel
 Add F# language in HARFANG®3D.
 
 ##### 7.2. In the future
-
-Add new languages.
+    - add F# to FABgen
+    - build the F# binding for HARFANG
+    - build a F# (or DOT.NET) version of the HARFANG library
 <!--ajouter d enouveaux languages  -->
 
 ### 8. Development and Environement
