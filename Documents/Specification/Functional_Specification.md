@@ -51,7 +51,9 @@ They meet two different types of demands :
 
 ### 3. Goals
 
-The goal of this project is to create a binding between our 3D engine, written in C++[^2], and the F#[^1] programming language. This binding will allow us to use our 3D engine in a F# environment and access its functionality from within a F# program.
+The goal of this project is to implement the langage F# in FABGen[^6] Following this, it will allow us to create a binding between our 3D engine, written in C++[^2], and the F#[^1] programming language. This binding will allow us to use our 3D engine in a F# environment and access its functionality from within a F# program.
+
+to create a binding between our 3D engine, written in C++[^2], and the F#[^1] programming language. This binding will allow us to use our 3D engine in a F# environment and access its functionality from within a F# program.
 
 To achieve this goal, we will need to research different approaches for creating bindings(Fabgen[^6] in is case), select appropriate tools and libraries, and implement the binding according to our chosen approach. We will also need to test the binding to ensure that it is functioning correctly and meets the requirements of our project.
 
@@ -85,9 +87,11 @@ F2 = Secondary;
 
 <!--
 idées :
-*dev F# company 
-dev nul 
+*dev F# 
+dev python
+IT student and learn F# 
 dev python 
+
 adim it harfang pour creer aussi leur propre visuel 
 -->
 
@@ -128,7 +132,7 @@ Add new languages.
 
 [^5]: Go is an open-source, statically typed programming language. This programming language includes tools for safe memory usage, object management, rubbish collection and static typing along with concurrency.
 
-[^6]: Fabgen is a set of Python scripts to generate C++ binding code to different languages.  
+[^6]: FABGen is a set of Python scripts to generate C++ binding code to different languages.  
 It was written as a SWIG[^7] replacement for the Harfang Multimedia [Framework](http://www.harfang3d.com).
 
 [^7]: SWIG (Simplified Wrapper and Interface Generator) is an open source software tool for connecting software or software libraries written in C/C++ with scripting languages such as: Tcl, Perl, Python, Ruby, PHP, Lua or other programming languages such as Java, C#, Scheme and OCaml.
