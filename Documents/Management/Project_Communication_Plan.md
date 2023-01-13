@@ -68,6 +68,8 @@ Weekly:
 - Progression of the project
 - Task assignment
 - Task completion
+- Functionnal specification
+- Technical specification
 
 ## Contact information:
 
