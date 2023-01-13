@@ -53,11 +53,11 @@ At this case, we test the FABgen function works to bind with F#.
 |   b1        |   check: if the object in target language hold a copy or reference to a C/C++ object of specific type       |         true    | |
 | b2| to_c: return a reference to  the C/C++ object  held by an object in the target language   | C/C++ object | | |
 |b3| from_c: return an object in target language or reference to  C/C++ object|F# object||
-|b4|idendify: identify elementary type common of both language and create mapping between them |type||
+|b4|idendify: identify elementary type common of both language |type||
 |b5| map: mapping a single or more elementary type  of target language|type||
 |b6|obj_memb: access object members of elementary type|object||
-|b7|warp:||||
-|b8|destruct:|||
+|b7|warp: warp an object from the target language| object|||
+|b8|destruct: destruct a warping object| deleted object ||
 
 <!--#### Test C++
 |     REFERENCE TEST      |    TEST       |    RESULT EXPETED            | RESULT  |
