@@ -24,7 +24,7 @@ Email:
 
 - François Gutherz at francois.gutherz@harfang3d.com.
 - Emmanuel Julien at emmanuel.julien@harfang3d.com.
-- Robert Pickering at ...
+- Robert Pickering at robertfpickering@fastmail.com
 
 Slack:
 
@@ -73,7 +73,7 @@ Weekly:
 
 - François Gutherz at francois.gutherz@harfang3d.com
 - Emmanuel Julien at emmanuel.julien@harfang3d.com
-- Robert Pickering at ...
+- Robert Pickering at robertfpickering@fastmail.com
 - Franck Jeannin at franck.jeannin@algosup.com
 - Pierre Gorin at pierre.gorin@algosup.com
 - Audrey Telliez at audrey.telliez@algosup.com
