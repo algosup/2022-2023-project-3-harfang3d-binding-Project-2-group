@@ -108,9 +108,9 @@ adim it harfang pour creer aussi leur propre visuel
 Add F# language in HARFANG®3D.
 
 ##### 7.2. In the future
-    - add F# to FABgen
-    - build the F# binding for HARFANG
-    - build a F# (or DOT.NET) version of the HARFANG library
+  - add F# to FABgen
+  - build the F# binding for HARFANG
+  - build a F# (or DOT.NET) version of the HARFANG library
 <!--ajouter d enouveaux languages  -->
 
 ### 8. Development and Environement
