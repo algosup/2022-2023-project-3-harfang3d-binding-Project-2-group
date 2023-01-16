@@ -61,14 +61,14 @@ To achieve this goal, we will need to research different approaches for creating
 
 F0 = Mandatory;      F1 = Important;     F2 = Secondary;
 
-|Function| Criteria|Level|Flexibility|
+|Function| Criteria|Flexibility|
 |:----:|:----:|:----:|:----:|
-|run FABgen to generate biding in CPython, Lua and Go| use FABgen | | F0 |
-|examine how th GO,Lua and python binding work | use FABgen| |  F0  |
-| create F# functions     | inspire by the unit test | |  F1  |
-| create test function |base on ("basic_type_exchange.py", "function_call.py") | | F1|
-|convert to F# in C or C++ | use C API for convert  | code F# / code C/C++ | F1|
-|build Harfang as a F# library  | |  |F2|
+|run FABgen to generate biding in CPython, Lua and Go| use FABgen | F0 |
+|examine how th GO,Lua and python binding work | use FABgen|  F0  |
+| create F# functions     | inspire by the unit test |  F1  |
+| create test function |base on ("basic_type_exchange.py", "function_call.py") | F1|
+|convert to F# in C or C++ | use C API for convert  | F1|
+|build Harfang as a F# library  |create code |F2|
 
 ### 5. Personas and Scenarios
 
@@ -98,8 +98,9 @@ adim it harfang pour creer aussi leur propre visuel
 -->
 
 ### 6. Use case
-<!--voir plus tard ----- > discord -->
-<img src="/Documents/Specification/image1.png" width="600">
+<!--Revoir !!!!!!!!!!!!!!!!!!!!!!!
+ 
+<img src="/Documents/Specification/image1.png" width="600"> --> 
 
 ### 7. What will happen in the future
 
@@ -137,6 +138,9 @@ Add F# language in HARFANG®3D.
 
 [^6]: FABGen is a set of Python scripts to generate C++ binding code to different languages.  
 It was written as a SWIG[^7] replacement for the Harfang Multimedia [Framework](http://www.harfang3d.com).
+<!--son rôle est de préparer une interface entre le code objet de HARFANG et la VM DOT.NET. 
+-->
+
 
 [^7]: SWIG (Simplified Wrapper and Interface Generator) is an open source software tool for connecting software or software libraries written in C/C++ with scripting languages such as: Tcl, Perl, Python, Ruby, PHP, Lua or other programming languages such as Java, C#, Scheme and OCaml.
 
