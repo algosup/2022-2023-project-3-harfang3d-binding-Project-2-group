@@ -33,7 +33,7 @@
 
 | Person/Organisation |   ROLE  |
 | :----: | :-----: |
-| HARFANG3D         | Project Owner         |
+| HARFANG®3D         | Project Owner         |
 | Robert PICKERING  | Tech Consultant       |
 | Pierre GORIN      | Project Manager       |
 | Audrey TELLIEZ    | Program Manager       |
@@ -45,7 +45,8 @@
 
 | Person  | DOCUMENT |
 | :----: | :-----: |
-| Pierre GORIN (Project Manager)| |
+| Pierre GORIN (Project Manager)|[Communication Plan](/Documents/Management/Project_Calendar.md) |
+| Pierre GORIN (Project Manager)|[Project Calendar](/Documents/Management/Project_Communication_Plan.md) |
 | Audrey TELLIEZ (Program Manager)| [Functionnal Specification](#functionnal-specification) |
 | Florent HUREAUX (Tech Lead)| [Technical Specification](/Documents/Specification/Technical_Specification.md) |
 | Salaheddine NAMIR (QA)| [Test case](/Documents/Tests/Test_Case.md) |
@@ -67,7 +68,7 @@ They meet two different types of demands :
 
 The goal of this project is to implement the langage F# in FABGen[^6] Following this, it will allow us to create a binding between our 3D engine, written in C++[^2], and the F#[^1] programming language. This binding will allow us to use our 3D engine in a F# environment and access its functionality from within a F# program.
 
-to create a binding between our 3D engine, written in C++[^2], and the F#[^1] programming language. This binding will allow us to use our 3D engine in a F# environment and access its functionality from within a F# program.
+To create a binding between our 3D engine, written in C++[^2], and the F#[^1] programming language. This binding will allow us to use our 3D engine in a F# environment and access its functionality from within a F# program.
 
 To achieve this goal, we will need to research different approaches for creating bindings(Fabgen[^6] in is case), select appropriate tools and libraries, and implement the binding according to our chosen approach. We will also need to test the binding to ensure that it is functioning correctly and meets the requirements of our project.
 
@@ -76,7 +77,7 @@ To achieve this goal, we will need to research different approaches for creating
 F0 = Mandatory;      F1 = Important;     F2 = Secondary;
 
 |Function| Criteria|Flexibility|
-|:----:|:----:|:----:|:----:|
+|:----:|:----:|:----:|
 |run FABgen to generate biding in CPython, Lua and Go| use FABgen | F0 |
 |examine how th GO,Lua and python binding work | use FABgen|  F0  |
 | create F# functions     | inspire by the unit test |  F1  |
