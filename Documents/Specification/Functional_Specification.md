@@ -7,7 +7,7 @@
 <summary>Table of content</summary>
 
 - [Functionnal Specification](#functionnal-specification)
-    - [1. Stakeolders](#1-stakeolders)
+    - [1. Stakeholders](#1-stakeholders)
       - [Roles:](#roles)
       - [Documents:](#documents)
     - [2. Company Overview](#2-company-overview)
@@ -29,7 +29,7 @@
 
 </details>
 
-###  1. Stakeolders
+###  1. Stakeholders
 
 ####  Roles:
 
