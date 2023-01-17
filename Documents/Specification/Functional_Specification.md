@@ -35,7 +35,7 @@
 
 | Person/Organisation |   ROLE  |
 | :----: | :-----: |
-| HARFANG®3D         | Project Owner         |
+| HARFANG®3D        | Project Owner         |
 | Robert PICKERING  | Tech Consultant       |
 | Pierre GORIN      | Project Manager       |
 | Audrey TELLIEZ    | Program Manager       |
@@ -84,7 +84,7 @@ To achieve this goal, we will need to research different approaches for creating
 ### 4. Design
 Below is a diagram of FABGen[^6] and existing bindings. The F# binding will be added to this diagram. We need to apply the same principle as the other bindings to F#.
 
-<img src="/Documents/Specification/fig-1-binding-generator.png" width="6000"> 
+<img src="/Documents/Specification/image2.png" width="6000"> 
 
 ### 5. Requirements
 
@@ -127,7 +127,7 @@ adim it harfang pour creer aussi leur propre visuel
 -->
 
 ### 7. Use case
-<img src="/Documents/Specification/Use_Case_FABGen.png" width="500"> 
+<img src="/Documents/Specification/image_Use_Case_FABGen.png" width="500"> 
 
 ### 8. What will happen in the future
 
