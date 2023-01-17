@@ -12,18 +12,20 @@
       - [Documents:](#documents)
     - [2. Company Overview](#2-company-overview)
     - [3. Goals](#3-goals)
-    - [4. Requirements](#4-requirements)
-    - [5. Personas and Scenarios](#5-personas-and-scenarios)
-        - [5.1 Aurélia](#51-aurélia)
+    - [4. Design](#4-design)
+    - [5. Requirements](#5-requirements)
+    - [6. Personas and Scenarios](#6-personas-and-scenarios)
+        - [6.1 Aurélia](#61-aurélia)
         - [5.2 Jean-Marc](#52-jean-marc)
-        - [5.3 Baptiste](#53-baptiste)
-        - [5.4 Nathalie](#54-nathalie)
-    - [6. Use case](#6-use-case)
-    - [7. What will happen in the future](#7-what-will-happen-in-the-future)
-        - [7.1. Today](#71-today)
-        - [7.2. In the future](#72-in-the-future)
-    - [8. Development and Environement](#8-development-and-environement)
-    - [9. Glossary](#9-glossary)
+        - [6.3 Baptiste](#63-baptiste)
+        - [6.4 Nathalie](#64-nathalie)
+    - [7. Use case](#7-use-case)
+    - [8. What will happen in the future](#8-what-will-happen-in-the-future)
+        - [8.1. Today](#81-today)
+        - [8.2. In the future](#82-in-the-future)
+    - [9. Risk and Assumptions](#9-risk-and-assumptions)
+    - [10. Development and Environement](#10-development-and-environement)
+    - [11. Glossary](#11-glossary)
 
 </details>
 
@@ -64,6 +66,13 @@ They meet two different types of demands :
 
 - HARFANG® Framework is an easy-to-adapt, cross-platform, multi-language, powerful and optimized 3D visualization engine written in C++ and accessible via an open API [^9] in C++[^2], or high-level programming languages such as Python, Golang, and Lua.
 
+Company distribution
+
+|Person|Company role|Contact|
+|:-----:|:----------:|:-------:|
+|François Gutherz| CTO & Project leader|francois.gutherz@harfang3d.com|
+|Emmanuel Julien |Lead developer|emmanuel.julien@harfang3d.com|
+
 ### 3. Goals
 
 The goal of this project is to implement the langage F# in FABGen[^6] Following this, it will allow us to create a binding between our 3D engine, written in C++[^2], and the F#[^1] programming language. This binding will allow us to use our 3D engine in a F# environment and access its functionality from within a F# program.
@@ -72,7 +81,12 @@ To create a binding between our 3D engine, written in C++[^2], and the F#[^1] pr
 
 To achieve this goal, we will need to research different approaches for creating bindings(Fabgen[^6] in is case), select appropriate tools and libraries, and implement the binding according to our chosen approach. We will also need to test the binding to ensure that it is functioning correctly and meets the requirements of our project.
 
-### 4. Requirements
+### 4. Design
+Below is a diagram of FABGen[^6] and existing bindings. The F# binding will be added to this diagram. We need to apply the same principle as the other bindings to F#.
+
+<img src="/Documents/Specification/fig-1-binding-generator.png" width="6000"> 
+
+### 5. Requirements
 
 F0 = Mandatory;      F1 = Important;     F2 = Secondary;
 
@@ -85,9 +99,9 @@ F0 = Mandatory;      F1 = Important;     F2 = Secondary;
 |convert to F# in C or C++ | use C API for convert  | F1|
 |build Harfang as a F# library  |create code |F2|
 
-### 5. Personas and Scenarios
+### 6. Personas and Scenarios
 
-##### 5.1 Aurélia
+##### 6.1 Aurélia
 
   Aurélia is an F# developer. She writes her code in F#. But HARFANG®3D doesn't support F#. So she must find a way to convert her code.
 
@@ -95,11 +109,11 @@ F0 = Mandatory;      F1 = Important;     F2 = Secondary;
 
   Jean-Marc is a Python developer and he works has an IT developer in a services company. He would like to make a wallpaper for a project. So he made a code in python in the HARFANG® Framework application. And then he put the code given by HARFANG® Framework into HARFANG® Studio.
 
-##### 5.3 Baptiste
+##### 6.3 Baptiste
 
   Baptiste is an IT student and learns F# at school. and he would make an app game by his hands. So he use F# to code his game and he use FABGen to bind the F# into C++ and put it in HARFANG® Studio.
 
-##### 5.4 Nathalie
+##### 6.4 Nathalie
   Nathalie, she is developer python and she wanted to create a game application in python. So she put in HARFANG® Framework  a code in python. And she has take the code give by HARFANG® Framework. And also put it in HARFANG® Studio.
 
 <!--
@@ -112,22 +126,25 @@ dev python
 adim it harfang pour creer aussi leur propre visuel 
 -->
 
-### 6. Use case
+### 7. Use case
 <img src="/Documents/Specification/Use_Case_FABGen.png" width="500"> 
 
-### 7. What will happen in the future
+### 8. What will happen in the future
 
-##### 7.1. Today
+##### 8.1. Today
 
 Add F# language in HARFANG®3D.
 
-##### 7.2. In the future
+##### 8.2. In the future
   - add F# to FABgen
   - build the F# binding for HARFANG
-  - build a F# (or DOT.NET) version of the HARFANG library
+  - build a F# (or DOT .NET) version of the HARFANG library
 <!--ajouter de nouveaux languages  -->
 
-### 8. Development and Environement
+### 9. Risk and Assumptions
+If we forget to create a binding for a function, it will not be possible to use it in F#
+
+### 10. Development and Environement
 
 - F#[^1]
 - C++ [^2]
@@ -137,7 +154,7 @@ Add F# language in HARFANG®3D.
 
 ******************************
 
-### 9. Glossary
+### 11. Glossary
 
 [^1]: F# is a functional, imperative, object-oriented programming language for the . NET PLATFORM. F# is developed by Microsoft Research.
 
