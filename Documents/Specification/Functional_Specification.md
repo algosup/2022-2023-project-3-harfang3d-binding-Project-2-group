@@ -92,14 +92,14 @@ F0 = Mandatory;      F1 = Important;     F2 = Secondary;
 
 ##### 5.2 Jean-Marc
 
-  Jean-Marc is a Python dev and he works has an IT developer in a services company. He would like to make a wallpaper for a project. So he made a code in python in the HARFANG® Framework application. And then he put the code given by HARFANG® Framework into HARFANG® Studio.
+  Jean-Marc is a Python developer and he works has an IT developer in a services company. He would like to make a wallpaper for a project. So he made a code in python in the HARFANG® Framework application. And then he put the code given by HARFANG® Framework into HARFANG® Studio.
 
 ##### 5.3 Baptiste
 
   Baptiste is an IT student and learns F# at school. and he would make an app game by his hands. So he use F# to code his game and he use FABGen to bind the F# into C++ and put it in HARFANG® Studio.
 
 ##### 5.4 Nathalie
-  Nathalie is dev python. And she wanted to create a game application in python. So she put in HARFANG® Framework  a code in python. And she has take the code give by HARFANG® Framework. And also put it in HARFANG® Studio.
+  Nathalie, she is developer python and she wanted to create a game application in python. So she put in HARFANG® Framework  a code in python. And she has take the code give by HARFANG® Framework. And also put it in HARFANG® Studio.
 
 <!--
 idées :
