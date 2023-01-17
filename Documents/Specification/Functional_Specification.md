@@ -8,6 +8,8 @@
 
 - [Functionnal Specification](#functionnal-specification)
     - [1. Stakeolders](#1-stakeolders)
+      - [Roles:](#roles)
+      - [Documents:](#documents)
     - [2. Company Overview](#2-company-overview)
     - [3. Goals](#3-goals)
     - [4. Requirements](#4-requirements)
@@ -27,15 +29,27 @@
 
 ###  1. Stakeolders
 
-| Person/Organisation |   ROLE  | DOCUMENT |
-| :----: | :-----: | :------: |
-| HARFANG3D         | Project Owner         | |
-| Robert PICKERING  | Tech Consultant       | |
-| Pierre GORIN      | Project Manager       | |
-| Audrey TELLIEZ    | Program Manager       | [Functionnal Specification]() |
-| Florent HUREAUX   | Tech Lead             | [Technical Specification]() |
-| Alexandre BOBIS   | Software Engineer     |  |
-| Salaheddine NAMIR | Quality Assurance (QA)| [Test plan]() |
+####  Roles:
+
+| Person/Organisation |   ROLE  |
+| :----: | :-----: |
+| HARFANG3D         | Project Owner         |
+| Robert PICKERING  | Tech Consultant       |
+| Pierre GORIN      | Project Manager       |
+| Audrey TELLIEZ    | Program Manager       |
+| Florent HUREAUX   | Tech Lead             |
+| Alexandre BOBIS   | Software Engineer     |
+| Salaheddine NAMIR | Quality Assurance (QA)|
+
+#### Documents:
+
+| Person  | DOCUMENT |
+| :----: | :-----: |
+| Pierre GORIN (Project Manager)| |
+| Audrey TELLIEZ (Program Manager)| [Functionnal Specification](#functionnal-specification) |
+| Florent HUREAUX (Tech Lead)| [Technical Specification](/Documents/Specification/Technical_Specification.md) |
+| Salaheddine NAMIR (QA)| [Test case](/Documents/Tests/Test_Case.md) |
+| Salaheddine NAMIR (QA)| [Test plan](/Documents/Tests/Test_Plan.md) |
 
 ### 2. Company Overview
 
@@ -110,7 +124,7 @@ Add F# language in HARFANG®3D.
   - add F# to FABgen
   - build the F# binding for HARFANG
   - build a F# (or DOT.NET) version of the HARFANG library
-<!--ajouter d enouveaux languages  -->
+<!--ajouter de nouveaux languages  -->
 
 ### 8. Development and Environement
 
@@ -135,10 +149,7 @@ Add F# language in HARFANG®3D.
 [^5]: Go is an open-source, statically typed programming language. This programming language includes tools for safe memory usage, object management, rubbish collection and static typing along with concurrency.
 
 [^6]: FABGen is a set of Python scripts to generate C++ binding code to different languages.  
-It was written as a SWIG[^7] replacement for the Harfang Multimedia [Framework](http://www.harfang3d.com).
-<!--son rôle est de préparer une interface entre le code objet de HARFANG et la VM DOT.NET. 
--->
-
+It was written as a SWIG[^7] replacement for the Harfang Multimedia [Framework](http://www.harfang3d.com). Its role is to prepare an interface between the HARFANG object code and the DOT.NET VM.
 
 [^7]: SWIG (Simplified Wrapper and Interface Generator) is an open source software tool for connecting software or software libraries written in C/C++ with scripting languages such as: Tcl, Perl, Python, Ruby, PHP, Lua or other programming languages such as Java, C#, Scheme and OCaml.
 
