@@ -98,9 +98,7 @@ adim it harfang pour creer aussi leur propre visuel
 -->
 
 ### 6. Use case
-<!--Revoir !!!!!!!!!!!!!!!!!!!!!!!
- 
-<img src="/Documents/Specification/image1.png" width="600"> --> 
+<img src="/Documents/Specification/Use_Case_FABGen.png" width="500"> 
 
 ### 7. What will happen in the future
 
