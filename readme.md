@@ -39,6 +39,7 @@ We will be working as a team of 5, with each member taking on specific tasks and
 
 ## Reports:
 ### [HARFANG®3D Meeting Report - 03/01/2023](https://github.com/algosup/2022-2023-project-3-harfang3d-binding-Project-2-group/blob/documents/Documents/Reports/harfang3d--meeting--03-01-2023.md)
+### [HARFANG®3D Meeting Report - 17/01/2023](https://github.com/algosup/2022-2023-project-3-harfang3d-binding-Project-2-group/blob/documents/Documents/Reports/harfang3d--meeting--17-01-2023.md)
 
 ### [Summary of the Weeks 1 & 2](https://github.com/algosup/2022-2023-project-3-harfang3d-binding-Project-2-group/blob/documents/Documents/Reports/recap-weeks_1_2.md)
 
