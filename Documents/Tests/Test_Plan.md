@@ -2,13 +2,6 @@
 
 # Test Plan
 
-### Author
-
-<img src="https://avatars.githubusercontent.com/u/71770514?v=4" width="150">
-
-### [**`Salaheddine NAMIR`**](https://github.com/T3rryc)
-##### *Quality Assurance (QA)*
-
 ### Table of content 
 - [Test Plan](#test-plan)
     - [Author](#author)
@@ -63,3 +56,12 @@ At this case, we test the FABgen function works to bind with F#.
 |     REFERENCE TEST      |    TEST       |    RESULT EXPETED            | RESULT  |
 |:----------|:---------:|:--------------:|----:|
 |     c1      |           |               |   |-->
+
+
+
+### Author
+
+<img src="https://avatars.githubusercontent.com/u/71770514?v=4" width="150">
+
+### [**`Salaheddine NAMIR`**](https://github.com/T3rryc)
+##### *Quality Assurance (QA)*
