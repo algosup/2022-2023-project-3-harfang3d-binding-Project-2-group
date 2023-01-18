@@ -24,17 +24,32 @@ We will be working as a team of 5, with each member taking on specific tasks and
 <br>
 
 # Documents Links
+## Specification:
+### [Functionnal Specification](https://github.com/algosup/2022-2023-project-3-harfang3d-binding-Project-2-group/blob/documents/Documents/Specification/Functional_Specification.md)
 
-### [Functionnal Specification](https://github.com/algosup/2022-2023-project-3-harfang3d-binding-Project-2-group/blob/documents/Documents/Specification/functionnal.md)
+### [Technical Specification](https://github.com/algosup/2022-2023-project-3-harfang3d-binding-Project-2-group/blob/documents/Documents/Specification/Technical_Specification.md)
 
-### [Technical Specification](https://github.com/algosup/2022-2023-project-3-harfang3d-binding-Project-2-group/blob/documents/Documents/Specification/) 
+## Tests:
 
-### [Test Plan](https://github.com/algosup/2022-2023-project-3-harfang3d-binding-Project-2-group/blob/documents/Documents/Tests/test-plan.md)
+### [Test Plan](https://github.com/algosup/2022-2023-project-3-harfang3d-binding-Project-2-group/blob/documents/Documents/Tests/Test_Plan.md)
 
-### [Test Cases](https://github.com/algosup/2022-2023-project-3-harfang3d-binding-Project-2-group/blob/documents/Documents/Tests/test-cases.md)
+### [Test Cases](https://github.com/algosup/2022-2023-project-3-harfang3d-binding-Project-2-group/blob/documents/Documents/Tests/Test_Cases.md)
 
-### [**`Harfang Meeting Report`**](https://github.com/algosup/2022-2023-project-3-harfang3d-binding-Project-2-group/blob/documents/Documents/Reports/harfang3d--meeting--01-03-2023.md)
-<hr>
+## Reports:
+### [`HARFANG®3D Meeting Report - 03/01/2023`](https://github.com/algosup/2022-2023-project-3-harfang3d-binding-Project-2-group/blob/documents/Documents/Reports/harfang3d--meeting--03-01-2023.md)
+
+### [`Summary of the Weeks 1 & 2`](https://github.com/algosup/2022-2023-project-3-harfang3d-binding-Project-2-group/blob/documents/Documents/Reports/recap-weeks_1_2.md)
+
+### [`Summary of the Week 3`](https://github.com/algosup/2022-2023-project-3-harfang3d-binding-Project-2-group/blob/documents/Documents/Reports/recap-week_3.md)
+
+## Management:
+
+### [`Project Calendar`](https://github.com/algosup/2022-2023-project-3-harfang3d-binding-Project-2-group/blob/documents/Documents/Management/Project_Calendar.md)
+
+### [`Project Communication Plan`](https://github.com/algosup/2022-2023-project-3-harfang3d-binding-Project-2-group/blob/documents/Documents/Management/Project_Communication_Plan.md)
+
+### [`Critical Path`](https://github.com/algosup/2022-2023-project-3-harfang3d-binding-Project-2-group/blob/documents/Documents/Management/Critical_Path.md)
+<hr>    
 <br>
 <br>
 

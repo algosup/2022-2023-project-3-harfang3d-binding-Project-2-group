@@ -33,7 +33,7 @@
 - [13 - Contacts](#13---contacts)
 
 # Harfang3D Progress Report<br>
-## Date: 01/03/2023
+## Date: Tuesday, 3rd January 2023<br>
 <br><br><hr><br><br>
 
 # 1 - Introduction
