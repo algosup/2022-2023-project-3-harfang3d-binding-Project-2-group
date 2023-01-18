@@ -11,6 +11,8 @@ We will be working as a team of 5, with each member taking on specific tasks and
 ### [Specifications](https://trello.com/b/NfldDbhp/specifications)
 ### [Development](https://trello.com/b/MmryR9Sn/dev)
 ### [Tests](https://trello.com/b/zXXlaN8F/tests)
+### [Global](https://trello.com/b/WLhjNsI7/global)
+
 <hr>
 <br>
 <br>
