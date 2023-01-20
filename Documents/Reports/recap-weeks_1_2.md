@@ -11,7 +11,7 @@
 | Salaheddine NAMIR | Quality Assurance(QA) |
 
 ## Objectives:
-The objectives of these two weeks are to understand the project and the code, and then to try to start coding.
+The objectives of these two weeks are to understand the project and the code, and then to start coding.
 
 ## Pierre GORIN
 explain what he do and what he don't do during the first two weeks
@@ -30,7 +30,7 @@ First, Florent did research on Libraries and Tools. Florent then wrote his techn
 First, he researched the features and APIs of Harfang 3D. Alexandre then tried to understand the code and researched how it works.
 
 ## Salaheddine NAMIR
-First, Salaheddine researched the Binding Test. Salaheddine then wrote his test plan.
+First, Salaheddine researched the Binding Test. Salaheddine then he begin to wrote his test plan.
 
 ## Conclusion
 We did some research and we tried to make as much progress as possible in the project.
