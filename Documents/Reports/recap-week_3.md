@@ -12,6 +12,7 @@
 
 ## Objectives:
 The objectives of this week are to run tests and start writing F# functions with some C++ knowledge.
+He wrote the critical path.
 
 ## Pierre GORIN
 We all commented the file go.py.
@@ -29,3 +30,4 @@ Following the meeting with the client Alexandre continued to run the tests with 
 We all commented the file go.py. Salah continued his research about the Binding Test, finish his test plan and help help alexandre et Florent on the code.
 
 ## Conclusion
+We are making progress on the tests and have decided to focus on the conversion of variables.
