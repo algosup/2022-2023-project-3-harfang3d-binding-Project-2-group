@@ -117,6 +117,7 @@ F0 = Mandatory;      F1 = Important;     F2 = Secondary;
   Nathalie, she is developer python and she wanted to create a game application in python. So she put in HARFANG® Framework  a code in python. And she has take the code give by HARFANG® Framework. And also put it in HARFANG® Studio.
 
 <!--
+
 idées :
 *dev F# 
 dev python
@@ -124,6 +125,7 @@ IT student and learn F#
 dev python 
 
 adim it harfang pour creer aussi leur propre visuel 
+
 -->
 
 ### 7. Use case
