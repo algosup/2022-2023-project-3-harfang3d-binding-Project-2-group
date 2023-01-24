@@ -11,7 +11,7 @@ type f =
 let a : int = 1
 let b : single = 2.5
 let c : double = 3.14159265
-let d : char = 'hello'
+let d : char = ''hello''
 let e : bool = true
 let g : string = "This is a string"
 1 + 2
@@ -19,21 +19,26 @@ let g : string = "This is a string"
 1 * 2
 1 / 2
 1 % 2
-1 = 2
-1 <> 2
+1 == 2
+1 != 2
 1 > 2
 1 < 2
 1 >= 2
 1 <= 2
-1 && 2
-1 || 2
+1 &&& 2
+1 ||| 2
 printfn "hello world"
 for
-if 
-elif
+if
+else if
 else
 while
 do
 try
 with
+//throw
+
+
+
+
 
