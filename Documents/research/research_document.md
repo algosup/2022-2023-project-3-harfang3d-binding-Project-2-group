@@ -1,7 +1,7 @@
 <summary> Summary </summary>
 
 - [Start of the project](#start-of-the-project)
-  - [Organization](#organization)
+  - [Organisation](#organisation)
     - [`Research`](#research)
     - [`Specifications`](#specifications)
     - [`Development`](#development)
@@ -14,7 +14,7 @@
   - [Who is the client](#who-is-the-client)
   - [His/her field](#hisher-field)
   - [Competition](#competition)
-  - [Ressources : Your sources](#ressources--your-sources)
+  - [Your sources](#your-sources)
     - [Glossary](#glossary)
     - [Communication](#communication)
       - [Who?](#who)
@@ -22,11 +22,11 @@
   - [Market](#market)
   - [Target audience/customer](#target-audiencecustomer)
   - [Competition](#competition-1)
-  - [Ressources : Our sources](#ressources--our-sources)
+  - [Our sources](#our-sources)
 
 # Start of the project
 
-## Organization
+## Organisation
 
 We organised this on Trello.
 ### [`Research`](https://trello.com/b/SSmTA8tX/research-tasks) 
@@ -82,7 +82,7 @@ Their field is to build real-time 3D creation tools. HARFANG®3D is divided into
 
 HARFANG®3D is in competition with Unity, Unreal Engine and GameMaker Studio. These are the three bigger video game engine in the world.
 
-## Ressources : Your sources
+## Your sources
 
 [HARFANG®3D](https://www.harfang3d.com/en_US/)
 Github repository for the [HARFANG®3D X ALGOSUP](https://github.com/harfang3d/algosup-binding-project) project.
@@ -118,9 +118,9 @@ The final product will be mainly used by developers and engineers.
 
 ## Competition
 
-Harfang 3D's competitors are Unity, Unreal Engine and GameMaker Studio.
+HARFANG®3D's competitors are Unity, Unreal Engine and GameMaker Studio.
 
-## Ressources : Our sources
+## Our sources
 
 - [Install F#](https://learn.microsoft.com/en-us/dotnet/fsharp/get-started/install-fsharp)
 - [Base F# 1](https://learn.microsoft.com/en-us/dotnet/fsharp/language-reference/symbol-and-operator-reference/) (symbol and operator reference)
