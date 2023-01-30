@@ -10,7 +10,7 @@
 | Salaheddine NAMIR | Quality Assurance(QA) |
 
 ## Objectives:
-We continue the code on the conversion of variables.
+We continue the code on the conversion of variables/ function.
 
 ## Pierre GORIN
 All the group start to code. Pierre continue the KPI document.
@@ -28,3 +28,4 @@ All the group start to code.
 The whole group starts coding. Salah tests the first functions we have written. 
 
 ## Conclusion
+we move forward with the code and try to make it work the way we want it to.
