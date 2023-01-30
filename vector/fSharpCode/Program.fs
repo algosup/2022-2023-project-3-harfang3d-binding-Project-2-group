@@ -1,4 +1,9 @@
-﻿
+﻿open System.Runtime.InteropServices
 
-// For more information see https://aka.ms/fsharp-console-apps
-printfn "Hello from F#"
+// [<DllImport("?????.dylib")>]
+// extern add and factorial functions
+// extern int add(int a, int b) 
+
+// let result = add(1, 2)
+
+printfn "Result: %d" result
