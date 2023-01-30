@@ -1,49 +1,54 @@
-<details>
 <summary> Summary </summary>
 
-- [start of the project](#start-of-the-project)
-  - [Roadmap](#roadmap)
-    - [Organization](#organization)
-      - [Team work](#team-work)
-      - [Documentation saving and sharing system](#documentation-saving-and-sharing-system)
+- [Start of the project](#start-of-the-project)
+  - [Organization](#organization)
+    - [`Research`](#research)
+    - [`Specifications`](#specifications)
+    - [`Development`](#development)
+    - [`Tests`](#tests)
+    - [Team work](#team-work)
+    - [Documentation saving and sharing system](#documentation-saving-and-sharing-system)
   - [Resources](#resources)
-  - [Our research](#our-research)
-  - [Link customer during the project](#link-customer-during-the-project)
-- [Clients](#clients)
-  - [Research notes](#research-notes)
-    - [Who is the client](#who-is-the-client)
-    - [His/her field](#hisher-field)
-    - [Competition](#competition)
-  - [Resources](#resources-1)
-    - [Your sources](#your-sources)
+    - [Link customer during the project](#link-customer-during-the-project)
+- [Clients : Research notes](#clients--research-notes)
+  - [Who is the client](#who-is-the-client)
+  - [His/her field](#hisher-field)
+  - [Competition](#competition)
+  - [Ressources : Your sources](#ressources--your-sources)
     - [Glossary](#glossary)
-  - [Communication](#communication)
-    - [Who?](#who)
-- [Product](#product)
-  - [Research notes](#research-notes-1)
-    - [Market](#market)
-    - [Target audience/customer](#target-audiencecustomer)
-    - [Competition](#competition-1)
-  - [Resources](#resources-2)
-    - [Our sources](#our-sources)
-    - [Glossary](#glossary-1)
-  - [Comparison table](#comparison-table)
+    - [Communication](#communication)
+      - [Who?](#who)
+- [Product : Research Notes](#product--research-notes)
+  - [Market](#market)
+  - [Target audience/customer](#target-audiencecustomer)
+  - [Competition](#competition-1)
+  - [Ressources : Our sources](#ressources--our-sources)
 
-</details>
+# Start of the project
 
-# start of the project
+## Organization
 
-## Roadmap
+We organised this on Trello.
+### [`Research`](https://trello.com/b/SSmTA8tX/research-tasks) 
+### [`Specifications`](https://trello.com/b/NfldDbhp/specifications)
+### [`Development`](https://trello.com/b/MmryR9Sn/dev)
+### [`Tests`](https://trello.com/b/zXXlaN8F/tests)
 
-### Organization
+### Team work
 
-#### Team work
+| Person/Organisation |   ROLE  |
+| :----: | :-----: |
+| Pierre GORIN      | Project Manager       |
+| Audrey TELLIEZ    | Program Manager       |
+| Florent HUREAUX   | Tech Lead             |
+| Alexandre BOBIS   | Software Engineer     |
+| Salaheddine NAMIR | Quality Assurance (QA)|
 
-#### Documentation saving and sharing system
+### Documentation saving and sharing system
+
+You can see that on [Github](https://github.com/algosup/2022-2023-project-3-harfang3d-binding-Project-2-group).
 
 ## Resources
-
-> where will you start your research, what do you already have
 
 - [Github binding project](https://github.com/harfang3d/algosup-binding-project)
 - [Github project goals](https://github.com/algosup/2022-2023-project-3-harfang3d-binding-Project-2-group)
@@ -57,14 +62,69 @@ Reading List F#:
 - [Tour of F#](https://learn.microsoft.com/en-us/dotnet/fsharp/tour)
 - [Functional Programming Concepts](https://learn.microsoft.com/en-us/dotnet/fsharp/tutorials/functional-programming-concepts)
 
-----------------------------------------
+### Link customer during the project
 
-## Our research
+- [Base convertor](https://github.com/jackdalton/vector-cpp/blob/master/src/vector.h) /vector.h
+
+---------------------------------------------------------------------------------------
+
+# Clients : Research notes
+
+## Who is the client
+
+HARFANG®3D builds real-time 3D tools for industry professionals. Its software suite is tailored to developers, designers and engineers aiming to efficiently and seamlessly develop, implement & deploy 3D solutions (HMI, VR/AR, simulation, interactive 3D), regardless of development language or platform constraints.
+
+## His/her field
+
+Their field is to build real-time 3D creation tools. HARFANG®3D is divided into 2 parts, HARFANG®3D Studio mainly used by designers and HARFANG®3D Framework mainly used by developers.
+
+## Competition
+
+HARFANG®3D is in competition with Unity, Unreal Engine and GameMaker Studio. These are the three bigger video game engine in the world.
+
+## Ressources : Your sources
+
+[HARFANG®3D](https://www.harfang3d.com/en_US/)
+Github repository for the [HARFANG®3D X ALGOSUP](https://github.com/harfang3d/algosup-binding-project) project.
+
+### Glossary
+
+- Fabgen : It's a set of Python scripts to generate C++ binding code to different languages.
+- SWIG : It's a software development tool that connects programs written in C and C++ with a variety of high-level programming languages.
+- API : They are mechanisms that enable two software components to communicate with each other using a set of definitions and protocols.
+- ABI : An application binary interface (ABI) is an interface between two binary program modules. Often, one of these modules is a library or operating system facility, and the other is a program that is being run by a user.
+- Unit Test : It's a type of software testing where individual units or components of a software are tested.
+- F# is a functional, imperative, object-oriented programming language for the . NET PLATFORM. F# is developed by Microsoft Research.
+- A Human Machine Interface (HMI) is the point of contact between users and machines. These interfaces allow users to control machines, monitor processes and, in some cases, intervene.
+- API (Application Programming Interface) is a software interface which makes it possible to "connect" a software or a service to another software or service in order to exchange data and functionalities.
+
+### Communication
+
+#### Who?
+
+François Gutherz : francois.gutherz@harfang3d.com
+
+---------------------------------------------------------------------------------------
+
+# Product : Research Notes
+
+## Market
+
+The product market is the 3d market for developers and designers.
+
+## Target audience/customer
+
+The final product will be mainly used by developers and engineers.
+
+## Competition
+
+Harfang 3D's competitors are Unity, Unreal Engine and GameMaker Studio.
+
+## Ressources : Our sources
 
 - [Install F#](https://learn.microsoft.com/en-us/dotnet/fsharp/get-started/install-fsharp)
 - [Base F# 1](https://learn.microsoft.com/en-us/dotnet/fsharp/language-reference/symbol-and-operator-reference/) (symbol and operator reference)
-- [Base F# 2](https://learn.microsoft.com/en-us/dotnet/fsharp/language-reference/enumerations)
-(enumeration)
+- [Base F# 2](https://learn.microsoft.com/en-us/dotnet/fsharp/language-reference/enumerations) (enumeration)
 - [F# types](https://docwiki.embarcadero.com/RADStudio/Sydney/en/Int8,_int16,_int32,_int64,_Unsigned_int64,_Extended_Integer_Types)
 - [F# data type](https://www.tutorialspoint.com/fsharp/fsharp_data_types.htm)
 - [Base C++](https://learn.microsoft.com/fr-fr/cpp/cpp/basic-concepts-cpp?view=msvc-170)
@@ -72,79 +132,3 @@ Reading List F#:
 - [CMake download](https://cmake.org/download/)
 - [CMake library](https://cmake.org/pipermail/cmake/2008-August/023194.html)
 - [CPython Github](https://github.com/python/cpython#using-python)
-
-## Link customer during the project
-
-> this is an example, use your needs and goals to start your research process, use the second part to track down:
-> - new needs and questions (either further research or questions to communicate to the client)
-> - communications
-
-- [Base convertor](https://github.com/jackdalton/vector-cpp/blob/master/src/vector.h) /vector.h
-
-
----------------------------------------------------------------------------------------
-
-# Clients
-
-## Research notes
-
-### Who is the client
-
-> write down here your research on who is the client, his priorities, his specificities, etc
-
-HARFANG®3D builds real-time 3D tools for industry professionals. Its software suite is tailored to developers, designers and engineers aiming to efficiently and seamlessly develop, implement & deploy 3D solutions (HMI, VR/AR, simulation, interactive 3D), regardless of development language or platform constraints.
-
-### His/her field
-
-Their field is to build real-time 3D creation tools. HARFANG®3D is divided into 2 parts, HARFANG®3D Studio mainly used by designers and HARFANG®3D Framework mainly used by developers.
-
-### Competition
-
-HARFANG®3D is in competition with Unity, Unreal Engine and GameMaker Studio. These are the three bigger video game engine in the world.
-
-## Resources
-
-### Your sources
-
-> think also of sources to follow (people and keywords on Linkedin for example, a specialized blog or news outlet)
-
-[HARFANG®3D](https://www.harfang3d.com/en_US/)
-Github repository for the [HARFANG®3D X ALGOSUP](https://github.com/harfang3d/algosup-binding-project) project.
-
-### Glossary
-
-> write down all the words specific to the client's field, or the products your creating for the client (or both) with a short definition
-
-## Communication
-
-### Who?
-
-...
-
--------------------------------------------------------------------------------------------------
-
-# Product
-
-> this is an example, use your needs and goals to start your research process
-
-## Research notes
-
-### Market
-
-### Target audience/customer
-
-The final product will be mainly used by developers and engineers.
-
-### Competition
-
-## Resources
-
-### Our sources
-
-> think also of sources to follow (people and keywords on Linkedin for example, a specialized blog or news outlet)
-
-### Glossary
-
-> write down all the words specific to the product's field, or any technical field you're working in, with a short definition
-
-## Comparison table
