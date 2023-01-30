@@ -1,4 +1,4 @@
-#include "Vector3.h"
+#include "vector3.h"
 #include <iostream>
 #include <stdlib.h>
 #include <stdio.h>
@@ -7,24 +7,31 @@
 
 extern "C"
 {
-    Vector3::Vector3(double inx, double iny, double inz) : x(inx), y(iny), z(inz) {}
-    double distanceTo(Vector3 pos) {
+
+    Vector3::Vector3(double x, double y, double z) : x(x), y(y), z(z) {}
+    double Vector3::distanceTo(Vector3 pos) {
         return sqrt((pos.y - y) * (pos.y - y) + (pos.x - x) * (pos.x - x) + (pos.z - z) * (pos.z - z));
     }
-    void vectorMovement(double plusx, double plusy, double plusz) {
+    void Vector3::vectorMovement(double plusx, double plusy, double plusz) {
         x += plusx;
         y += plusy;
         z += plusz;
-        return;
     }
-    Vector3 midpoint(Vector3 pos) {
-        double mx = (x + pos.x) / 2;
-        double my = (y + pos.y) / 2;
-        double mz = (z + pos.z) / 2;
-        Vector3 mid(mx, my, mz);
-        return mid;
+
+    Vector3 Vector3::midpoint(Vector3 pos) {
+        return Vector3((x + pos.x) / 2, (y + pos.y) / 2, (z + pos.z) / 2);
     }
-    double percentDistance(Vector3 pos, double percentOfDistance = 100) {
-        return distanceTo(pos) / (100 / percentOfDistance);
+
+    double Vector3::percentDistance(Vector3 pos, double percentOfDistance) {
+        return distanceTo(pos) * percentOfDistance;
     }
+
+    double v3distanceTo(double x1, double y1, double z1) {
+        return sqrt(pow(x1, 2) + pow(y1, 2) + pow(z1, 2));
+    }
+
+    double v3percentDistance(double x, double y, double z, double percentOfDistance) {
+        return v3distanceTo(x, y, z) * percentOfDistance;
+    }
+
 }

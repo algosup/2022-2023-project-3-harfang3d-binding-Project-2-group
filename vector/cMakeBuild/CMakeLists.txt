@@ -7,8 +7,6 @@ include_directories(..)
 
 # Add the source files to the project
 set(SOURCES ../vector2.cpp ../vector3.cpp)
-
-# Add the header files to the project
 set(HEADERS ../vector2.h ../vector3.h)
 
 # Create the library
