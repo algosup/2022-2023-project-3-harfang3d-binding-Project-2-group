@@ -10,21 +10,21 @@
 | Salaheddine NAMIR | Quality Assurance(QA) |
 
 ## Objectives:
-
+We continue the code on the conversion of variables.
 
 ## Pierre GORIN
-
+All the group start to code. Pierre continue the KPI document.
 
 ## Audrey TELLIEZ
-
+All the group start to code. Audrey wrote the begining of KPI document.
 
 ## Florent HUREAUX
-
+All the group start to code. 
 
 ## Alexandre BOBIS
-
+All the group start to code. 
 
 ## Salaheddine NAMIR
-
+The whole group starts coding. Salah tests the first functions we have written. 
 
 ## Conclusion

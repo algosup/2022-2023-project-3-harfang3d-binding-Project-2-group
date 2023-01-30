@@ -11,21 +11,21 @@
 | Salaheddine NAMIR | Quality Assurance(QA) |
 
 ## Objectives:
-
+We continue the code. 
 
 ## Pierre GORIN
-
+We had a meeting with the customer to do an update on the project.
 
 ## Audrey TELLIEZ
-
+We had a meeting with the customer to do an update on the project.
 
 ## Florent HUREAUX
-
+We had a meeting with the customer to do an update on the project.
 
 ## Alexandre BOBIS
-
+We had a meeting with the customer to do an update on the project.
 
 ## Salaheddine NAMIR
-
+We had a meeting with the customer to do an update on the project.
 
 ## Conclusion
