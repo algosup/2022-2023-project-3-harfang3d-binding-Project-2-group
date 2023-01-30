@@ -1,4 +1,4 @@
-﻿open System.Runtime.InteropServices
+﻿// open System.Runtime.InteropServices
 
 // [<DllImport("?????.dylib")>]
 // extern add and factorial functions
@@ -6,4 +6,6 @@
 
 // let result = add(1, 2)
 
-printfn "Result: %d" result
+// printfn "Result: %d" result
+
+printfn "Hello World"
