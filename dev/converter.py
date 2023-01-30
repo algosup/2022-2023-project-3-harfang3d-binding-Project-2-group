@@ -120,15 +120,15 @@ def TestFor():
 
 '''
 # TODO
- patternSearch : fonction recursive ?
- tant qu'on detecte des pattern : (faudra faire des priorité ici genre for/if avant operator +) 
- on cherche des pattern dans CHAQUE element du pattern précedent
- Si on a plus de pattern dans un élément on return le pattern transformé en fsharp
- On revient en arriere (grace a la fonction recursive) et on applique le pattern précédent
- On répète jusqu'a que tout les pattern soit traité 
- On return la variable avec tout les patterns
+ patternSearch : recursive function ?
+ While we detect patterns : (Add priority like for/if statements before +/- operators) 
+ We search pattern in EVERY element of the previous pattern
+ If we don't have more pattern in an element we return the pattern transformed in F#
+ We go back (thanks to the recursive function) and we apply the previous pattern
+ We repeat until all patterns are treated
+ Return variable with every pattern
 
- Order : For > IF > Enum > Print > Var > Operator > Comparator
+ Order : For > If > Enum > Print > Var > Operator > Comparator
 '''
 # In progress (problem with global variable print_all)
 def patternSearch(line):
@@ -140,7 +140,7 @@ def patternSearch(line):
     # comparator = comparator_pattern.sub(lambda match: match.group(0), line)
     if_match = if_statement_pattern.search(line)
     for_match = for_statement_pattern.search(line) # for
-    if for_match: # todo
+    if for_match: # TODO
         init_statement = for_match.group(1)
         condition = for_match.group(2)
         increment = for_match.group(3)
