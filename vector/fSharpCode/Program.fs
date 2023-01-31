@@ -1,6 +1,6 @@
 ﻿open System.Runtime.InteropServices
 
-[<DllImport("libVectorsSharedLibraries.dylib")>]
+[<DllImport("VectorsSharedLibraries.dll")>]
 extern double distanceTo(double x1, double y1, double x2, double y2);
 
 let x1: float = 5.0
