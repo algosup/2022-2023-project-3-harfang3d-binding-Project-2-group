@@ -7,6 +7,12 @@
 
   <ItemGroup>
     <Compile Include="Program.fs" />
+    <None Include="../cMakeBuild/lib/libVectorsSharedLibraries.dylib">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+
   </ItemGroup>
 
 </Project>
+
+
