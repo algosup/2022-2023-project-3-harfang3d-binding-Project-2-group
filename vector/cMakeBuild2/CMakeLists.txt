@@ -1,3 +1,7 @@
+cmake_minimum_required(VERSION 3.0)
+project(VectorsSharedLibraries2)
+set(CMAKE_CXX_STANDARD 11)
+
 # Add header files to the project
 include_directories(..)
 

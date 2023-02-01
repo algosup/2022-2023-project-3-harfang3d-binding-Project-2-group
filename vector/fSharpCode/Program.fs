@@ -6,6 +6,7 @@ open System
 #else
 [<DllImport("VectorsSharedLibraries.dylib")>] 
 #endif
+
 extern double distanceTo(double x1, double y1, double x2, double y2);
 
 let x1: float = 5.0
@@ -30,4 +31,5 @@ let y3: float = 6.0
 let z3: float = 3.0
 
 let v3distance: double = v3distanceTo(x3, y3, z3)
+
 printfn "Distance between (%f, %f, %f) and (0, 0, 0) is %f" x3 y3 z3 v3distance

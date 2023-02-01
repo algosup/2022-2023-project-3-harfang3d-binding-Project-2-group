@@ -5,22 +5,23 @@
     <TargetFramework>net7.0</TargetFramework>
   </PropertyGroup>
   <PropertyGroup Condition="'$(OS)' == 'Windows_NT'">
-  <DefineConstants>NETCOREAPP;TRACE;WINDOWS</DefineConstants>
-</PropertyGroup>
-<PropertyGroup Condition="'$(OS)' != 'Windows_NT'">
-  <DefineConstants>NETCOREAPP;TRACE;MACOS</DefineConstants>
-</PropertyGroup>
+    <DefineConstants>NETCOREAPP;TRACE;WINDOWS</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(OS)' != 'Windows_NT'">
+    <DefineConstants>NETCOREAPP;TRACE;MACOS</DefineConstants>
+  </PropertyGroup>
 
   <ItemGroup>
     <Compile Include="Program.fs" />
-    <!-- <None Include="../cMakeBuild/build/lib/libVectorsSharedLibraries.dylib"> -->
-    <None Include="../cMakeBuild/build/debug/VectorsSharedLibraries.dll">
+    <None Include="../cMakeBuild/build/lib/libVectorsSharedLibraries.dylib">
+    <!-- <None Include="../cMakeBuild/build/debug/VectorsSharedLibraries.dll"> -->
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Program.fs" />
-    <None Include="../cMakeBuild2/build/debug/VectorsSharedLibraries2.dll">
+    <None Include="../cMakeBuild2/build/lib/libVectorsSharedLibraries2.dylib">
+    <!-- <None Include="../cMakeBuild2/build/debug/VectorsSharedLibraries2.dll"> -->
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>
