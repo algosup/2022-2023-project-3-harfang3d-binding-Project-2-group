@@ -14,7 +14,7 @@
   - [Who is the client](#who-is-the-client)
   - [His/her field](#hisher-field)
   - [Competition](#competition)
-  - [Your sources](#your-sources)
+  - [Our sources](#our-sources)
     - [Glossary](#glossary)
     - [Communication](#communication)
       - [Who?](#who)
@@ -22,7 +22,7 @@
   - [Market](#market)
   - [Target audience/customer](#target-audiencecustomer)
   - [Competition](#competition-1)
-  - [Our sources](#our-sources)
+  - [Our sources](#our-sources-1)
 
 # Start of the project
 
@@ -76,13 +76,13 @@ HARFANG®3D builds real-time 3D tools for industry professionals. Its software s
 
 ## His/her field
 
-Their field is to build real-time 3D creation tools. HARFANG®3D is divided into 2 parts, HARFANG®3D Studio mainly used by designers and HARFANG®3D Framework mainly used by developers.
+Their field is to build real-time 3D creation tools. HARFANG®3D is divided into 2 parts, HARFANG®3D Studio mainly used by designers and HARFANG®3D Framework mainly used by developers and.
 
 ## Competition
 
 HARFANG®3D is in competition with Unity, Unreal Engine and GameMaker Studio. These are the three bigger video game engine in the world.
 
-## Your sources
+## Our sources
 
 [HARFANG®3D](https://www.harfang3d.com/en_US/)
 Github repository for the [HARFANG®3D X ALGOSUP](https://github.com/harfang3d/algosup-binding-project) project.
