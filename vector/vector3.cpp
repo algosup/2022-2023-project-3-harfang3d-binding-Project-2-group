@@ -25,9 +25,7 @@ extern "C"
     double Vector3::percentDistance(Vector3 pos, double percentOfDistance) {
         return distanceTo(pos) * percentOfDistance;
     }
-    #ifdef _WIN32
-    __declspec(dllexport)
-    #endif
+
     double v3distanceTo(double x1, double y1, double z1) {
         return sqrt(pow(x1, 2) + pow(y1, 2) + pow(z1, 2));
     }
