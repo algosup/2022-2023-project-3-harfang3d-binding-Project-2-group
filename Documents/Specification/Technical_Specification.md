@@ -6,22 +6,31 @@
 <summary style="text-decoration: underline; font-size:150%">Table of contents:</summary>
 
 
-- [1. Glossary](#1-glossary)
-- [2. Project Overview](#2-project-overview)
-- [3. Solution](#3-solution)
-  - [3.1. Goal of the project](#31-goal-of-the-project)
-  - [3.2. Current Solution](#32-current-solution)
-  - [3.3. Proposed Solution](#33-proposed-solution)
-- [4. Development of the Solution](#4-Development-of-the-Solution])
-- [5. Risks](#5-risks)
-- [6. Success Evaluation](#6-success-evaluation)
-  - [6.1. Unit Test](#61-unit-test)
-  - [6.2. Test Plan](#61-test-plan)
+- [Technical Specification](#technical-specification)
+  - [1. Glossary :](#1-glossary-)
+    - [2. Project Overview :](#2-project-overview-)
+    - [3. Solution :](#3-solution-)
+      - [3.1. Goal of the project :](#31-goal-of-the-project-)
+      - [3.2. Current Solution :](#32-current-solution-)
+        - [3.3. Supported languages](#33-supported-languages)
+          - [Python 3.2+ (CPython)](#python-32-cpython)
+          - [Lua 5.3+](#lua-53)
+          - [Go 1.11+](#go-111)
+      - [Proposed Solution :](#proposed-solution-)
+          - [F#](#f)
+    - [4. Development of the Solution :](#4-development-of-the-solution-)
+    - [5. Risks:](#5-risks)
+    - [6. Success Evaluation :](#6-success-evaluation-)
+      - [6.1. Unit Test :](#61-unit-test-)
+      - [6.2. Test Plan :](#62-test-plan-)
+    - [Author](#author)
+    - [**`Florent HUREAUX`**](#florent-hureaux)
+        - [*Tech Lead*](#tech-lead)
   
 
 </details>
 
-### 1. Glossary :
+## 1. Glossary :
 
 Fabgen : It's a set of Python scripts to generate C++ binding code to different languages.
 
