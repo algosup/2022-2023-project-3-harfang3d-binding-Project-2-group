@@ -7,8 +7,11 @@
 
   <ItemGroup>
     <Compile Include="Program.fs" />
-    <None Include="../cMakeBuild/build/lib/libVectorsSharedLibraries.dylib">
-    <!-- <None Include="../cMakeBuild/build/lib/libVectorsSharedLibraries.dll"> -->
+    <!-- <None Include="../cMakeBuild/build/lib/libVectorsSharedLibraries.dylib"> -->
+    <None Include="../cMakeBuild/build/debug/VectorsSharedLibraries.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="../cMakeBuild2/build/debug/VectorsSharedLibraries2.dll">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>

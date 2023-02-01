@@ -1,18 +1,14 @@
-cmake_minimum_required(VERSION 3.0)
-project(VectorsSharedLibraries)
-set(CMAKE_CXX_STANDARD 11)
-
 # Add header files to the project
 include_directories(..)
 
 # Add the source files to the project
-set(SOURCES ../vector2.cpp)
-set(HEADERS ../vector2.h)
+set(SOURCES ../vector3.cpp)
+set(HEADERS ../vector3.h)
 
 # Create the library
-add_library(VectorsSharedLibraries SHARED ${SOURCES} ${HEADERS})
+add_library(VectorsSharedLibraries2 SHARED ${SOURCES} ${HEADERS})
 
-target_include_directories(VectorsSharedLibraries PUBLIC
+target_include_directories(VectorsSharedLibraries2 PUBLIC
     $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/..>
     $<INSTALL_INTERFACE:include>
     PRIVATE src
@@ -20,9 +16,9 @@ target_include_directories(VectorsSharedLibraries PUBLIC
 
 # Set output filename suffix based on platform
 if(APPLE)
-    set_target_properties(VectorsSharedLibraries PROPERTIES SUFFIX ".dylib")
+    set_target_properties(VectorsSharedLibraries2 PROPERTIES SUFFIX ".dylib")
 elseif(WIN32)
-    set_target_properties(VectorsSharedLibraries PROPERTIES SUFFIX ".dll")
+    set_target_properties(VectorsSharedLibraries2 PROPERTIES SUFFIX ".dll")
 endif()
 
 # This is a hack to get the library to be copied to the correct location and to detect the right folder depending on the .NET version
@@ -49,7 +45,7 @@ endif()
 
 
 # Set the output directory
-set_target_properties(VectorsSharedLibraries PROPERTIES
+set_target_properties(VectorsSharedLibraries2 PROPERTIES
     LIBRARY_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/lib
     # LIBRARY_OUTPUT_DIRECTORY ${TARGET_PATH}
 )
