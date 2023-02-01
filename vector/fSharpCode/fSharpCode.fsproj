@@ -2,15 +2,15 @@
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <TargetFramework>net6.0</TargetFramework>
+    <TargetFramework>net7.0</TargetFramework>
   </PropertyGroup>
 
   <ItemGroup>
     <Compile Include="Program.fs" />
-    <None Include="../cMakeBuild/lib/libVectorsSharedLibraries.dylib">
+    <None Include="../cMakeBuild/build/lib/libVectorsSharedLibraries.dylib">
+    <!-- <None Include="../cMakeBuild/build/lib/libVectorsSharedLibraries.dll"> -->
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-
   </ItemGroup>
 
 </Project>
