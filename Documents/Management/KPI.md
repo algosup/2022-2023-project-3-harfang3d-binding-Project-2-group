@@ -24,10 +24,10 @@
 - 100 % of technical specs written
 - 80 % of test plan written
 - 20 % of code functions written
-- 30 % test procedure
+- 10 % test procedure
 - 0 % integration test completed
 - 0 % functional test completed
-- 50 % action decided during the last meeting milestone completed
+- 60 % action decided during the last meeting milestone completed
 - .. % of ticket closed
 
 ## 2- Measure the current status of yours KPIs
@@ -101,6 +101,6 @@ Control:
 
 → Monitor the process and the wrapper to ensure that the solutions are effective and that the problem does not reoccur. Implement a system to regularly review and improve the wrapper's performance.
 
-#### DMAIC problem
+#### DMAIC problem 
 
 ### Reporting during problem solving

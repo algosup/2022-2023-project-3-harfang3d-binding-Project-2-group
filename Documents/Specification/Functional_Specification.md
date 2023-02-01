@@ -176,3 +176,51 @@ It was written as a SWIG[^7] replacement for the Harfang Multimedia [Framework](
 [^8]: A Human Machine Interface (HMI) is the point of contact between users and machines. These interfaces allow users to control machines, monitor processes and, in some cases, intervene.
 
 [^9]: API (Application Programming Interface) is a software interface which makes it possible to "connect" a software or a service to another software or service in order to exchange data and functionalities.
+
+
+
+<!---
+### Author
+<img src="https://avatars.githubusercontent.com/u/114394252?v=4" width="150">
+### [**`Audrey Telliez`**](https://github.com/audreytllz)
+##### *Program Manager*
+-->
+
+
+
+<!---
+faire de temps en temps :
+Product Requirement Document
+
+High level overview of a problem to solve and the plan to address it 
+Usually owned by the Product team
+
+Articulate a problem and a proposition to address it (new capabilities or entirely new product)
+Key decisions are listed but the implementation remain to be defined
+Ideally a one-pager
+Public, different audience
+Meant to serve as a compass for the product and engineering teams
+
+
+
+
+
+- Function specification
+    - details how work the product
+    - clear and detail description
+    - define the requirement and constraints
+    - doesn’t describe the implementation
+    - basis for testing
+    - serves as a contract between the  team and the users
+
+- Functional specification
+    - context
+    - goal/ scope
+    - functional requirements
+    - acceptance criteria
+    - design
+    - non-functional requirement
+    - out of scope
+    - security
+    - glossary
+-->
