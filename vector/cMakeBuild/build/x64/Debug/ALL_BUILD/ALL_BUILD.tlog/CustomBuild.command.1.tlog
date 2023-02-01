@@ -1,0 +1,10 @@
+^C:\USERS\FLORENTHUREAUX\DOCUMENTS\GITHUB\2022-2023-PROJECT-3-HARFANG3D-BINDING-PROJECT-2-GROUP\VECTOR\CMAKEBUILD\CMAKELISTS.TXT
+setlocal
+C:\Users\FlorentHUREAUX\Documents\cmake\cmake-3.25.1-windows-x86_64\bin\cmake.exe -SC:/Users/FlorentHUREAUX/Documents/GitHub/2022-2023-project-3-harfang3d-binding-Project-2-group/vector/cMakeBuild -BC:/Users/FlorentHUREAUX/Documents/GitHub/2022-2023-project-3-harfang3d-binding-Project-2-group/vector/cMakeBuild/build --check-stamp-file C:/Users/FlorentHUREAUX/Documents/GitHub/2022-2023-project-3-harfang3d-binding-Project-2-group/vector/cMakeBuild/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
