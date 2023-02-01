@@ -1,7 +1,11 @@
 ﻿open System.Runtime.InteropServices
+open System
 
-// [<DllImport("VectorsSharedLibraries.dll")>] // Mac
-[<DllImport("VectorsSharedLibraries.dll")>] // Windows
+#if WINDOWS
+[<DllImport("VectorsSharedLibraries.dll")>] 
+#else
+[<DllImport("VectorsSharedLibraries.dylib")>] 
+#endif
 extern double distanceTo(double x1, double y1, double x2, double y2);
 
 let x1: float = 5.0
@@ -13,7 +17,11 @@ let distance: double = distanceTo(x1, y1, x2, y2)
 
 printfn "Distance between (%f, %f) and (%f, %f) is %f" x1 y1 x2 y2 distance
 
-[<DllImport("VectorsSharedLibraries2.dll")>] // Mac
+#if WINDOWS
+[<DllImport("VectorsSharedLibraries2.dll")>] 
+#else
+[<DllImport("VectorsSharedLibraries2.dylib")>] 
+#endif
 
 extern double v3distanceTo(double x3, double y3, double z3);
 

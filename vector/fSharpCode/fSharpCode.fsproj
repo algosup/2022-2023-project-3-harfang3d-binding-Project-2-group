@@ -4,6 +4,12 @@
     <OutputType>Exe</OutputType>
     <TargetFramework>net7.0</TargetFramework>
   </PropertyGroup>
+  <PropertyGroup Condition="'$(OS)' == 'Windows_NT'">
+  <DefineConstants>NETCOREAPP;TRACE;WINDOWS</DefineConstants>
+</PropertyGroup>
+<PropertyGroup Condition="'$(OS)' != 'Windows_NT'">
+  <DefineConstants>NETCOREAPP;TRACE;MACOS</DefineConstants>
+</PropertyGroup>
 
   <ItemGroup>
     <Compile Include="Program.fs" />
@@ -11,6 +17,9 @@
     <None Include="../cMakeBuild/build/debug/VectorsSharedLibraries.dll">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Program.fs" />
     <None Include="../cMakeBuild2/build/debug/VectorsSharedLibraries2.dll">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
