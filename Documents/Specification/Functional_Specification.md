@@ -82,6 +82,7 @@ To create a binding between our 3D engine, written in C++[^2], and the F#[^1] pr
 To achieve this goal, we will need to research different approaches for creating bindings(Fabgen[^6] in is case), select appropriate tools and libraries, and implement the binding according to our chosen approach. We will also need to test the binding to ensure that it is functioning correctly and meets the requirements of our project.
 
 ### 4. Design
+
 Below is a diagram of FABGen[^6] and existing bindings. The F# binding will be added to this diagram. We need to apply the same principle as the other bindings to F#.
 
 <img src="/Documents/Specification/image2.png" width="6000"> 
@@ -114,6 +115,7 @@ F0 = Mandatory;      F1 = Important;     F2 = Secondary;
   Baptiste is an IT student and learns F# at school. and he would make an app game by his hands. So he use F# to code his game and he use FABGen to bind the F# into C++ and put it in HARFANG® Studio.
 
 ##### 6.4 Nathalie
+
   Nathalie, she is developer python and she wanted to create a game application in python. So she put in HARFANG® Framework  a code in python. And she has take the code give by HARFANG® Framework. And also put it in HARFANG® Studio.
 
 <!--
@@ -129,6 +131,7 @@ adim it harfang pour creer aussi leur propre visuel
 -->
 
 ### 7. Use case
+
 <img src="/Documents/Specification/image_Use_Case_FABGen.png" width="500"> 
 
 ### 8. What will happen in the future
@@ -138,12 +141,14 @@ adim it harfang pour creer aussi leur propre visuel
 Add F# language in HARFANG®3D.
 
 ##### 8.2. In the future
+
   - add F# to FABgen
   - build the F# binding for HARFANG
   - build a F# (or DOT .NET) version of the HARFANG library
 <!--ajouter de nouveaux languages  -->
 
 ### 9. Risk and Assumptions
+
 If we forget to create a binding for a function, it will not be possible to use it in F#
 
 ### 10. Development and Environement

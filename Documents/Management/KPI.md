@@ -24,10 +24,10 @@
 - 100 % of technical specs written
 - 80 % of test plan written
 - 20 % of code functions written
-- 10 % test procedure
+- 30 % test procedure
 - 0 % integration test completed
 - 0 % functional test completed
-- 60 % action decided during the last meeting milestone completed
+- 50 % action decided during the last meeting milestone completed
 - .. % of ticket closed
 
 ## 2- Measure the current status of yours KPIs
