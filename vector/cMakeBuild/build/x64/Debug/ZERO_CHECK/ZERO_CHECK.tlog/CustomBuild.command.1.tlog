@@ -1,0 +1,10 @@
+^C:\USERS\SALAHEDDINENAMIR\DOCUMENTS\GITHUB\2022-2023-PROJECT-3-HARFANG3D-BINDING-PROJECT-2-GROUP\VECTOR\CMAKEBUILD\BUILD\CMAKEFILES\D4326CE35AF64EB04E036213DC38954F\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/SalaheddineNAMIR/Documents/GitHub/2022-2023-project-3-harfang3d-binding-Project-2-group/vector/cMakeBuild -BC:/Users/SalaheddineNAMIR/Documents/GitHub/2022-2023-project-3-harfang3d-binding-Project-2-group/vector/cMakeBuild/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/SalaheddineNAMIR/Documents/GitHub/2022-2023-project-3-harfang3d-binding-Project-2-group/vector/cMakeBuild/build/VectorsSharedLibraries.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

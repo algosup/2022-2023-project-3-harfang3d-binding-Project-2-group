@@ -1,42 +1,45 @@
 {
   "format": 1,
   "restore": {
-    "/Users/pierregorin/Documents/GitHub/2022-2023-project-3-harfang3d-binding-Project-2-group/vector/fSharpCode/fSharpCode.fsproj": {}
+    "C:\\Users\\SalaheddineNAMIR\\Documents\\GitHub\\2022-2023-project-3-harfang3d-binding-Project-2-group\\vector\\fSharpCode\\fSharpCode.fsproj": {}
   },
   "projects": {
-    "/Users/pierregorin/Documents/GitHub/2022-2023-project-3-harfang3d-binding-Project-2-group/vector/fSharpCode/fSharpCode.fsproj": {
+    "C:\\Users\\SalaheddineNAMIR\\Documents\\GitHub\\2022-2023-project-3-harfang3d-binding-Project-2-group\\vector\\fSharpCode\\fSharpCode.fsproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/pierregorin/Documents/GitHub/2022-2023-project-3-harfang3d-binding-Project-2-group/vector/fSharpCode/fSharpCode.fsproj",
+        "projectUniqueName": "C:\\Users\\SalaheddineNAMIR\\Documents\\GitHub\\2022-2023-project-3-harfang3d-binding-Project-2-group\\vector\\fSharpCode\\fSharpCode.fsproj",
         "projectName": "fSharpCode",
-        "projectPath": "/Users/pierregorin/Documents/GitHub/2022-2023-project-3-harfang3d-binding-Project-2-group/vector/fSharpCode/fSharpCode.fsproj",
-        "packagesPath": "/Users/pierregorin/.nuget/packages/",
-        "outputPath": "/Users/pierregorin/Documents/GitHub/2022-2023-project-3-harfang3d-binding-Project-2-group/vector/fSharpCode/obj/",
+        "projectPath": "C:\\Users\\SalaheddineNAMIR\\Documents\\GitHub\\2022-2023-project-3-harfang3d-binding-Project-2-group\\vector\\fSharpCode\\fSharpCode.fsproj",
+        "packagesPath": "C:\\Users\\SalaheddineNAMIR\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\SalaheddineNAMIR\\Documents\\GitHub\\2022-2023-project-3-harfang3d-binding-Project-2-group\\vector\\fSharpCode\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/pierregorin/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\SalaheddineNAMIR\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net6.0"
+          "net7.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\sdk\\7.0.102\\FSharp\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
+          "net7.0": {
+            "targetAlias": "net7.0",
             "projectReferences": {}
           }
         }
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "net7.0": {
+          "targetAlias": "net7.0",
           "dependencies": {
             "FSharp.Core": {
               "include": "Runtime, Compile, Build, Native, Analyzers, BuildTransitive",
               "target": "Package",
-              "version": "[6.0.1, )",
+              "version": "[7.0.0, )",
               "generatePathProperty": true
             }
           },
@@ -46,7 +49,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -55,7 +59,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/opt/homebrew/Cellar/dotnet/6.0.110/libexec/sdk/6.0.110/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }
