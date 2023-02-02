@@ -12,19 +12,23 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Include="Program.fs" />
-    <None Include="../cMakeBuild/build/lib/libVectorsSharedLibraries.dylib">
-    <!-- <None Include="../cMakeBuild/build/debug/VectorsSharedLibraries.dll"> -->
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-  </ItemGroup>
-  <ItemGroup>
-    <Compile Include="Program.fs" />
-    <None Include="../cMakeBuild2/build/lib/libVectorsSharedLibraries2.dylib">
-    <!-- <None Include="../cMakeBuild2/build/debug/VectorsSharedLibraries2.dll"> -->
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-  </ItemGroup>
+  <Compile Include="Program.fs" />
+  <None Include="../cMakeBuild/build/lib/libVectorsSharedLibraries.dylib" Condition="'$(OS)' == 'MacOSX'">
+    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+  </None>
+  <None Include="../cMakeBuild/build/debug/VectorsSharedLibraries.dll" Condition="'$(OS)' == 'Windows_NT'">
+    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+  </None>
+</ItemGroup>
+<ItemGroup>
+  <Compile Include="Program.fs" />
+  <None Include="../cMakeBuild2/build/lib/libVectorsSharedLibraries2.dylib" Condition="'$(OS)' == 'MacOSX'">
+    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+  </None>
+  <None Include="../cMakeBuild2/build/debug/VectorsSharedLibraries2.dll" Condition="'$(OS)' == 'Windows_NT'">
+    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+  </None>
+</ItemGroup>
 
 </Project>
 
