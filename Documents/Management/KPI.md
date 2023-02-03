@@ -20,33 +20,39 @@
 
 ## 1- KPI
 
-- 100 % of functional specs written
-- 100 % of technical specs written
-- 80 % of test plan written
-- 20 % of code functions written
-- 30 % test procedure
-- 0 % integration test completed
-- 0 % functional test completed
-- 50 % action decided during the last meeting milestone completed
-- .. % of ticket closed
+- 100% of functional specs written
+- 100% of technical specs written
+- 80% of test plan written
+- 35% of code functions written
+- 30% test procedure
+- 5% integration test completed
+- 5% functional test completed
+- 50% action decided during the last meeting milestone completed
+- 70% of code commented
+- 20% of code documented
+- 100% of code reviewed
+- 80% of critical path done
+- 100% of Communication plan written
+- 80% of the project calendar done
+- 80% of the project weekly report done
+- 80% of customers meetings written
+- 90% of the research document written
 
-## 2- Measure the current status of yours KPIs
 
-- run FABgen to generate biding in CPython, Lua and Go
-- examine how th GO,Lua and python binding work
-- create F# functions
-- create test function
-- convert to F# in C or C++
-- build Harfang as a F# library
-- functionnal code
+## 2- Measure the current status of ours KPIs
+
+- Run FABgen to generate biding in CPython, Lua and Go
+- Examine how th GO,Lua and python binding work
+- Create F# functions
+- Create test function
+- Convert to F# in C or C++
+- Build Harfang as a F# library
+- Functionnal code
 
 ## 3- List the causes for the non-conform KPIs
 
 ### Pareto law
 
-#### Cost
-
-N/A
 
 #### Deadlines
 
@@ -54,7 +60,7 @@ N/A
 
 #### Safety
 
-0% check that we don’t put some malware (from Github)
+100% check that we don’t put some malware (from Github)
 
 #### Environment
 
@@ -62,7 +68,7 @@ N/A
 
 ### Impact-effort matrix
 
-<img src="/Documents/Management/image.png" width="500">
+<img src="image.png" width="500">
 
 ### Problem solving
 

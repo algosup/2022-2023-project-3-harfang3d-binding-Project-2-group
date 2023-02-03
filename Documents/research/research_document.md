@@ -1,4 +1,5 @@
-<summary> Summary </summary>
+<details>
+<summary>Table of content</summary>
 
 - [Start of the project](#start-of-the-project)
   - [Organisation](#organisation)
@@ -23,6 +24,7 @@
   - [Target audience/customer](#target-audiencecustomer)
   - [Competition](#competition-1)
   - [Our sources](#our-sources-1)
+</details>
 
 # Start of the project
 
