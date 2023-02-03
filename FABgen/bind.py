@@ -128,6 +128,8 @@ if args.fsharp:
 	directory = Path(__file__).parent.parent
 	print('{}/vector/fSharpCode/test.bat'.format(directory))
 	subprocess.call(['{}/vector/fSharpCode/test.bat'.format(directory)])
+	os.system("echo 'hello world !' > output/output.fs")
+
 
 '''
 if args.fsharp:
