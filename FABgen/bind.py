@@ -123,9 +123,8 @@ if args.xml:
 
 if args.fsharp:
 	# output_binding(setup_generator(lang.fsharp.FSharpGenerator()))
-	print("=============================================")
-	print("F# binding not implemented yet")
-	print("=============================================")
+	import subprocess
+	subprocess.call([r'/vector/fSharpCode/test.bat'])
 
 '''
 if args.fsharp:
