@@ -89,7 +89,7 @@ Github repository for the [HARFANG®3D X ALGOSUP](https://github.com/harfang3d/a
 
 ### Glossary
 
-- Fabgen : It's a set of Python scripts to generate C++ binding code to different languages.
+- FABGen : It's a set of Python scripts to generate C++ binding code to different languages.
 - SWIG : It's a software development tool that connects programs written in C and C++ with a variety of high-level programming languages.
 - API : They are mechanisms that enable two software components to communicate with each other using a set of definitions and protocols.
 - ABI : An application binary interface (ABI) is an interface between two binary program modules. Often, one of these modules is a library or operating system facility, and the other is a program that is being run by a user.
@@ -122,13 +122,15 @@ HARFANG®3D's competitors are Unity, Unreal Engine and GameMaker Studio.
 
 ## Our sources
 
-- [Install F#](https://learn.microsoft.com/en-us/dotnet/fsharp/get-started/install-fsharp)
-- [Base F# 1](https://learn.microsoft.com/en-us/dotnet/fsharp/language-reference/symbol-and-operator-reference/) (symbol and operator reference)
-- [Base F# 2](https://learn.microsoft.com/en-us/dotnet/fsharp/language-reference/enumerations) (enumeration)
-- [F# types](https://docwiki.embarcadero.com/RADStudio/Sydney/en/Int8,_int16,_int32,_int64,_Unsigned_int64,_Extended_Integer_Types)
-- [F# data type](https://www.tutorialspoint.com/fsharp/fsharp_data_types.htm)
-- [Base C++](https://learn.microsoft.com/fr-fr/cpp/cpp/basic-concepts-cpp?view=msvc-170)
-- [C++ default](https://www.w3schools.com/cpp/default.asp)
-- [CMake download](https://cmake.org/download/)
-- [CMake library](https://cmake.org/pipermail/cmake/2008-August/023194.html)
-- [CPython Github](https://github.com/python/cpython#using-python)
+|link  |coherent and reliable |need to do others research |
+|:---:|:---:|:---:|
+|[Install F#](https://learn.microsoft.com/en-us/dotnet/fsharp/get-started/install-fsharp)| Reliable | no  |
+|[Base F# 1](https://learn.microsoft.com/en-us/dotnet/fsharp/language-reference/symbol-and-operator-reference/) (symbol and operator reference)| Reliable | yes |
+|[Base F# 2](https://learn.microsoft.com/en-us/dotnet/fsharp/language-reference/enumerations) (enumeration)| Reliable | yes  |
+|[F# types](https://docwiki.embarcadero.com/RADStudio/Sydney/en/Int8,_int16,_int32,_int64,_Unsigned_int64,_Extended_Integer_Types)| Reliable | no |
+|[F# data type](https://www.tutorialspoint.com/fsharp/fsharp_data_types.htm)| Reliable | no |
+|[Base C++](https://learn.microsoft.com/fr-fr/cpp/cpp/basic-concepts-cpp?view=msvc-170)| Reliable | yes |
+|[C++ default](https://www.w3schools.com/cpp/default.asp)| Reliable | yes |
+|[CMake download](https://cmake.org/download/)| Reliable | no |
+|[CMake library](https://cmake.org/pipermail/cmake/2008-August/023194.html)| (Reliable) | depend of the result |
+|[CPython Github](https://github.com/python/cpython#using-python)| Reliable | yes |
