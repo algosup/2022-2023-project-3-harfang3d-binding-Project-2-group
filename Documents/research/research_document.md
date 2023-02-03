@@ -76,7 +76,7 @@ HARFANG®3D builds real-time 3D tools for industry professionals. Its software s
 
 ## His/her field
 
-Their field is to build real-time 3D creation tools. HARFANG®3D is divided into 2 parts, HARFANG®3D Studio mainly used by designers and HARFANG®3D Framework mainly used by developers and.
+Their field is to build real-time 3D creation tools. HARFANG®3D is divided into 2 parts, HARFANG®3D Studio mainly used by designers and HARFANG®3D Framework mainly used by developers.
 
 ## Competition
 
