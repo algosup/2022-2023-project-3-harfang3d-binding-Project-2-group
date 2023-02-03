@@ -1,7 +1,8 @@
-
+#!/bin/sh
 # alias proj="cd /d %~dp0"
 # cd /d %~dp0
 cd ..
+cd vector
 cd cMakeBuild
 mkdir build
 cd build
