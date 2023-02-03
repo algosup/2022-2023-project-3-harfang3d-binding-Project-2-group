@@ -170,3 +170,38 @@ func Test(t *testing.T) {
 	assert.True(t, a.Ne(b), "should be the same.")
 }
 """
+
+test_fsharp = '''\
+open MyTest
+
+let a = SimpleStruct(4)
+let b = SimpleStruct(8)
+
+let s = a + b
+assert (s.V = 12)
+s <- s + b
+assert (s.V = 20)
+s <- s + 4
+assert (s.V = 24)
+
+s <- s / 4
+assert (s.V = 6)
+s <- s / 3
+assert (s.V = 2)
+s <- s + a
+assert (s.V = 6)
+
+s <- s * a
+assert (s.V = 24)
+s <- s * 2
+assert (s.V = 48)
+
+s <- s - b
+assert (s.V = 40)
+s <- s - 32
+assert (s.V = 8)
+
+let c = a * 2
+assert (c = b)
+assert (a <> b)
+'''

@@ -96,3 +96,48 @@ func Test(t *testing.T) {
 	assert.Equal(t, AddIntByReference(&a, &b), 7, "should be the same.")
 }
 '''
+
+test_fsharp = '''\
+namespace mytest
+
+open System
+open NUnit.Framework
+open MathService
+
+[<TestFixture>]
+type TestClass () =
+
+    [<Test>]
+    member this.TestReturnInt() =
+		assert.That(ReturnInt(), Is.EqualTo(8))
+
+	[<Test>]
+    member this.TestReturnFloat() =
+		assert.That(ReturnFloat(), Is.EqualTo(float32(8))) 
+
+	[<Test>]
+    member this.TestReturnConstCharPtr() =
+		assert.That(ReturnConstCharPtr(), Is.EqualTo("const char * -> string")) 
+	
+	[<Test>]
+    member this.TestReturnIntByPointer() =
+		assert.That(*ReturnIntByPointer(), Is.EqualTo(9)) 
+
+	[<Test>]
+    member this.TestReturnIntByReference() =
+		assert.That(*ReturnIntByReference(), Is.EqualTo(9))
+	
+	[<Test>]
+    member this.TestAddIntByValue() =
+		assert.That(AddIntByValue(3, 4), Is.EqualTo(7)) 
+
+	[<Test>]
+    member this.TestAddIntByReferenceAndPointer() =
+		let a = 3
+		let b = 4
+		assert.That(AddIntByPointer(&a, &b), Is.EqualTo(7))
+		assert.That(AddIntByReference(&a, &b), Is.EqualTo(7))
+
+
+	'''
+	# 'test'

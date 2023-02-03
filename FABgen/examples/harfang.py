@@ -24,12 +24,17 @@ def bind_std_vector(gen, T_conv):
 	elif gen.get_language() == 'Lua':
 		LuaTable_T_type = 'LuaTableOf%s' % T_conv.bound_name.title()
 		gen.bind_type(lib.lua.stl.LuaTableToStdVectorConverter(LuaTable_T_type, T_conv))
+	elif gen.get_language() == 'FSharp':
+		FSharpList_T_type = 'FSharpListOf%s' % T_conv.bound_name.title()
+		gen.bind_type(lib.fsharp.stl.FSharpListToStdVectorConverter(FSharpList_T_type, T_conv))
 	
 	conv = gen.begin_class('std::vector<%s>' % T_conv.ctype, bound_name='%sList' % T_conv.bound_name.title(), features={'sequence': lib.std.VectorSequenceFeature(T_conv)})
 	if gen.get_language() == 'CPython':
 		gen.bind_constructor(conv, ['?%s sequence' % PySequence_T_type])
 	elif gen.get_language() == 'Lua':
 		gen.bind_constructor(conv, ['?%s sequence' % LuaTable_T_type])
+	elif gen.get_language() == 'FSharp':
+		gen.bind_constructor(conv, ['?%s sequence' % FSharpList_T_type])
 
 	gen.bind_method(conv, 'push_back', 'void', ['%s v' % T_conv.ctype])
 	gen.bind_method(conv, 'size', 'size_t', [])
@@ -42,12 +47,15 @@ def bind_std_vector(gen, T_conv):
 def expand_std_vector_proto(gen, protos):
 	prefix = {
 		'CPython' : 'PySequenceOf',
-		'Lua' : 'LuaTableOf'
+		'Lua' : 'LuaTableOf',
+		'Go' : 'GoSliceOf',
+		'FSharp' : 'FSharpListOf'
 	}
 	name_prefix = {
 		'CPython' : 'SequenceOf',
 		'Lua' : 'TableOf',
-		'Go' : 'SliceOf'
+		'Go' : 'SliceOf',
+		'FSharp' : 'ListOf'
 	}
 	
 	if gen.get_language() not in prefix:
@@ -5522,6 +5530,11 @@ static void InitializePluginsDefaultSearchPath(lua_State *L) {
 		hg::g_plugin_system.get().default_search_paths.push_back(path);
 }
 \n''')
+
+	elif gen.get_language() == 'FSharp':
+		gen.insert_binding_code('''
+			// Add the F# interpreter search paths to the engine default plugins search path
+		''')
 
 	# setup/free code only for non embedded binding
 	if not gen.embedded:

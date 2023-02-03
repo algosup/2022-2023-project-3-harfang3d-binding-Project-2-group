@@ -32,10 +32,16 @@ assert repr(o) == "repr!"
 
 test_lua = '''\
 my_test = require "my_test"
-
 '''
 
 test_go = '''\
 package mytest
+'''
 
+test_fsharp = '''\
+open MyTest
+
+let o = SomeStruct()
+
+assert o.ToString() = "repr!"
 '''

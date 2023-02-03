@@ -98,3 +98,23 @@ func Test(t *testing.T) {
 	assert.Equal(t, e.GetN().GetV(), int32(24), "should be the same.")
 }
 '''
+
+test_fsharp = '''\
+open MyTest
+
+//
+let n = nestedStruct()
+assert n.v = 8
+n.v <- n.v - 4
+assert n.v = 4
+
+//
+let e = enclosingStruct()
+assert e.n.v = 8
+e.n.v <- 12
+assert e.n.v = 12
+e.n.v <- e.n.v * 4
+assert e.n.v = 48
+e.n.v <- e.n.v / 2
+assert e.n.v = 24
+'''

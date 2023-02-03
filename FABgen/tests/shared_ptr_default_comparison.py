@@ -92,3 +92,19 @@ func Test(t *testing.T) {
 	assert.True(t, a.Equal(d), "should be the equal.")
 }
 '''
+
+test_fsharp = '''\
+let a = my_test.get_obj0()
+let b = my_test.get_obj0()
+
+assert (Object.ReferenceEquals(a, b))
+
+let c = my_test.get_obj1()
+
+assert (not (Object.ReferenceEquals(a, c)))
+assert (not (Object.ReferenceEquals(b, c)))
+
+let d = my_test.get_obj2()
+
+assert (Object.ReferenceEquals(a, d))
+'''

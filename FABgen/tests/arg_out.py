@@ -85,7 +85,7 @@ assert(v == 20)
 '''
 
 test_go = '''\
-package mytest
+package MyTest
 
 import (
 	"testing"
@@ -120,3 +120,50 @@ func Test(t *testing.T) {
 	assert.Equal(t, w, int32(20), "should be the same.")
 }
 '''
+test_fsharp = '''\
+namespace mytest
+
+open System
+open NUnit.Framework
+open MathService
+
+[<TestFixture>]
+type TestClass () =
+
+    [<Test>]
+    member this.TestModifyInOutStruct() =
+		let a = NewA()
+		let actual = ModifyInOutStruct(a)
+		assert.That(actual.getV(), Is.EqualTo(3))
+
+
+    [<Test>]
+    member this.TestOutValuesFunctionCall() = 
+	 	let a, b = my_test.out_values_function_call(2, 3)
+		assert.That(a, Is.EqualTo(16))
+		assert.That(b, Is.EqualTo(42))
+
+	[<Test>]
+    member this.TestOutValuesFunctionCallRval() = 
+
+		let r, a, b = my_test.out_values_function_call_rval(2)
+		assert.That(r, Is.EqualTo(2))
+		assert.That(a, Is.EqualTo(16))
+		assert.That(b, Is.EqualTo(28))
+
+	[<Test>]
+    member this.TestOutValuesFunctionCallRvalWithK() = 
+
+		let r, c, b = OutValuesFunctionCallRvalWithK(2, 2)
+		assert.That(r, Is.EqualTo(4))
+		assert.That(a, Is.EqualTo(16))
+		assert.That(b, Is.EqualTo(28))
+
+	[<Test>]
+    member this.TestInOutValue() = 
+	
+	let r, v = my_test.in_out_value(5)
+	assert.That(r, Is.EqualTo(true))
+	assert.That(v, Is.EqualTo(20))
+
+	'''

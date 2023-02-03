@@ -13,6 +13,7 @@ import lang.lua
 import lang.go
 import lang.cpython
 import lang.xml
+import lang.fsharp
 
 import lib.std
 import lib.stl
@@ -29,6 +30,7 @@ parser.add_argument('--lua', help='Bind to Lua 5.2+', action='store_true')
 parser.add_argument('--cpython', help='Bind to CPython', action='store_true')
 parser.add_argument('--go', help='Bind to Go', action='store_true')
 parser.add_argument('--xml', help='Bind to CPython', action='store_true')
+parser.add_argument('--fsharp', help='Bind to F#', action='store_true')
 parser.add_argument('--out', help='Path to output generated files', required=True)
 parser.add_argument('--out_prefix', help='Prefix to append to output generated files name', default='')
 parser.add_argument('--prefix', help='Prefix to append to all public symbols')
@@ -118,6 +120,23 @@ if args.go:
 
 if args.xml:
 	output_binding(setup_generator(lang.xml.XMLGenerator()))
+
+if args.fsharp:
+	# output_binding(setup_generator(lang.fsharp.FSharpGenerator()))
+	print("=============================================")
+	print("F# binding not implemented yet")
+	print("=============================================")
+
+'''
+if args.fsharp:
+    fsharp_gen = lang.fsharp.FSharpGenerator()
+    output_binding(setup_generator(fsharp_gen))
+    os.chdir(args.out)
+    # You might want to use the F# Paket package manager to manage dependencies
+    os.system("paket init") 
+    os.system("paket install FsUnit") 
+    os.system("dotnet build")
+'''
 
 
 # output Fabgen API

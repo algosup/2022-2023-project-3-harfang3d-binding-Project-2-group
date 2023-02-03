@@ -60,7 +60,7 @@ future:wait()
 assert(future:get() == 8)
 '''
 
-test_go = """\
+test_go = '''\
 package mytest
 
 import (
@@ -77,4 +77,14 @@ func Test(t *testing.T) {
 	future.Wait()
 	assert.Equal(t, future.Get(), int32(8), "should be the same.")
 }
-"""
+'''
+
+test_fsharp = '''\
+open MyTest
+
+let future = GetFutureValue()
+assert future.IsValid = true
+
+future.Wait()
+assert future.Value = 8
+'''

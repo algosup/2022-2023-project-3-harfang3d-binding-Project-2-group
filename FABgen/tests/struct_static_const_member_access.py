@@ -67,3 +67,13 @@ func Test(t *testing.T) {
 	assert.Equal(t, SimpleStructGetS(), "some string", "should be the same.")
 }
 '''
+
+test_fsharp = '''\
+open MyTest
+
+let v = SimpleStruct()
+assert v.v = 3
+
+assert SimpleStruct.i = 5
+assert SimpleStruct.s = "some string"
+'''

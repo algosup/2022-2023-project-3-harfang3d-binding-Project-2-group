@@ -139,3 +139,19 @@ func Test(t *testing.T) {
 	assert.Equal(t, sOut2.GetA(), int32(28), "should be the same.")
 }
 '''
+
+test_fsharp = '''\
+open MyTest
+
+let s = SimpleStruct()
+
+assert (s.get_a() = 1)
+assert (s.set_a(8, 2) = true)
+
+assert (s.get_a() = 10)
+
+assert (s.set_a(9) = 9)
+assert (s.get_a() = 9)
+
+assert (SimpleStruct.get_static_int() = 4)
+'''

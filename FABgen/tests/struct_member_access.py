@@ -98,7 +98,7 @@ assert(s.a == 2)
 --expect_eq(s.d, 9)
 '''
 
-test_go = """\
+test_go = '''\
 package mytest
 
 import (
@@ -136,4 +136,27 @@ func Test(t *testing.T) {
 
 	assert.Equal(t, s.GetD(), int32(9), "should be the same.")
 }
-"""
+'''
+
+test_fsharp = '''\
+import my_test
+
+s = my_test.simple_struct()
+
+let getA = s.get_a()
+assert getA = 1
+
+let setA = s.set_a(8, 2)
+assert setA = true
+
+let newA = s.get_a()
+assert newA = 10
+
+let setA2 = s.set_a(9)
+assert setA2 = 9
+let getA2 = s.get_a()
+assert getA2 = 9
+
+let staticInt = my_test.simple_struct.get_static_int()
+assert staticInt = 4
+'''

@@ -91,3 +91,25 @@ func Test(t *testing.T) {
 	assert.Equal(t, GetU(), float32(7), "should be the same.")
 }
 '''
+
+test_fsharp = '''\
+open MyTest
+
+let testValue v = 
+    assert v = 2
+    v <- 5
+    assert v = 5
+
+let testStruct s = 
+    assert s.v = 4
+    s.v <- 9
+    assert s.v = 9
+
+let testFunctions () =
+    assert w = 14
+    assert u = 7
+
+testValue v
+testStruct s
+testFunctions()
+'''

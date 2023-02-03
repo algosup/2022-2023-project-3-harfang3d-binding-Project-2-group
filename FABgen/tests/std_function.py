@@ -124,3 +124,19 @@ func Test(t *testing.T) {
 	TestStdFunction(t)
 }
 '''
+
+test_fsharp = '''\
+open My_test
+
+let simpleVoidFunction = fun () -> printfn "void function called!"
+
+SetSimpleVoidFunction(simpleVoidFunction)
+InvokeSimpleVoidFunction()
+
+let computeFunction (v:int) (m:int) (c:int) = v * m + c
+
+SetComputeFunction(computeFunction)
+let r = InvokeComputeFunction(5, 3, 4)
+
+assert r = 19
+'''

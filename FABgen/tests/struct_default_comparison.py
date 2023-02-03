@@ -78,3 +78,15 @@ func Test(t *testing.T) {
 	assert.NotEqual(t, b, c, "should not be the same.")
 }
 '''
+
+test_fsharp = '''\
+let a = my_test.get_obj0()
+let b = my_test.get_obj0()
+
+assert (a = b)
+
+let c = my_test.get_obj1()
+
+assert (a <> c)
+assert (b <> c)
+'''

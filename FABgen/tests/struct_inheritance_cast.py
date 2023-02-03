@@ -70,3 +70,10 @@ func Test(t *testing.T) {
 	assert.Equal(t, b.GetU(), int32(7), "should be the same.")
 }
 '''
+
+test_fsharp = '''\
+open MyTest
+let a = GetBaseClass()
+if a is DerivedClass b then 
+    assert b.u = 7
+'''

@@ -104,3 +104,25 @@ func Test(t *testing.T) {
 	assert.True(t, spn.IsNil(), "should be nil.")
 }
 '''
+
+test_fsharp = '''\
+open MyTest
+open System.Runtime.InteropServices
+
+[<DllImport("my_test.dll")>]
+extern float get_shared_ptr_to_simple_struct()
+
+[<DllImport("my_test.dll")>]
+extern float ssimple_struct(float u)
+
+[<DllImport("my_test.dll")>]
+extern int get_empty_shared_ptr()
+
+let sp = get_shared_ptr_to_simple_struct()
+let sp2 = ssimple_struct(9.0)
+let spn = get_empty_shared_ptr()
+
+printfn "sp.u = %f, sp.v = %d" sp.u sp.v
+printfn "sp2.u = %f, sp2.v = %d" sp2.u sp2.v
+printfn "spn = %d" spn
+'''

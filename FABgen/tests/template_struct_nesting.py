@@ -53,7 +53,7 @@ n = my_test.GetNestedStructInt(s)
 assert(n.v == 9)
 '''
 
-test_go = """\
+test_go = '''\
 package mytest
 
 import (
@@ -68,4 +68,13 @@ func Test(t *testing.T) {
 	n := GetNestedStructInt(s)
 	assert.Equal(t, n.GetV(), int32(9), "should be the same.")
 }
-"""
+'''
+
+test_fsharp = '''\
+open MyTest
+
+let s = enclosing_template_int()
+let n = GetNestedStructInt(s)
+
+assert n.v = 9
+'''

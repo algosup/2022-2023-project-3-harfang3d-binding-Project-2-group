@@ -20,3 +20,9 @@ def bind_defaults(gen):
 
 		lib.go.std.bind_std(gen)
 		lib.go.stl.bind_stl(gen)
+	elif gen.get_language() == 'F#':
+		import lib.fsharp.std
+		import lib.fsharp.stl
+
+		lib.fsharp.std.bind_std(gen)
+		lib.fsharp.stl.bind_stl(gen)
