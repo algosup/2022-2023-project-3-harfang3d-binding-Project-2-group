@@ -123,8 +123,11 @@ if args.xml:
 
 if args.fsharp:
 	# output_binding(setup_generator(lang.fsharp.FSharpGenerator()))
+	from pathlib import Path
 	import subprocess
-	subprocess.call([r'/vector/fSharpCode/test.bat'])
+	directory = Path(__file__).parent.parent
+	print('{}/vector/fSharpCode/test.bat'.format(directory))
+	subprocess.call(['{}/vector/fSharpCode/test.bat'.format(directory)])
 
 '''
 if args.fsharp:
