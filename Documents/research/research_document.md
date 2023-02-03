@@ -124,8 +124,8 @@ HARFANG®3D's competitors are Unity, Unreal Engine and GameMaker Studio.
 
 ## Our sources
 
-|link  |coherent and reliable |need to do others research |
-|:---:|:---:|:---:|
+|link  |coherent and reliable |need to do others research |(Why ? yes or no) |
+|:---:|:---:|:---:|:--:|
 |[Install F#](https://learn.microsoft.com/en-us/dotnet/fsharp/get-started/install-fsharp)| Reliable | no  |
 |[Base F# 1](https://learn.microsoft.com/en-us/dotnet/fsharp/language-reference/symbol-and-operator-reference/) (symbol and operator reference)| Reliable | yes |
 |[Base F# 2](https://learn.microsoft.com/en-us/dotnet/fsharp/language-reference/enumerations) (enumeration)| Reliable | yes  |
