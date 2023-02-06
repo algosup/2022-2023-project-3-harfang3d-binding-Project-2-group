@@ -2,17 +2,12 @@
 //
 
 #include <iostream>
-#include "NativeLib.h"
-using namespace std;
- 
-int main()
+
+int test()
 {
-    int result = add(1, 2);
-    cout << result << endl;
-    write_line("Hello World!");
- 
-    return 0;
+    std::cout << "Hello World!\n";
 }
+
 // Exécuter le programme : Ctrl+F5 ou menu Déboguer > Exécuter sans débogage
 // Déboguer le programme : F5 ou menu Déboguer > Démarrer le débogage
 

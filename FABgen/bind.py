@@ -14,6 +14,7 @@ import lang.go
 import lang.cpython
 import lang.xml
 import lang.fsharp
+from sys import platform
 
 import lib.std
 import lib.stl
@@ -127,7 +128,10 @@ if args.fsharp:
 	import subprocess
 	directory = Path(__file__).parent.parent
 	print('{}/vector/fSharpCode/test.bat'.format(directory))
-	subprocess.call(['{}/vector/fSharpCode/test.bat'.format(directory)])
+	if platform == "win32":
+		subprocess.call(['{}/vector/fSharpCode/test.bat'.format(directory)])
+	else:
+		subprocess.call(['{}/vector/fSharpCode/test.sh'.format(directory)])
 	os.system("echo // FABgen output .cpp  > output/bind_FSharp.cpp")
 	os.system("echo // FABgen output .h > output/bind_FSharp.h")	
 	# os.system("echo 'hello world !' > output/output.fs")
