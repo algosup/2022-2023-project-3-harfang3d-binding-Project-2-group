@@ -1,22 +1,31 @@
-$PROJECT = $ENV{FILENAME}
-$PROJECT_NAME = lib_${PROJECT}
-
+include(var_store.cmake)
 
 cmake_minimum_required(VERSION 3.0)
-project(${PROJECT_NAME})
 set(CMAKE_CXX_STANDARD 11)
 
-# Add header files to the project
+
+project(${PROJECT})
+
+set(PROJECT_NAME lib_${PROJECT})
+set(SOURCES ../../input/${PROJECT}.cpp)
+set(HEADERS ../../input/${PROJECT}.h)
+
+project(${PROJECT_NAME})
+message(STATUS " ========= Building ${PROJECT_NAME} Project =========")
+
 include_directories(..)
-$SOURCES = FABgen/input/${PROJECT}.cpp
-$HEADERS = FABgen/input/${PROJECT}.h
 
 # Add the source files to the project
 set(SOURCES ${SOURCES})
+
+# Add header files to the project
 set(HEADERS ${HEADERS})
+
+message(STATUS " ========= Setting sources at: ${SOURCES} and headers at: ${HEADERS} =========")
 
 # Create the library
 add_library(${PROJECT_NAME} SHARED ${SOURCES} ${HEADERS})
+message(STATUS " ========= Created library: ${PROJECT_NAME} =========")
 
 target_include_directories(${PROJECT_NAME} PUBLIC
     $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/..>
@@ -53,10 +62,10 @@ endif()
 
 # message(STATUS "Using .NET path: ${TARGET_PATH}")
 
-$TARGET_PATH = FABgen/output/lib_${PROJECT}
+set(TARGET_PATH FABgen/output/${PROJECT_NAME})
 
 # Set the output directory
 set_target_properties(${PROJECT_NAME} PROPERTIES
-    LIBRARY_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/lib
-    # LIBRARY_OUTPUT_DIRECTORY ${TARGET_PATH}
+    # LIBRARY_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/lib
+    LIBRARY_OUTPUT_DIRECTORY ${TARGET_PATH}
 )

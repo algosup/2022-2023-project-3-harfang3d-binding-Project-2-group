@@ -1,4 +1,4 @@
-@rem This script is used to generate the .dll file for the FABGen library
+@rem This script is used to generate the .dll file for the FABgen library
 
 @echo off
 echo Enter the name of your .cpp file:

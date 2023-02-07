@@ -1,19 +1,21 @@
-#!/bin/sh
-# This script is used to generate the .dylib file for the FABGen library
+#!/bin/bash
+# This script is used to generate the .dylib file for the FABgen library
 
 # Get the name of the .cpp file
-echo -n "Enter the name of your .cpp file: "
-read filename
+read -p "Enter the name of your .cpp file: " filename
 echo "Your .cpp file name is: $filename"
+echo
 
-FILENAME="$filename"
+#write $filename in var_store.cmake
+echo "set(PROJECT $filename)" > lib/cMakeBuild/var_store.cmake
 
-OUTPUTPATH="lib_$FILENAME"
+OUTPUTPATH="lib_$filename"
 
+cd ../FABgen/output/CMakeFiles
 
-cd ../../output/CMakeFiles/
 mkdir $OUTPUTPATH
 cd $OUTPUTPATH
+
 mkdir build
 cd build
 
@@ -25,7 +27,3 @@ cmake --build .
 # cd ../../fSharpCode
 # dotnet run
 # read
-
-
-
-
