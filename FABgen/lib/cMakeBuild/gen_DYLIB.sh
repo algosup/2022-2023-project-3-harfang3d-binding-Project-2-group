@@ -1,25 +1,31 @@
 #!/bin/sh
-# alias proj="cd /d %~dp0"
-# cd /d %~dp0
-cd ..
-cd vector
-cd cMakeBuild
+# This script is used to generate the .dylib file for the FABGen library
+
+# Get the name of the .cpp file
+echo -n "Enter the name of your .cpp file: "
+read filename
+echo "Your .cpp file name is: $filename"
+
+FILENAME="$filename"
+
+OUTPUTPATH="lib_$FILENAME"
+
+
+cd ../../output/CMakeFiles/
+mkdir $OUTPUTPATH
+cd $OUTPUTPATH
 mkdir build
 cd build
 
-cmake ..
+cmake ../../../../lib/cMakeBuild
 cmake --build .
-cd ..
-cd ..
-cd cMakeBuild2
-mkdir build
-cd build
-cmake ..
-cmake --build .
-# $@REM insert the cmake build command here
-cd ..
-cd ..
-cd fSharpCode
-dotnet run
 
-read
+
+#Run the code
+# cd ../../fSharpCode
+# dotnet run
+# read
+
+
+
+

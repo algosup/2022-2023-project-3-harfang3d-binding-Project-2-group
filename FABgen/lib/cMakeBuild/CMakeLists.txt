@@ -1,39 +1,40 @@
+$PROJECT = $ENV{FILENAME}
+$PROJECT_NAME = lib_${PROJECT}
+
+
 cmake_minimum_required(VERSION 3.0)
-project(VectorsSharedLibraries)
+project(${PROJECT_NAME})
 set(CMAKE_CXX_STANDARD 11)
 
 # Add header files to the project
 include_directories(..)
-$LIBRARY = vector2
-$SOURCES = FABgen/input/${LIBRARY}.cpp
-$HEADERS = FABgen/input/${LIBRARY}.h
+$SOURCES = FABgen/input/${PROJECT}.cpp
+$HEADERS = FABgen/input/${PROJECT}.h
 
 # Add the source files to the project
-set(SOURCES $SOURCES)
-set(HEADERS $HEADERS)
+set(SOURCES ${SOURCES})
+set(HEADERS ${HEADERS})
 
 # Create the library
-add_library(VectorsSharedLibraries SHARED ${SOURCES} ${HEADERS})
+add_library(${PROJECT_NAME} SHARED ${SOURCES} ${HEADERS})
 
-target_include_directories(VectorsSharedLibraries PUBLIC
+target_include_directories(${PROJECT_NAME} PUBLIC
     $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/..>
     $<INSTALL_INTERFACE:include>
     PRIVATE src
 )
 
-FABgen/output/CMakeFiles
-
 # Set output filename suffix based on platform
 if(APPLE)
-    set_target_properties(VectorsSharedLibraries PROPERTIES SUFFIX ".dylib")
+    set_target_properties(${PROJECT_NAME} PROPERTIES SUFFIX ".dylib")
 elseif(WIN32)
-    set_target_properties(VectorsSharedLibraries PROPERTIES SUFFIX ".dll")
+    set_target_properties(${PROJECT_NAME} PROPERTIES SUFFIX ".dll")
 endif()
 
 # This is a hack to get the library to be copied to the correct location and to detect the right folder depending on the .NET version
 # This is not a good solution, but there is a better solution, this solution is to put the following lines in the .fsproj file
 # <ItemGroup>
-#   <None Include="../cMakeBuild/lib/libVectorsSharedLibraries.dylib">
+#   <None Include="../cMakeBuild/lib/lib${PROJECT_NAME}.dylib">
 #       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 #   </None>
 # </ItemGroup>
@@ -52,9 +53,10 @@ endif()
 
 # message(STATUS "Using .NET path: ${TARGET_PATH}")
 
+$TARGET_PATH = FABgen/output/lib_${PROJECT}
 
 # Set the output directory
-set_target_properties(VectorsSharedLibraries PROPERTIES
+set_target_properties(${PROJECT_NAME} PROPERTIES
     LIBRARY_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/lib
     # LIBRARY_OUTPUT_DIRECTORY ${TARGET_PATH}
 )

@@ -1,4 +1,4 @@
-# Harfang - The Fabulous binding Generator for CPython and Go
+# FABGen - The FABulous binding Generator for CPython and Go
 # 	Copyright (C) 2020 Thomas Simonnet
 
 import os
@@ -388,7 +388,6 @@ uint32_t %s(void* p) {
 
 		return src, retval_name # return source and retval_name
 
-		#===========================/\Audrey/\------------\/Salah\/===========================
 		# Convert argument of C to C++
 	def __arg_from_c_to_cpp(self, val, retval_name, add_star=True):
 		src = ""
@@ -853,8 +852,6 @@ uint32_t %s(void* p) {
 		go += "}\n"
 
 		return go
-
-		#===========================/\Salah/\------------\/Florent\/===========================
 
 	# this function is used to get the sequence in GO and convert it to C (not sure actually)
 	def __extract_sequence(self, conv, is_in_header=False): 
@@ -1347,8 +1344,6 @@ uint32_t %s(void* p) {
 						go += c_call
 					else:
 						go += f"{clean_name(arg['carg'].name)}ToC := {clean_name(arg['carg'].name)}\n"
-						
-		#===========================/\Florent/\------------\/Alexandre\/===========================
 			
 			#* declare arg out
 			if retval != "": # if there is a return value
@@ -1747,8 +1742,6 @@ uint32_t %s(void* p) {
 			'#include <string.h>\n' \
 			'#include <stdlib.h>\n' \
 			'#include "fabgen.h"\n\n' # Add the includes
-		
-		#===========================/\Alexandre/\------------\/Pierre\/===========================
 
 		#* enum
 		for bound_name, enum in self._enums.items(): # for each enum in the list
