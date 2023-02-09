@@ -154,10 +154,10 @@ if args.fsharp:
 '''
 
 # output Fabgen API
-if not args.no_fabgen_api:
-	path = os.path.join(args.out, 'fabgen.h')
-	with open(path, mode='w', encoding='utf-8') as f:
-		f.write(gen.get_fabgen_api())
-	print('FABgen API written to %s' % path)
-else:
-	print('FABgen API not written')
+# if not args.no_fabgen_api:
+# 	path = os.path.join(args.out, 'fabgen.h')
+# 	with open(path, mode='w', encoding='utf-8') as f:
+# 		f.write(gen.get_fabgen_api())
+# 	print('FABgen API written to %s' % path)
+# else:
+# 	print('FABgen API not written')
