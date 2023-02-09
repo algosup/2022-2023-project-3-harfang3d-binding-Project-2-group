@@ -27,6 +27,10 @@ cd build
 cmake ..\..\..\..\lib\cMakeBuild
 cmake --build .
 
+del -rf ../../../../output/CMakeFiles/$OUTPUTPATH/build
+@REM # rename the .dylib file
+move ../../../../output/CMakeFiles/$OUTPUTPATH/lib$OUTPUTPATH.dylib ../../../../output/CMakeFiles/$OUTPUTPATH/$OUTPUTPATH.dylib
+
 
 @REM Run the code
 @REM cd ../../fSharpCode
