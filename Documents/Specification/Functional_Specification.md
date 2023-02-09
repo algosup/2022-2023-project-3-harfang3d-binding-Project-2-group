@@ -25,6 +25,9 @@
     - [8.2. In the future](#82-in-the-future)
   - [9. Risk and Assumptions](#9-risk-and-assumptions)
   - [10. Development and Environement](#10-development-and-environement)
+  - [Author](#author)
+    - [**`Audrey TELLIEZ`**](#audrey-telliez)
+        - [*Program Manager*](#program-manager)
   - [11. Glossary](#11-glossary)
 
 </details>
@@ -147,6 +150,13 @@ If we forget to create a binding for a function, it will not be possible to use 
 - (Lua [^4] and Go [^5])
 - (Windows / MAC OS)  
 
+## Author
+
+<img src="https://avatars.githubusercontent.com/u/114394252?v=4" width="150">
+
+### [**`Audrey TELLIEZ`**](https://github.com/audreytllz)
+##### *Program Manager*
+
 ******************************
 
 ## 11. Glossary
@@ -170,9 +180,3 @@ It was written as a SWIG[^7] replacement for the Harfang Multimedia [Framework](
 
 [^9]: API (Application Programming Interface) is a software interface which makes it possible to "connect" a software or a service to another software or service in order to exchange data and functionalities.
 
-## Author
-
-<img src="https://avatars.githubusercontent.com/u/114394252?v=4" width="150">
-
-### [**`Audrey TELLIEZ`**](https://github.com/audreytllz)
-##### *Program Manager*
