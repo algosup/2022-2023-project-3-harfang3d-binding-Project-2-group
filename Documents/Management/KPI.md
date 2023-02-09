@@ -3,10 +3,9 @@
 <summary>Table of content</summary>
 
 - [1- KPI](#1--kpi)
-- [2- Measure the current status of yours KPIs](#2--measure-the-current-status-of-yours-kpis)
+- [2- Measure the current status of ours KPIs](#2--measure-the-current-status-of-ours-kpis)
 - [3- List the causes for the non-conform KPIs](#3--list-the-causes-for-the-non-conform-kpis)
   - [Pareto law](#pareto-law)
-    - [Cost](#cost)
     - [Deadlines](#deadlines)
     - [Safety](#safety)
     - [Environment](#environment)
@@ -107,6 +106,6 @@ Control:
 
 → Monitor the process and the wrapper to ensure that the solutions are effective and that the problem does not reoccur. Implement a system to regularly review and improve the wrapper's performance.
 
-#### DMAIC problem 
+#### DMAIC problem
 
 ### Reporting during problem solving
