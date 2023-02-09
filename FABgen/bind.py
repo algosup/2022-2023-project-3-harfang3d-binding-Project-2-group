@@ -123,6 +123,7 @@ if args.fsharp:
 	directory = Path(__file__).parent.parent
 	if platform == "win32":
 		print ('Windows Implementation will come after')
+		subprocess.call(['{}/FABgen/lib/cMakeBuild/gen_DLL.bat'.format(directory)])
 		# print('{}FABgen/lib/cMakeBuild/gen_DLL.bat'.format(directory))
 		# subprocess.Popen(["lib/cMakeBuild/gen_DLL.bat"], stdin=subprocess.PIPE)
 	else:
@@ -154,7 +155,7 @@ if args.fsharp:
 
 # output Fabgen API
 if not args.no_fabgen_api:
-	#! path = os.path.join(args.out, 'fabgen.h')
+	path = os.path.join(args.out, 'fabgen.h')
 	with open(path, mode='w', encoding='utf-8') as f:
 		f.write(gen.get_fabgen_api())
 	print('FABgen API written to %s' % path)
