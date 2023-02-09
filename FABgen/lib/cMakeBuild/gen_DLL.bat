@@ -1,27 +1,31 @@
-@rem This script is used to generate the .dll file for the FABgen library
+@REM This script is used to generate the .dll file for the FABgen library
 
 @echo off
-echo Enter the name of your .cpp file:
-set /p filename= Type any input
+
+@REM Ask for the name of the .cpp file (normally "vector2")
+set /p filename="Enter the name of your .cpp file: "
 echo Your .cpp file name is: %filename%
+echo.
 
-set "FILENAME=%filename%"
+@REM Write the filename in var_store.cmake
+echo set(PROJECT %filename%) > lib/cMakeBuild/var_store.cmake
 
-set /A OUTPUTPATH= lib_%FILENAME%
+@REM Create the folder with the filename
+set OUTPUTPATH=lib_%filename%
 
-cd /d %~dp0
+cd ..\FABgen\output\CMakeFiles
 
-@REM Build in the cMakeBuild folder
-cd ../../output/CMakeFiles/
+@REM Create the output folder
 mkdir %OUTPUTPATH%
 cd %OUTPUTPATH%
+
+@REM Create the build folder
 mkdir build
 cd build
 
-
-cmake ../../../../lib/cMakeBuild
+@REM Run CMake
+cmake ..\..\..\..\lib\cMakeBuild
 cmake --build .
-
 
 
 @REM Run the code
