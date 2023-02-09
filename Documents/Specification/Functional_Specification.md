@@ -15,23 +15,23 @@
   - [4. Design](#4-design)
   - [5. Requirements](#5-requirements)
   - [6. Personas and Scenarios](#6-personas-and-scenarios)
-      - [6.1 Aurélia](#61-aurélia)
-      - [5.2 Jean-Marc](#52-jean-marc)
-      - [6.3 Baptiste](#63-baptiste)
-      - [6.4 Nathalie](#64-nathalie)
+    - [6.1 Aurélia](#61-aurélia)
+    - [6.2 Jean-Marc](#62-jean-marc)
+    - [6.3 Baptiste](#63-baptiste)
+    - [6.4 Nathalie](#64-nathalie)
   - [7. Use case](#7-use-case)
   - [8. What will happen in the future](#8-what-will-happen-in-the-future)
-      - [8.1. Today](#81-today)
-      - [8.2. In the future](#82-in-the-future)
+    - [8.1. Today](#81-today)
+    - [8.2. In the future](#82-in-the-future)
   - [9. Risk and Assumptions](#9-risk-and-assumptions)
   - [10. Development and Environement](#10-development-and-environement)
   - [11. Glossary](#11-glossary)
 
 </details>
 
-##  1. Stakeholders
+## 1. Stakeholders
 
-###  Roles
+### Roles
 
 | Person/Organisation |   ROLE  |
 | :----: | :-----: |
@@ -72,6 +72,7 @@ Company distribution
 |:-----:|:----------:|:-------:|
 | François Gutherz | CTO & Project leader | francois.gutherz@harfang3d.com |
 | Emmanuel Julien | Lead developer | emmanuel.julien@harfang3d.com |
+| Thomas Simonnet | Developer | thomas.simonnet@harfang3d.com |
 
 ## 3. Goals
 
@@ -102,19 +103,19 @@ F0 = Mandatory;      F1 = Important;     F2 = Secondary;
 
 ## 6. Personas and Scenarios
 
-#### 6.1 Aurélia
+### 6.1 Aurélia
 
   Aurélia is an F# developer. She writes her code in F#. But HARFANG®3D doesn't support F#. So she must find a way to convert her code.
 
-#### 5.2 Jean-Marc
+### 6.2 Jean-Marc
 
   Jean-Marc is a Python developer and he works has an IT developer in a services company. He would like to make a wallpaper for a project. So he made a code in python in the HARFANG®3D Framework application. And then he put the code given by HARFANG®3D Framework into HARFANG®3D Studio.
 
-#### 6.3 Baptiste
+### 6.3 Baptiste
 
  Baptiste is an IT student and learns F# at school. and he would make an app game by his hands. So he use F# to code his game and he use FABGen to bind the F# into C++ and put it in HARFANG®3D Studio.
 
-#### 6.4 Nathalie
+### 6.4 Nathalie
 
   Nathalie is a Python developer and she wanted to create a game application in python. So she put in HARFANG® Framework  a code in python. And she has taken the code given by HARFANG®3D Framework. And also put it in HARFANG®3D Studio.
 
@@ -124,15 +125,15 @@ F0 = Mandatory;      F1 = Important;     F2 = Secondary;
 
 ## 8. What will happen in the future
 
-#### 8.1. Today
+### 8.1. Today
 
 Add F# language in HARFANG®3D.
 
-#### 8.2. In the future
+### 8.2. In the future
 
-  - add F# to FABgen
-  - build the F# binding for HARFANG
-  - build a F# (or DOT .NET) version of the HARFANG library
+- add F# to FABgen
+- build the F# binding for HARFANG
+- build a F# (or DOT .NET) version of the HARFANG library
 
 ## 9. Risk and Assumptions
 
@@ -168,3 +169,10 @@ It was written as a SWIG[^7] replacement for the Harfang Multimedia [Framework](
 [^8]: A Human Machine Interface (HMI) is the point of contact between users and machines. These interfaces allow users to control machines, monitor processes and, in some cases, intervene.
 
 [^9]: API (Application Programming Interface) is a software interface which makes it possible to "connect" a software or a service to another software or service in order to exchange data and functionalities.
+
+## Author
+
+<img src="https://avatars.githubusercontent.com/u/114394252?v=4" width="150">
+
+### [**`Audrey TELLIEZ`**](https://github.com/audreytllz)
+##### *Program Manager*

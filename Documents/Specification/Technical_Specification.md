@@ -17,7 +17,7 @@
         - [Lua 5.3+](#lua-53)
         - [Go 1.11+](#go-111)
     - [Proposed Solution](#proposed-solution)
-        - [F#](#f)
+    - [F](#f)
   - [4. Development of the Solution](#4-development-of-the-solution)
   - [5. Risks](#5-risks)
   - [6. Success Evaluation](#6-success-evaluation)
@@ -32,7 +32,7 @@
 
 ## 1. Glossary
 
-Fabgen : It's a set of Python scripts to generate C++ binding code to different languages.
+FABGen : It's a set of Python scripts to generate C++ binding code to different languages.
 
 SWIG : It's a software development tool that connects programs written in C and C++ with a variety of high-level programming languages.
 
@@ -48,17 +48,17 @@ Dynamically typed languages : Type checking takes place at runtime or execution 
 
 ## 2. Project Overview
 
-Fabgen was written for the Harfang 3D project to bring the C++ engine to languages such as Python, Lua and Go. It was written as a replacement for SWIG, a very well-known binding generator supporting a lot of target languages.
+FABGen was written for the Harfang 3D project to bring the C++ engine to languages such as Python, Lua and Go. It was written as a replacement for SWIG, a very well-known binding generator supporting a lot of target languages.
 
 SWIG has different issues we wished to address:
 
 Very old and complex codebase. Language support is written partially in C and SWIG interface files which are almost a language by themselves. The C codebase does everything through a single Object struct hiding the real type of variables making it extremely difficult to debug and extend the SWIG core.
 Uneven feature support between languages with missing features although the target language could support them.
-Fabgen tries to solve this issues by:
+FABGen tries to solve this issues by:
 
-Using Python to implement Fabgen and the binding definitions themselves.
+Using Python to implement FABGen and the binding definitions themselves.
 Implementing as much as possible of the features in a common part of the program (gen.py).
-As a newer project Fabgen also tries to leverage newer APIs whenever possible for example by supporting CPython limited ABI so that extension modules it generates can be used by any version of CPython >3.2 without recompilation (at least in theory, the Py_LIMITED_API support in CPython is finicky at best).
+As a newer project FABGen also tries to leverage newer APIs whenever possible for example by supporting CPython limited ABI so that extension modules it generates can be used by any version of CPython >3.2 without recompilation (at least in theory, the Py_LIMITED_API support in CPython is finicky at best).
 
 ## 3. Solution
 
@@ -68,7 +68,7 @@ The goal of the project is to create a binding for F# language in order to bring
 
 ### 3.2. Current Solution
 
-Right now, Fabgen support languages such as Python, Lua and GO.
+Right now, FABGen support languages such as Python, Lua and GO.
 
 #### 3.3. Supported languages
 
@@ -96,7 +96,7 @@ Link to C library, C++ has to be wrapped with C first (https://stackoverflow.com
 
 We want to add a new F# binding to the existing solution.
 
-##### F#
+### F #
 
 JIT from IL
 Statically typed
@@ -140,7 +140,7 @@ While the wrapped API can technically everything we need to use the native libra
 
 ## 5. Risks
 
-We need to avoid taking shortcut and think about every possibility in order to avoid core dump or memory leak on the user side at a later point. 
+We need to avoid taking shortcut and think about every possibility in order to avoid core dump or memory leak on the user side at a later point.
 We have no idea how intertwined the code will be in the user's program so they must be correct from every possible angle.
 
 ## 6. Success Evaluation
