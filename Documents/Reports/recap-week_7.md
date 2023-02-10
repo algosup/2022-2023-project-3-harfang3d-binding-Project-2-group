@@ -12,6 +12,8 @@
 
 ## Objectives
 
+Finish code and presentation for friday.
+s
 ## Pierre GORIN
 
 ## Audrey TELLIEZ
