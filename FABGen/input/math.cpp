@@ -1,6 +1,6 @@
 /* pow example */
 #include <stdio.h>      /* printf */
-#include <math.h>       /* pow */
+#include "math.h"       /* pow */
 
 #ifdef _WIN32
 __declspec(dllexport)

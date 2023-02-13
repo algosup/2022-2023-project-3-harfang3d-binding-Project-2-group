@@ -1,6 +1,6 @@
 /* assert example */
 #include <stdio.h>      /* printf */
-#include <assert.h>     /* assert */
+#include "assert.h"     /* assert */
 
 void print_number(int* myInt) {
   assert (myInt!=NULL);
