@@ -1,37 +1,35 @@
-@REM This script is used to generate the .dll file for the FABgen library
-
 @echo off
 
-@REM Ask for the name of the .cpp file (normally "vector2")
-set /p filename="Enter the name of your .cpp file: "
-echo Your .cpp file name is: %filename%
-echo.
+set "cppFile=%systemroot%\System32\find.exe" lib/cMakeBuild/cppFile.txt
+for /f "delims=" %%a in ('%cppFile%') do set "cppFile=%%a"
 
-@REM Write the filename in var_store.cmake
-echo set(PROJECT %filename%) > lib/cMakeBuild/var_store.cmake
+set "hFile=%systemroot%\System32\find.exe" lib/cMakeBuild/hFile.txt
+for /f "delims=" %%a in ('%hFile%') do set "hFile=%%a"
 
-@REM Create the folder with the filename
-set OUTPUTPATH=lib_%filename%
+echo set(PROJECT %cppFile%) > lib/cMakeBuild/var_store.cmake
+echo set(SOURCE %cppFile%.cpp) >> lib/cMakeBuild/var_store.cmake
+echo set(HEADER %hFile%.h) >> lib/cMakeBuild/var_store.cmake
+
+set "OUTPUTPATH=lib_%cppFile%"
 
 cd ..\FABgen\output\CMakeFiles
 
-@REM Create the output folder
+echo here is the current directory:
+cd
+
 mkdir %OUTPUTPATH%
 cd %OUTPUTPATH%
 
-@REM Create the build folder
 mkdir build
 cd build
 
-@REM Run CMake
 cmake ..\..\..\..\lib\cMakeBuild
 cmake --build .
 
-del -rf ../../../../output/CMakeFiles/$OUTPUTPATH/build
-@REM # rename the .dylib file
-move ../../../../output/CMakeFiles/$OUTPUTPATH/lib$OUTPUTPATH.dylib ../../../../output/CMakeFiles/$OUTPUTPATH/$OUTPUTPATH.dylib
+rmdir /s /q ..\..\..\output\CMakeFiles\%OUTPUTPATH%\build
 
+ren ..\..\..\output\CMakeFiles\%OUTPUTPATH%\lib%OUTPUTPATH%.dylib ..\..\..\output\CMakeFiles\%OUTPUTPATH%\%OUTPUTPATH%.dylib
 
-@REM Run the code
-@REM cd ../../fSharpCode
-@REM dotnet run
+cd ..\..\fSharpCode
+dotnet run
+pause
