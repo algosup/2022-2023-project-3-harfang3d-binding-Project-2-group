@@ -1,10 +1,8 @@
 @echo off
 
-set "cppFile=%systemroot%\System32\find.exe" lib/cMakeBuild/cppFile.txt
-for /f "delims=" %%a in ('%cppFile%') do set "cppFile=%%a"
+for /f "delims=" %%a in (lib/cMakeBuild/cppFile.txt) do set "cppFile=%%a"
+for /f "delims=" %%a in (lib/cMakeBuild/hFile.txt) do set "hFile=%%a"
 
-set "hFile=%systemroot%\System32\find.exe" lib/cMakeBuild/hFile.txt
-for /f "delims=" %%a in ('%hFile%') do set "hFile=%%a"
 
 echo set(PROJECT %cppFile%) > lib/cMakeBuild/var_store.cmake
 echo set(SOURCE %cppFile%.cpp) >> lib/cMakeBuild/var_store.cmake
