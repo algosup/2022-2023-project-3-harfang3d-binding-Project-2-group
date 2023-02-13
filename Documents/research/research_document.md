@@ -137,3 +137,4 @@ HARFANG®3D's competitors are Unity, Unreal Engine and GameMaker Studio.
 |[CMake library](https://cmake.org/pipermail/cmake/2008-August/023194.html)| (Reliable) | Depends of the result | Depends of the result if it works or not|
 |[CPython Github](https://github.com/python/cpython#using-python)| Reliable | Yes | Yes because it is not enough |
 |[install GCC on Mac](https://discussions.apple.com/thread/8336714)| Reliable | No | It is enough |
+|[Writing a native library in F# wich can called in C++](https://secanablog.wordpress.com/2020/02/01/writing-a-native-library-in-f-which-can-be-called-from-c/)| Reliable | Yes |  Depends of the result |
