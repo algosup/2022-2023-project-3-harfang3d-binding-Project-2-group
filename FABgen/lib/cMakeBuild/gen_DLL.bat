@@ -1,8 +1,7 @@
 @echo off
 
-for /f "delims=" %%a in (lib/cMakeBuild/cppFile.txt) do set "cppFile=%%a"
-for /f "delims=" %%a in (lib/cMakeBuild/hFile.txt) do set "hFile=%%a"
-
+set /p cppFile=<cppFile.txt
+set /p hFile=<hFile.txt
 
 echo set(PROJECT %cppFile%) > lib/cMakeBuild/var_store.cmake
 echo set(SOURCE %cppFile%.cpp) >> lib/cMakeBuild/var_store.cmake
