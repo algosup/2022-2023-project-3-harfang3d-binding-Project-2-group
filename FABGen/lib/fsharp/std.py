@@ -1,3 +1,5 @@
+# FABGen - The FABulous binding Generator for F#
+
 import lang.fsharp
 
 def bind_std(gen):
