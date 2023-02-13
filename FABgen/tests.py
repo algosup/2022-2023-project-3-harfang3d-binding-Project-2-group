@@ -13,7 +13,7 @@ import os
 import lang.cpython
 import lang.lua
 import lang.go
-# import lang.fsharp
+import lang.fsharp
 
 
 start_path = os.path.dirname(__file__)
@@ -22,7 +22,7 @@ parser = argparse.ArgumentParser(description='Run generator unit tests.')
 parser.add_argument('--pybase', dest='python_base_path', help='Path to the Python interpreter')
 parser.add_argument('--luabase', dest='lua_base_path', help='Path to the Lua interpreter')
 parser.add_argument('--go', dest='go_build', help='Build GO', action="store_true")
-# parser.add_argument('--fsharp', dest='fsharp_build', help='Build F#', action="store_true")
+parser.add_argument('--fsharp', dest='fsharp_build', help='Build F#', action="store_true")
 parser.add_argument('--debug', dest='debug_test', help='Generate a working solution to debug a test')
 parser.add_argument('--x64', dest='x64', help='Build for 64 bit architecture', action='store_true', default=False)
 parser.add_argument('--linux', dest='linux', help='Build on Linux', action='store_true', default=False)
@@ -511,50 +511,50 @@ def build_and_deploy_fsharp_extension(work_path, build_path):
 
 	return True
 
-# class FSharpTestBed:
-# 	def build_and_test_extension(self, work_path, module, sources):
-# 		if not hasattr(module, "test_fsharp"):
-# 			print("Can't find test_fsharp")
-# 			return False
+class FSharpTestBed:
+	def build_and_test_extension(self, work_path, module, sources):
+		if not hasattr(module, "test_fsharp"):
+			print("Can't find test_fsharp")
+			return False
 
-# 		# copy test file
-# 		test_path = os.path.join(work_path, 'test.fs')
-# 		with open(test_path, 'w') as file:
-# 			file.write(module.test_fsharp)
+		# copy test file
+		test_path = os.path.join(work_path, 'test.fs')
+		with open(test_path, 'w') as file:
+			file.write(module.test_fsharp)
 
-# 		# if need special other file in package
-# 		if hasattr(module, "test_special_fsharp"):
-# 			test_path = os.path.join(work_path, 'test_special_fsharp.fs')
-# 			with open(test_path, 'w') as file:
-# 				file.write(module.test_special_fsharp)
+		# if need special other file in package
+		if hasattr(module, "test_special_fsharp"):
+			test_path = os.path.join(work_path, 'test_special_fsharp.fs')
+			with open(test_path, 'w') as file:
+				file.write(module.test_special_fsharp)
 
-# 		build_path = os.path.join(work_path, 'build')
-# 		os.mkdir(build_path)
-# 		os.chdir(build_path)
+		build_path = os.path.join(work_path, 'build')
+		os.mkdir(build_path)
+		os.chdir(build_path)
 
-# 		create_fsharp_cmake_file(module, work_path, sources)
+		create_fsharp_cmake_file(module, work_path, sources)
 
-# 		if not build_and_deploy_fsharp_extension(work_path, build_path):
-# 			return False
+		if not build_and_deploy_fsharp_extension(work_path, build_path):
+			return False
 
-# 		# after build, delete the wrapper.cpp to test the lib which has been build
-# 		if os.path.exists(os.path.join(work_path, 'wrapper.cpp')):
-# 			os.remove(os.path.join(work_path, 'wrapper.cpp'))
+		# after build, delete the wrapper.cpp to test the lib which has been build
+		if os.path.exists(os.path.join(work_path, 'wrapper.cpp')):
+			os.remove(os.path.join(work_path, 'wrapper.cpp'))
 
-# 		print("Executing FSharp test...")
-# 		os.chdir(work_path)
+		print("Executing FSharp test...")
+		os.chdir(work_path)
 
-# 		success = True
-# 		try:
-# 			subprocess.check_output('dotnet build', shell=True, stderr=subprocess.STDOUT)
-# 			subprocess.check_output('dotnet test', shell=True, stderr=subprocess.STDOUT)
-# 		except subprocess.CalledProcessError as e:
-# 			print(e.output.decode('utf-8'))
-# 			success = False
+		success = True
+		try:
+			subprocess.check_output('dotnet build', shell=True, stderr=subprocess.STDOUT)
+			subprocess.check_output('dotnet test', shell=True, stderr=subprocess.STDOUT)
+		except subprocess.CalledProcessError as e:
+			print(e.output.decode('utf-8'))
+			success = False
 
-# 		print("Cleanup...")
+		print("Cleanup...")
 
-# 		return success
+		return success
 
 
 # Clang format
@@ -595,10 +595,10 @@ if args.go_build:
 	gen.verbose = False
 	run_tests(gen, test_names, GoTestBed())
 
-# if args.fsharp_build:
-# 	gen = lang.fsharp.FSharpGenerator()
-# 	gen.verbose = False
-# 	run_tests(gen, test_names, FSharpTestBed())
+if args.fsharp_build:
+	gen = lang.fsharp.FsharpGenerator()
+	gen.verbose = False
+	run_tests(gen, test_names, FSharpTestBed())
 
 
 #

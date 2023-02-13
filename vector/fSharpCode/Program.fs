@@ -2,7 +2,7 @@
 open System
 
 #if WINDOWS
-[<DllImport("VectorsSharedLibraries.dll")>] 
+[<DllImport("lib_vector2.dll")>] 
 #else
 [<DllImport("VectorsSharedLibraries.dylib")>] 
 #endif
@@ -19,7 +19,7 @@ let distance: double = distanceTo(x1, y1, x2, y2)
 printfn "Distance between (%f, %f) and (%f, %f) is %f" x1 y1 x2 y2 distance
 
 #if WINDOWS
-[<DllImport("VectorsSharedLibraries2.dll")>] 
+[<DllImport("lib_vector2.dll")>] 
 #else
 [<DllImport("VectorsSharedLibraries2.dylib")>] 
 #endif
