@@ -37,7 +37,6 @@
 - 80% of customers meetings written
 - 90% of the research document written
 
-
 ## 2- Measure the current status of ours KPIs
 
 - Run FABgen to generate biding in CPython, Lua and Go
