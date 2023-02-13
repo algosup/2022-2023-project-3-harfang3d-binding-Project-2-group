@@ -1,6 +1,6 @@
 /* isalnum example */
 #include <stdio.h>
-#include <ctype.h>
+#include "ctype.h"
 
 #ifdef _WIN32
 __declspec(dllexport)
