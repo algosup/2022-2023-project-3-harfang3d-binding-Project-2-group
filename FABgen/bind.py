@@ -149,7 +149,7 @@ if args.fsharp:
     os.chdir(args.out)
     # You might want to use the F# Paket package manager to manage dependencies
     os.system("paket init") 
-    # os.system("paket install -f FsUnit") 
+    os.system("dotnet add package FsUnit --version 5.2.0") 
     os.system("dotnet build")
 
 # output Fabgen API

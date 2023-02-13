@@ -460,6 +460,7 @@ def create_fsharp_cmake_file(module, work_path, sources):
 		quoted_sources = ['"%s"' % source for source in sources if ".fs" not in source]
 
 		work_place_ = work_path.replace('\\', '/')
+		print(module)
 
 		file.write(f"""
 cmake_minimum_required(VERSION 3.1)
@@ -468,7 +469,7 @@ set(CMAKE_WINDOWS_EXPORT_ALL_SYMBOLS ON)
 
 set(CMAKE_MODULE_PATH ${{CMAKE_MODULE_PATH}} "${{CMAKE_SOURCE_DIR}}/")
 
-project({module})
+project(my_test)
 enable_language(C CXX)
 set(CMAKE_CXX_STANDARD 14)
 
@@ -496,7 +497,7 @@ def build_and_deploy_fsharp_extension(work_path, build_path):
 		else:
 			subprocess.check_output(['cmake', '--build', '.', '--config', 'Release'])
 	except subprocess.CalledProcessError as e:
-		print(e.output.decode('utf-8'))
+		# print(e.output.decode('utf-8'))
 		return False
 
 	print("install extension...")
@@ -597,7 +598,7 @@ if args.go_build:
 
 if args.fsharp_build:
 	gen = lang.fsharp.FsharpGenerator()
-	gen.verbose = False
+	gen.verbose = True
 	run_tests(gen, test_names, FSharpTestBed())
 
 
