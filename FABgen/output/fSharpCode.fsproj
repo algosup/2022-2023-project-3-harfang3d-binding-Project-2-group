@@ -1,0 +1,35 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net7.0</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(OS)' == 'Windows_NT'">
+    <DefineConstants>NETCOREAPP;TRACE;WINDOWS</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(OS)' != 'Windows_NT'">
+    <DefineConstants>NETCOREAPP;TRACE;MACOS</DefineConstants>
+  </PropertyGroup>
+
+  <ItemGroup>
+  <Compile Include="bind_FSharp.fs" />
+  <None Include="lib_vector2.dylib" Condition="'$(OS)' != 'Windows_NT'">
+    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+  </None>
+  <None Include="lib_vector2.dll" Condition="'$(OS)' == 'Windows_NT'">
+    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+  </None>
+</ItemGroup>
+<ItemGroup>
+  <Compile Include="bind_FSharp.fs" />
+  <None Include="lib_vector2.dylib" Condition="'$(OS)' != 'Windows_NT'">
+    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+  </None>
+  <None Include="lib_vector2.dll" Condition="'$(OS)' == 'Windows_NT'">
+    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+  </None>
+</ItemGroup>
+
+</Project>
+
+

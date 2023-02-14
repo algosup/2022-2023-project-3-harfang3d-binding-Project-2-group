@@ -4,7 +4,7 @@
 #include <stdio.h>
 #include <string>
 #include <math.h>
-
+extern "C" { 
 Vector2::Vector2(double x, double y) : x(x), y(y) {} 
 
 double Vector2::distanceTo(Vector2 pos)
@@ -40,4 +40,5 @@ double distanceTo(double x1, double y1, double x2, double y2)
 double percentDistance(double x, double y, double percentOfDistance)
 {
     return distanceTo(x, y, 0, 0) * percentOfDistance;
+}
 }

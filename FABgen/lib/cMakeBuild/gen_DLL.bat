@@ -25,9 +25,14 @@ cd build
 cmake ..\..\..\..\lib\cMakeBuild
 cmake --build .
 
-ren ..\..\..\output\CMakeFiles\%OUTPUTPATH%\build\Debug\%OUTPUTPATH%.dll ..\..\..\output\CMakeFiles\%OUTPUTPATH%\%OUTPUTPATH%.dll
-rmdir /s /q ..\..\..\output\CMakeFiles\%OUTPUTPATH%\build
+cd ..
+cd ..
 
-cd ..\..\..\..\..\vector\fSharpCode
+move ..\..\output\CMakeFiles\%OUTPUTPATH%\build\Debug\%OUTPUTPATH%.dll ..\..\output\%OUTPUTPATH%.dll
+rmdir /s /q ..\..\output\CMakeFiles\%OUTPUTPATH%\build
+
+
+
+cd ..\..\output
 dotnet run
 pause

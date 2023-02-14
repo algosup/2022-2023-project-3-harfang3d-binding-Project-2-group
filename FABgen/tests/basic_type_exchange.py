@@ -121,11 +121,11 @@ type TestClass () =
 	
 	[<Test>]
     member this.TestReturnIntByPointer() =
-		assert.That(*ReturnIntByPointer(), Is.EqualTo(9)) 
+		assert.That(&ReturnIntByPointer(), Is.EqualTo(9)) 
 
 	[<Test>]
     member this.TestReturnIntByReference() =
-		assert.That(*ReturnIntByReference(), Is.EqualTo(9))
+		assert.That(&ReturnIntByReference(), Is.EqualTo(9))
 	
 	[<Test>]
     member this.TestAddIntByValue() =
