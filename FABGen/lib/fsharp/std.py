@@ -83,7 +83,7 @@ def bind_std(gen):
 
 	gen.bind_type(FsharpBasicTypeConverter("unsigned long", "uint64_t", "uint64"))
 	gen.bind_type(FsharpBasicTypeConverter("uint64_t", "uint64_t ", "uint64"))
-	gen.bind_type(FsharpBasicTypeConverter("double", "double", "float64"))	
+	gen.bind_type(FsharpBasicTypeConverter("double", "double", "float64"))
 	
 	class FsharpBoolConverter(lang.fsharp.FsharpTypeConverterCommon):
 		def __init__(self, type, to_c_storage_type=None, bound_name=None, from_c_storage_type=None, needs_c_storage_class=False):

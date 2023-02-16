@@ -485,7 +485,6 @@ def build_and_deploy_fsharp_extension(work_path, build_path):
 		if args.linux:
 			subprocess.check_output(['cmake', '..'])
 		else:
-			# subprocess.check_output('cmake .. -G "%s"' % cmake_generator)
 			subprocess.check_output(['cmake', '..'])
 	except subprocess.CalledProcessError as e:
 		print(e.output.decode('utf-8'))

@@ -50,9 +50,9 @@ def bind_function_T(gen, type, bound_name=None):
 	elif gen.get_language() == 'Go':
 		import lib.go.stl
 		lib.go.stl.bind_function_T(gen, type, bound_name)
-	elif gen.get_language() == 'API':
-		import lib.xml.stl
-		lib.xml.stl.bind_function_T(gen, type, bound_name)
+	# elif gen.get_language() == 'API':
+	# 	import lib.xml.stl
+	# 	lib.xml.stl.bind_function_T(gen, type, bound_name)
 	elif gen.get_language() == 'F#':
 		import lib.fsharp.stl
 		lib.fsharp.stl.bind_function_T(gen, type, bound_name)
