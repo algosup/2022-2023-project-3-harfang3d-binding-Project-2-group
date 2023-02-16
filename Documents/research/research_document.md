@@ -15,6 +15,7 @@
   - [Who is the client](#who-is-the-client)
   - [His/her field](#hisher-field)
   - [Competition](#competition)
+  - [Client](#client)
   - [Our sources](#our-sources)
     - [Glossary](#glossary)
     - [Communication](#communication)
@@ -74,7 +75,7 @@ Reading List F#:
 
 ## Who is the client
 
-HARFANG®3D builds real-time 3D tools for industry professionals. Its software suite is tailored to developers, designers and engineers aiming to efficiently and seamlessly develop, implement & deploy 3D solutions (HMI, VR/AR, simulation, interactive 3D), regardless of development language or platform constraints.
+HARFANG®3D builds real-time 3D tools for industry professionals. Its software suite is tailored to developers, designers and engineers aiming to efficiently and seamlessly develop, implement & deploy 3D solutions (HMI, VR/AR, simulation, interactive 3D), regardless of development language or platform constraints. Founded in 2016 and  is located in Orléans.
 
 ## His/her field
 
@@ -83,6 +84,10 @@ Their field is to build real-time 3D creation tools. HARFANG®3D is divided into
 ## Competition
 
 HARFANG®3D is in competition with Unity, Unreal Engine and GameMaker Studio. These are the three bigger video game engine in the world.
+
+## Client
+
+they have as client Valeo et la SNCF.
 
 ## Our sources
 
