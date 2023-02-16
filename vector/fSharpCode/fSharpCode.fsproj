@@ -1,0 +1,35 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net7.0</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(OS)' == 'Windows_NT'">
+    <DefineConstants>NETCOREAPP;TRACE;WINDOWS</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(OS)' != 'Windows_NT'">
+    <DefineConstants>NETCOREAPP;TRACE;MACOS</DefineConstants>
+  </PropertyGroup>
+
+  <ItemGroup>
+  <Compile Include="Program.fs" />
+  <None Include="../cMakeBuild/build/lib/libVectorsSharedLibraries.dylib" Condition="'$(OS)' != 'Windows_NT'">
+    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+  </None>
+  <None Include="../cMakeBuild/build/debug/VectorsSharedLibraries.dll" Condition="'$(OS)' == 'Windows_NT'">
+    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+  </None>
+</ItemGroup>
+<ItemGroup>
+  <Compile Include="Program.fs" />
+  <None Include="../cMakeBuild2/build/lib/libVectorsSharedLibraries2.dylib" Condition="'$(OS)' != 'Windows_NT'">
+    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+  </None>
+  <None Include="../cMakeBuild2/build/debug/VectorsSharedLibraries2.dll" Condition="'$(OS)' == 'Windows_NT'">
+    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+  </None>
+</ItemGroup>
+
+</Project>
+
+
